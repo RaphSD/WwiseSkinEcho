@@ -9,6 +9,72 @@
 							<ObjectRef Name="System" ID="{584412C2-B856-4D65-AF9C-7DE307688E9F}" WorkUnitID="{F8C51FE3-76F2-4FAB-8A23-73884640598B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{B79570F9-4A8A-460D-ACB1-E44C8E5679BC}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{60546B6B-2F0A-49A6-A236-376F08F73374}" ShortID="907205531">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Music_Volume" ID="{43AA04B1-18A2-4C41-96FB-B7C7210659F7}" WorkUnitID="{B084DF03-0EE5-43BE-94E9-019A81BD7B92}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{55C61074-061E-4D5A-9859-DB28D83206D5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C16AACE4-A1DD-427E-B964-86DA20A5654B}" ShortID="563022970">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_SFX_Volume" ID="{36CFB6C1-87A9-4450-BBAA-F09A01D37D01}" WorkUnitID="{B084DF03-0EE5-43BE-94E9-019A81BD7B92}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AE58C735-225C-44BD-BC2F-ED18F9816B15}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
