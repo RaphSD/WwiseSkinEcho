@@ -16,18 +16,21 @@
 			<ShortName>SE_Main_Soundbank</ShortName>
 			<Path>English(US)\SE_Main_Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_004"/>
-				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_005"/>
-				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_006"/>
-				<Event Id="3851696882" Name="Play_Proto_2_Voix_007" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_007"/>
-				<Event Id="3851696893" Name="Play_Proto_2_Voix_008" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_008"/>
-				<Event Id="3851696892" Name="Play_Proto_2_Voix_009" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_009"/>
-				<Event Id="3834919170" Name="Play_Proto_2_Voix_010" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_010"/>
-				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_011"/>
-				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_012"/>
-				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Play_Radio_Voice_Start"/>
+				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_004"/>
+				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_005"/>
+				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_006"/>
+				<Event Id="3851696882" Name="Play_Proto_2_Voix_007" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_007"/>
+				<Event Id="3851696893" Name="Play_Proto_2_Voix_008" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_008"/>
+				<Event Id="3851696892" Name="Play_Proto_2_Voix_009" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_009"/>
+				<Event Id="3834919170" Name="Play_Proto_2_Voix_010" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_010"/>
+				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_011"/>
+				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_012"/>
+				<Event Id="65657337" Name="Play_Proto_2_Voix_AI_001" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_001"/>
+				<Event Id="65657338" Name="Play_Proto_2_Voix_AI_002" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002"/>
+				<Event Id="65657339" Name="Play_Proto_2_Voix_AI_003" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003"/>
+				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start"/>
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
-				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Stop_Radio_Voice_Start"/>
+				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="31516657" Language="English(US)">

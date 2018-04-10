@@ -367,7 +367,7 @@
 					<PropertyList>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-14</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -383,7 +383,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Proto_2_Voix_AI-003" ID="{7C3E25CA-F8FA-45B6-A779-8E35BF15D241}" ShortID="90924776">
+						<Sound Name="Proto_2_Voix_AI-002" ID="{7C3E25CA-F8FA-45B6-A779-8E35BF15D241}" ShortID="90924776">
 							<PropertyList>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
@@ -396,16 +396,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix_AI-003" ID="{1CDEC4CB-051D-4112-A82B-9D7E06A8328F}" ShortID="45987919">
+								<AudioFileSource Name="Proto_2_Voix_AI-002" ID="{1CDEC4CB-051D-4112-A82B-9D7E06A8328F}" ShortID="45987919">
 									<Language>English(US)</Language>
 									<AudioFile>Proto_2_Voix_AI-003.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix_AI-003" ID="{1CDEC4CB-051D-4112-A82B-9D7E06A8328F}" Platform="Linked"/>
+								<ActiveSource Name="Proto_2_Voix_AI-002" ID="{1CDEC4CB-051D-4112-A82B-9D7E06A8328F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Proto_2_Voix_AI-002" ID="{1899CBF9-FF62-481E-9643-0E813B447B50}" ShortID="511337235">
+						<Sound Name="Proto_2_Voix_AI-001" ID="{1899CBF9-FF62-481E-9643-0E813B447B50}" ShortID="511337235">
 							<PropertyList>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
@@ -418,16 +418,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix_AI-002" ID="{826736BD-0D08-4239-8A6B-FA55288B65D4}" ShortID="1005017841">
+								<AudioFileSource Name="Proto_2_Voix_AI-001" ID="{826736BD-0D08-4239-8A6B-FA55288B65D4}" ShortID="1005017841">
 									<Language>English(US)</Language>
 									<AudioFile>Proto_2_Voix_AI-002.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix_AI-002" ID="{826736BD-0D08-4239-8A6B-FA55288B65D4}" Platform="Linked"/>
+								<ActiveSource Name="Proto_2_Voix_AI-001" ID="{826736BD-0D08-4239-8A6B-FA55288B65D4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Proto_2_Voix_AI-001" ID="{E76FB66F-CD95-4800-8866-66C07E7541EC}" ShortID="992043185">
+						<Sound Name="Proto_2_Voix_AI-003" ID="{E76FB66F-CD95-4800-8866-66C07E7541EC}" ShortID="992043185">
 							<PropertyList>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
@@ -440,13 +440,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix_AI-001" ID="{AF3A01FC-D4B5-46EB-AF9E-E1D6C01D9859}" ShortID="540310658">
+								<AudioFileSource Name="Proto_2_Voix_AI-003" ID="{AF3A01FC-D4B5-46EB-AF9E-E1D6C01D9859}" ShortID="540310658">
 									<Language>English(US)</Language>
 									<AudioFile>Proto_2_Voix_AI-001.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix_AI-001" ID="{AF3A01FC-D4B5-46EB-AF9E-E1D6C01D9859}" Platform="Linked"/>
+								<ActiveSource Name="Proto_2_Voix_AI-003" ID="{AF3A01FC-D4B5-46EB-AF9E-E1D6C01D9859}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
