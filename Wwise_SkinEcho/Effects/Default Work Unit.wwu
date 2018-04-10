@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{98A1E530-3A72-4FF8-B886-7985271F927A}" SchemaVersion="85">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{98A1E530-3A72-4FF8-B886-7985271F927A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{98A1E530-3A72-4FF8-B886-7985271F927A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Reverb_Submarine" ID="{6CEB0208-4B8C-4023-A4A3-0D932162B015}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="0.2"/>
+						<Property Name="DryLevel" Type="Real32" Value="-5.3"/>
+						<Property Name="ERLevel" Type="Real32" Value="0"/>
+						<Property Name="ERPattern" Type="int32" Value="22"/>
+						<Property Name="FrontLevel" Type="Real32" Value="-16"/>
+						<Property Name="HFDamping" Type="Real32" Value="10"/>
+						<Property Name="PreDelay" Type="Real32" Value="0"/>
+						<Property Name="Quality" Type="int32" Value="6"/>
+						<Property Name="RearLevel" Type="Real32" Value="-39"/>
+						<Property Name="RoomShape" Type="Real32" Value="49"/>
+						<Property Name="RoomSize" Type="Real32" Value="-100"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

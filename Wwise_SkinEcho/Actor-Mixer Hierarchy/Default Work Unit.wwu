@@ -4,12 +4,27 @@
 		<WorkUnit Name="Default Work Unit" ID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Radio_Voice" ID="{45B9C31E-D4F3-40A7-BB25-79E34513B23E}" ShortID="427152874">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -321,6 +336,33 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="SFX_Ambiance_01" ID="{3540AE33-09B4-4636-AEF9-46ABA8F71517}" ShortID="687617620">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Ambiance_01" ID="{C890CCD3-B741-4D9F-88EA-36EA65667514}" ShortID="376913105">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Ambiance_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Ambiance_01" ID="{C890CCD3-B741-4D9F-88EA-36EA65667514}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
