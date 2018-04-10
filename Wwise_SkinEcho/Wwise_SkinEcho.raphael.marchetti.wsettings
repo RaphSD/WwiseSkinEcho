@@ -6,6 +6,7 @@
 				<Property Name="Event Action List\{0277E1C1-3CFA-468E-84EF-5A871030D364}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{19E79C88-FFD0-4390-A144-7E4269D9B74A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1EC7E845-AC9A-4F80-906F-0FF5ACD7172C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{384EBD07-C079-4445-AEAF-65CB40E2BE55}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3E92039E-6E33-459E-949B-BAEF5E1A236E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{87A84EB4-A814-460D-B8B7-8E6887F6ECC0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{88682B2B-1323-44BB-8044-205D675F4DFF}\x64_Expand States" Type="string" Value=""/>
@@ -32,7 +33,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="uBD1bXrNK0e0oud48OCfXw=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="dbagiAj7DU+DyGzlIM/P4g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
-				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{F1C4D8BE-F896-46BA-ABD1-1069EC540FE8}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="2"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="6"/>

@@ -363,6 +363,94 @@
 						<ActiveSource Name="SFX_Ambiance_01" ID="{C890CCD3-B741-4D9F-88EA-36EA65667514}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<ActorMixer Name="AI_Voice" ID="{B0CD432E-E84B-423F-B664-C3C5A45EA717}" ShortID="844792457">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Proto_2_Voix_AI-003" ID="{7C3E25CA-F8FA-45B6-A779-8E35BF15D241}" ShortID="90924776">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Proto_2_Voix_AI-003" ID="{1CDEC4CB-051D-4112-A82B-9D7E06A8328F}" ShortID="45987919">
+									<Language>English(US)</Language>
+									<AudioFile>Proto_2_Voix_AI-003.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Proto_2_Voix_AI-003" ID="{1CDEC4CB-051D-4112-A82B-9D7E06A8328F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Proto_2_Voix_AI-002" ID="{1899CBF9-FF62-481E-9643-0E813B447B50}" ShortID="511337235">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Proto_2_Voix_AI-002" ID="{826736BD-0D08-4239-8A6B-FA55288B65D4}" ShortID="1005017841">
+									<Language>English(US)</Language>
+									<AudioFile>Proto_2_Voix_AI-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Proto_2_Voix_AI-002" ID="{826736BD-0D08-4239-8A6B-FA55288B65D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Proto_2_Voix_AI-001" ID="{E76FB66F-CD95-4800-8866-66C07E7541EC}" ShortID="992043185">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Proto_2_Voix_AI-001" ID="{AF3A01FC-D4B5-46EB-AF9E-E1D6C01D9859}" ShortID="540310658">
+									<Language>English(US)</Language>
+									<AudioFile>Proto_2_Voix_AI-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Proto_2_Voix_AI-001" ID="{AF3A01FC-D4B5-46EB-AF9E-E1D6C01D9859}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
