@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1243176019	Stop_Radio_Voice_Start			\Default Work Unit\Voices\Stop_Radio_Voice_Start	
+	2019705941	Play_Radio_Voice_Start			\Default Work Unit\Voices\Play_Radio_Voice_Start	
+	3834919168	Play_Proto_2_Voix_012			\Default Work Unit\Voices\Play_Proto_2_Voix_012	
+	3834919170	Play_Proto_2_Voix_010			\Default Work Unit\Voices\Play_Proto_2_Voix_010	
+	3834919171	Play_Proto_2_Voix_011			\Default Work Unit\Voices\Play_Proto_2_Voix_011	
+	3851696880	Play_Proto_2_Voix_005			\Default Work Unit\Voices\Play_Proto_2_Voix_005	
+	3851696881	Play_Proto_2_Voix_004			\Default Work Unit\Voices\Play_Proto_2_Voix_004	
+	3851696882	Play_Proto_2_Voix_007			\Default Work Unit\Voices\Play_Proto_2_Voix_007	
+	3851696883	Play_Proto_2_Voix_006			\Default Work Unit\Voices\Play_Proto_2_Voix_006	
+	3851696892	Play_Proto_2_Voix_009			\Default Work Unit\Voices\Play_Proto_2_Voix_009	
+	3851696893	Play_Proto_2_Voix_008			\Default Work Unit\Voices\Play_Proto_2_Voix_008	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
+	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31516657	Proto_2_Voix-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-006_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-006		34713
+	42634799	Proto_2_Voix-010	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-010_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-010		86811
+	377032202	Proto_2_Voix-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-003_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Radio_Voice_Start\Proto_2_Voix-003		32061
+	604420339	Proto_2_Voix-008	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-008_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-008		54129
+	626430297	Proto_2_Voix-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-001_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Radio_Voice_Start\Proto_2_Voix-001		13060
+	676054774	Proto_2_Voix-011	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-011_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-011		49422
+	680106393	Proto_2_Voix-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-002_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Radio_Voice_Start\Proto_2_Voix-002		15811
+	683488370	Proto_2_Voix-012	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-012_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-012		51469
+	697383045	Proto_2_Voix-007	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-007_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-007		20111
+	734633356	Proto_2_Voix-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-005_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-005		13328
+	911243511	Proto_2_Voix-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-004_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-004		483986
+	1058316171	Proto_2_Voix-009	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-009_B67EFC5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-009		71559
+

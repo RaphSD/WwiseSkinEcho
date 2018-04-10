@@ -12,6 +12,11 @@
 					<ChildrenList>
 						<Bus Name="Music" ID="{B79570F9-4A8A-460D-ACB1-E44C8E5679BC}">
 							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>45315</Value>
+									</ValueList>
+								</Property>
 								<Property Name="BusVolume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{60546B6B-2F0A-49A6-A236-376F08F73374}" ShortID="907205531">
@@ -44,6 +49,11 @@
 						</Bus>
 						<Bus Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}">
 							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>6353158</Value>
+									</ValueList>
+								</Property>
 								<Property Name="BusVolume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{C16AACE4-A1DD-427E-B964-86DA20A5654B}" ShortID="563022970">
@@ -71,6 +81,15 @@
 											</Curve>
 										</RTPC>
 									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>16641</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 						</Bus>

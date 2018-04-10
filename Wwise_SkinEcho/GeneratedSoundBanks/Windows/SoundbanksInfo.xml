@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="412588681" Language="English(US)">
+			<ObjectPath>\SoundBanks\Default Work Unit\SE_Main_Soundbank</ObjectPath>
+			<ShortName>SE_Main_Soundbank</ShortName>
+			<Path>English(US)\SE_Main_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_004"/>
+				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_005"/>
+				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_006"/>
+				<Event Id="3851696882" Name="Play_Proto_2_Voix_007" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_007"/>
+				<Event Id="3851696893" Name="Play_Proto_2_Voix_008" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_008"/>
+				<Event Id="3851696892" Name="Play_Proto_2_Voix_009" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_009"/>
+				<Event Id="3834919170" Name="Play_Proto_2_Voix_010" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_010"/>
+				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_011"/>
+				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_012"/>
+				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Play_Radio_Voice_Start"/>
+				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Stop_Radio_Voice_Start"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="31516657" Language="English(US)">
+					<ShortName>Proto_2_Voix-006.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-006_B67EFC5B.wem</Path>
+				</File>
+				<File Id="42634799" Language="English(US)">
+					<ShortName>Proto_2_Voix-010.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-010_B67EFC5B.wem</Path>
+				</File>
+				<File Id="377032202" Language="English(US)">
+					<ShortName>Proto_2_Voix-003.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-003_B67EFC5B.wem</Path>
+				</File>
+				<File Id="604420339" Language="English(US)">
+					<ShortName>Proto_2_Voix-008.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-008_B67EFC5B.wem</Path>
+				</File>
+				<File Id="626430297" Language="English(US)">
+					<ShortName>Proto_2_Voix-001.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-001_B67EFC5B.wem</Path>
+				</File>
+				<File Id="676054774" Language="English(US)">
+					<ShortName>Proto_2_Voix-011.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-011_B67EFC5B.wem</Path>
+				</File>
+				<File Id="680106393" Language="English(US)">
+					<ShortName>Proto_2_Voix-002.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-002_B67EFC5B.wem</Path>
+				</File>
+				<File Id="683488370" Language="English(US)">
+					<ShortName>Proto_2_Voix-012.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-012_B67EFC5B.wem</Path>
+				</File>
+				<File Id="697383045" Language="English(US)">
+					<ShortName>Proto_2_Voix-007.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-007_B67EFC5B.wem</Path>
+				</File>
+				<File Id="734633356" Language="English(US)">
+					<ShortName>Proto_2_Voix-005.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-005_B67EFC5B.wem</Path>
+				</File>
+				<File Id="911243511" Language="English(US)">
+					<ShortName>Proto_2_Voix-004.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-004_B67EFC5B.wem</Path>
+				</File>
+				<File Id="1058316171" Language="English(US)">
+					<ShortName>Proto_2_Voix-009.wav</ShortName>
+					<Path>Voices\English(US)\Proto_2_Voix-009_B67EFC5B.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

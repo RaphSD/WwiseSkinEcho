@@ -1,6 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Voices" ID="{A33869C3-CC50-4157-A905-B1789A4713E3}" ShortID="338753067">
+					<ChildrenList>
+						<Event Name="Play_Proto_2_Voix_006" ID="{BFFF1DBA-20C6-4F68-A99C-A2088FFE840C}">
+							<ChildrenList>
+								<Action Name="" ID="{FE72A6A3-78CA-472A-B54F-D5EF0FC86F01}" ShortID="721595383">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-006" ID="{5AC3418D-E878-4B15-A4C7-F3EF6F2F3F6A}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Radio_Voice_Start" ID="{87A84EB4-A814-460D-B8B7-8E6887F6ECC0}">
+							<ChildrenList>
+								<Action Name="" ID="{B2274BCA-EDBF-4D0D-BA68-18816C5763C7}" ShortID="692454195">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio_Voice_Start" ID="{DDF9B702-E943-4B77-8CF2-99608BD9AF8A}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_004" ID="{FDCDE4C1-32D7-4490-A347-92A5D9D309F4}">
+							<ChildrenList>
+								<Action Name="" ID="{E18B392B-AC48-48A2-9B83-DD92F2E7BBBF}" ShortID="949119794">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-004" ID="{78CC7D04-0FB9-4711-BD03-0EA8B82DEBC8}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_005" ID="{B6022B99-FF49-49F8-8538-BA286D0DD263}">
+							<ChildrenList>
+								<Action Name="" ID="{8C021BF1-CC6D-4033-A500-6A493301AAFB}" ShortID="629069115">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-005" ID="{C8B45889-AED0-4C6C-ACBF-03A69D220B0F}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Radio_Voice_Start" ID="{88682B2B-1323-44BB-8044-205D675F4DFF}">
+							<ChildrenList>
+								<Action Name="" ID="{FE9E40A8-118E-4E2F-974A-10493C326AFE}" ShortID="220630024">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio_Voice_Start" ID="{DDF9B702-E943-4B77-8CF2-99608BD9AF8A}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_008" ID="{1EC7E845-AC9A-4F80-906F-0FF5ACD7172C}">
+							<ChildrenList>
+								<Action Name="" ID="{93C40BA7-505B-4269-A986-EB14B12772AE}" ShortID="621246951">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-008" ID="{959EBEC9-8740-4855-9AC7-D56E60DDAC4F}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_009" ID="{AAEF8958-3D55-455A-ADFF-1B1BA1326397}">
+							<ChildrenList>
+								<Action Name="" ID="{EB4BA7FE-87B8-48CC-BF0D-34CFBA3DD4B0}" ShortID="1036710416">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-009" ID="{D56C9B04-972D-4EA5-81A5-B9CC347C7D6D}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_012" ID="{0277E1C1-3CFA-468E-84EF-5A871030D364}">
+							<ChildrenList>
+								<Action Name="" ID="{974506D1-5253-4491-A2C1-88E193C6249C}" ShortID="637736524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-012" ID="{75650E7D-0699-47EA-9257-22FDB97FA661}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_011" ID="{19E79C88-FFD0-4390-A144-7E4269D9B74A}">
+							<ChildrenList>
+								<Action Name="" ID="{A9419ECF-A997-4F72-B975-08366FB48201}" ShortID="678365175">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-011" ID="{92AFDEA0-6BC8-4434-ADDB-DCB6C9916E81}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_010" ID="{DD17B0BE-7EBB-43B7-BA1B-F6FD67E05416}">
+							<ChildrenList>
+								<Action Name="" ID="{E05A4D84-E38E-41C8-8485-63A6BB3756A5}" ShortID="514058385">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-010" ID="{CDBEC0C1-84E1-4FA8-A89F-61BAC1C16B0A}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Proto_2_Voix_007" ID="{3E92039E-6E33-459E-949B-BAEF5E1A236E}">
+							<ChildrenList>
+								<Action Name="" ID="{DB4CF3AF-2EA2-4722-AE66-409151858F4E}" ShortID="959090631">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Proto_2_Voix-007" ID="{7A86E7F8-D925-4B8F-8328-D695FBCE1D17}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
