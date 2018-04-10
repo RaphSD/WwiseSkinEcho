@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1243176019	Stop_Radio_Voice_Start			\Default Work Unit\Voices\Stop_Radio_Voice_Start	
+	1281001716	Play_SFX_Ambiance_01			\Default Work Unit\Play_SFX_Ambiance_01	
 	2019705941	Play_Radio_Voice_Start			\Default Work Unit\Voices\Play_Radio_Voice_Start	
 	3834919168	Play_Proto_2_Voix_012			\Default Work Unit\Voices\Play_Proto_2_Voix_012	
 	3834919170	Play_Proto_2_Voix_010			\Default Work Unit\Voices\Play_Proto_2_Voix_010	

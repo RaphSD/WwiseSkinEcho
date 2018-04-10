@@ -26,6 +26,7 @@
 				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_011"/>
 				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Play_Proto_2_Voix_012"/>
 				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Play_Radio_Voice_Start"/>
+				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
 				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Stop_Radio_Voice_Start"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>

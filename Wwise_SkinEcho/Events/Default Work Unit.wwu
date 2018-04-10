@@ -161,6 +161,20 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_SFX_Ambiance_01" ID="{384EBD07-C079-4445-AEAF-65CB40E2BE55}">
+					<ChildrenList>
+						<Action Name="" ID="{1535DA04-22E8-4A7D-B95D-2CC0D7ED7634}" ShortID="51535247">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ambiance_01" ID="{3540AE33-09B4-4636-AEF9-46ABA8F71517}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
