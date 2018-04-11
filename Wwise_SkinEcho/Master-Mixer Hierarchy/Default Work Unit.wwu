@@ -18,6 +18,17 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Auro Headphone (Custom)" ID="{EF7AD302-1620-42E5-B179-66F3FC450ACC}" ShortID="378824104" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<PropertyList>
+												<Property Name="Reverb" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Music" ID="{B79570F9-4A8A-460D-ACB1-E44C8E5679BC}">
 									<PropertyList>
