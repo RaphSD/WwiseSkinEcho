@@ -17,6 +17,13 @@
 										<Value>6353158</Value>
 									</ValueList>
 								</Property>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+								<Property Name="EnablePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
@@ -105,15 +112,24 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="EnablePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}">
 									<PropertyList>
 										<Property Name="BusChannelConfig" Type="int32">
 											<ValueList>
-												<Value>16641</Value>
+												<Value>12546</Value>
 											</ValueList>
 										</Property>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>0</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnablePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
 								</Bus>
 								<AuxBus Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}">
@@ -131,6 +147,9 @@
 									</ReferenceList>
 								</AuxBus>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{5BF2B398-049E-4849-B042-0CDDAE35C2A1}"/>
+							</PositioningInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>

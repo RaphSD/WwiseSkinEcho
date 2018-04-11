@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" ShortID="863819344">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="1"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -18,7 +21,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>1</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
