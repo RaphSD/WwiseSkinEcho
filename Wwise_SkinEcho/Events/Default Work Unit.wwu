@@ -68,6 +68,13 @@
 										<Action Name="" ID="{FE9E40A8-118E-4E2F-974A-10493C326AFE}" ShortID="220630024">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4689AEF4-5C0A-4DE4-BCF8-BFB3AB4C06C7}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">

@@ -6,12 +6,12 @@
 				<File Name="Init" Hash="3148935351" Timestamp="1523366126"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="SE_Main_Soundbank" Hash="2036016269" Timestamp="1523372666"/>
+				<File Name="SE_Main_Soundbank" Hash="3108586714" Timestamp="1523453828"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="441790459" Timestamp="1523372666"/>
+				<File Name="" Hash="441790459" Timestamp="1523453828"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<ActorMixer Name="Radio_Voice" ID="{45B9C31E-D4F3-40A7-BB25-79E34513B23E}" ShortID="427152874">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>-14</Value>
@@ -365,6 +366,7 @@
 				</Sound>
 				<ActorMixer Name="AI_Voice" ID="{B0CD432E-E84B-423F-B664-C3C5A45EA717}" ShortID="844792457">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>-14</Value>
