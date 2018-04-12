@@ -22,7 +22,6 @@
 										<Value>0</Value>
 									</ValueList>
 								</Property>
-								<Property Name="EnablePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -111,6 +110,11 @@
 													</Curve>
 												</RTPC>
 											</RTPCList>
+										</Property>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>0</Value>
+											</ValueList>
 										</Property>
 										<Property Name="EnablePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
