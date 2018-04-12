@@ -1,0 +1,24 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "128",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\",
+   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

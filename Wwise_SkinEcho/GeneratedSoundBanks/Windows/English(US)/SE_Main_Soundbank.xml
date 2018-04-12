@@ -3,13 +3,10 @@
 	<RootPaths>
 		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
 		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
-	<DialogueEvents/>
-	<StreamedFiles/>
-	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="412588681" Language="English(US)">
 			<ObjectPath>\SoundBanks\Default Work Unit\SE_Main_Soundbank</ObjectPath>
@@ -98,11 +95,6 @@
 					<Path>Voices\English(US)\Proto_2_Voix-009_B67EFC5B.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
-		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
