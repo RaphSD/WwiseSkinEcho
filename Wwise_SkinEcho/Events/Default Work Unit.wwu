@@ -232,6 +232,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Welder_Take" ID="{71513F37-786F-4D85-B5C4-3E3F28251C1E}">
+					<ChildrenList>
+						<Action Name="" ID="{19C07524-C9F5-4F13-8D03-FADECDDC1ED8}" ShortID="930934541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Welder_Take" ID="{F646FC53-91B4-47AF-AE5C-D11D3465DA6E}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

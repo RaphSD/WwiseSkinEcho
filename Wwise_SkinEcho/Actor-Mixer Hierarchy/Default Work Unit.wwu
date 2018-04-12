@@ -459,6 +459,25 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="SFX_Welder_Take" ID="{F646FC53-91B4-47AF-AE5C-D11D3465DA6E}" ShortID="703139576">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Welder_Take" ID="{2CA1CE6A-3D06-4BFF-B10C-EDB7B555B526}" ShortID="377098979">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Welder_Take.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Welder_Take" ID="{2CA1CE6A-3D06-4BFF-B10C-EDB7B555B526}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
