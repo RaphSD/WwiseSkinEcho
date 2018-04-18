@@ -5,12 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" ShortID="863819344">
 					<PropertyList>
-						<Property Name="ConeUse" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+						<Property Name="RadiusMax" Type="Real64" Value="2"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -26,7 +21,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>1.06984</XPos>
+											<YPos>-8.33157</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>2</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

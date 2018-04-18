@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
+		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="412588681" Language="English(US)">
@@ -13,21 +13,21 @@
 			<ShortName>SE_Main_Soundbank</ShortName>
 			<Path>English(US)\SE_Main_Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_004" MaxAttenuation="10.000000"/>
-				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_005" MaxAttenuation="10.000000"/>
-				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_006" MaxAttenuation="10.000000"/>
-				<Event Id="3851696882" Name="Play_Proto_2_Voix_007" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_007" MaxAttenuation="10.000000"/>
-				<Event Id="3851696893" Name="Play_Proto_2_Voix_008" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_008" MaxAttenuation="10.000000"/>
-				<Event Id="3851696892" Name="Play_Proto_2_Voix_009" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_009" MaxAttenuation="10.000000"/>
-				<Event Id="3834919170" Name="Play_Proto_2_Voix_010" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_010" MaxAttenuation="10.000000"/>
-				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_011" MaxAttenuation="10.000000"/>
-				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_012" MaxAttenuation="10.000000"/>
-				<Event Id="65657337" Name="Play_Proto_2_Voix_AI_001" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_001" MaxAttenuation="10.000000"/>
-				<Event Id="65657338" Name="Play_Proto_2_Voix_AI_002" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002" MaxAttenuation="10.000000"/>
-				<Event Id="65657339" Name="Play_Proto_2_Voix_AI_003" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003" MaxAttenuation="10.000000"/>
-				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="10.000000"/>
+				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_004" MaxAttenuation="2,000000"/>
+				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_005" MaxAttenuation="2,000000"/>
+				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_006" MaxAttenuation="2,000000"/>
+				<Event Id="3851696882" Name="Play_Proto_2_Voix_007" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_007" MaxAttenuation="2,000000"/>
+				<Event Id="3851696893" Name="Play_Proto_2_Voix_008" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_008" MaxAttenuation="2,000000"/>
+				<Event Id="3851696892" Name="Play_Proto_2_Voix_009" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_009" MaxAttenuation="2,000000"/>
+				<Event Id="3834919170" Name="Play_Proto_2_Voix_010" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_010" MaxAttenuation="2,000000"/>
+				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_011" MaxAttenuation="2,000000"/>
+				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_012" MaxAttenuation="2,000000"/>
+				<Event Id="65657337" Name="Play_Proto_2_Voix_AI_001" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_001" MaxAttenuation="2,000000"/>
+				<Event Id="65657338" Name="Play_Proto_2_Voix_AI_002" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002" MaxAttenuation="2,000000"/>
+				<Event Id="65657339" Name="Play_Proto_2_Voix_AI_003" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003" MaxAttenuation="2,000000"/>
+				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="2,000000"/>
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
-				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0.000000"/>
+				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="31516657" Language="English(US)">
