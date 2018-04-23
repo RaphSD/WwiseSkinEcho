@@ -2,10 +2,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	65657337	Play_Proto_2_Voix_AI_001			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_001	
 	65657338	Play_Proto_2_Voix_AI_002			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002	
 	65657339	Play_Proto_2_Voix_AI_003			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003	
+	350557031	Stop_SFX_Water_Breach			\Default Work Unit\Water Breach\Stop_SFX_Water_Breach	
 	1243176019	Stop_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start	
 	1281001716	Play_SFX_Ambiance_01			\Default Work Unit\Play_SFX_Ambiance_01	
+	1302341568	Stop_SFX_Welding			\Default Work Unit\Welder\Stop_SFX_Welding	
+	1487639259	Play_SFX_Welder_Take			\Default Work Unit\Welder\Play_SFX_Welder_Take	
 	2019705941	Play_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start	
-	2798239405	Play_SFX_Water_Breach			\Default Work Unit\Play_SFX_Water_Breach	
+	2798239405	Play_SFX_Water_Breach			\Default Work Unit\Water Breach\Play_SFX_Water_Breach	
 	3723595182	Play_SFX_Welding			\Default Work Unit\Welder\Play_SFX_Welding	
 	3834919168	Play_Proto_2_Voix_012			\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_012	
 	3834919170	Play_Proto_2_Voix_010			\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_010	
@@ -45,6 +48,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	45987919	Proto_2_Voix_AI-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-002		108677
 	70595769	SFX_Welding_Random-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-002_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-002		46243
 	281104360	SFX_Water_Breach-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach-002_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach-002		243230
+	302728083	SFX_Welder_Take	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welder_Take_92CA462F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welder_Take		15976
 	376913105	SFX_Ambiance_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Ambiance_01_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ambiance_01		7028100
 	377032202	Proto_2_Voix-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Radio_Voice_Start\Proto_2_Voix-003		114320
 	463336732	SFX_Welding_Random-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-003		9739
@@ -60,6 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	835193151	SFX_Welding_Random-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-005		46336
 	911243511	Proto_2_Voix-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-004_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-004		1860428
 	939981775	SFX_Welding_Random-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-001		23163
+	958351346	SFX_Water_Breach_Explosion	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Explosion_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Explosion		128411
 	1005017841	Proto_2_Voix_AI-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-002_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-001		89039
 	1048821415	SFX_Welding_Random-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-006_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-006		30111
 	1058316171	Proto_2_Voix-009	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-009_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-009		287796

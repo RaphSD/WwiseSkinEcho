@@ -27,9 +27,12 @@
 				<Event Id="65657339" Name="Play_Proto_2_Voix_AI_003" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003" MaxAttenuation="2,000000"/>
 				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="2,000000"/>
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
-				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
+				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
+				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
 				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
 				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
+				<Event Id="350557031" Name="Stop_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Stop_SFX_Water_Breach" MaxAttenuation="0,000000"/>
+				<Event Id="1302341568" Name="Stop_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding" MaxAttenuation="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="23242388" Language="SFX">
@@ -59,6 +62,10 @@
 				<File Id="281104360" Language="SFX">
 					<ShortName>SFX_Water_Breach-002.wav</ShortName>
 					<Path>SFX\SFX_Water_Breach-002_9D73A8A6.wem</Path>
+				</File>
+				<File Id="302728083" Language="SFX">
+					<ShortName>SFX_Welder_Take.wav</ShortName>
+					<Path>SFX\SFX_Welder_Take_92CA462F.wem</Path>
 				</File>
 				<File Id="376913105" Language="SFX">
 					<ShortName>SFX_Ambiance_01.wav</ShortName>
@@ -119,6 +126,10 @@
 				<File Id="939981775" Language="SFX">
 					<ShortName>SFX_Welding_Random-001.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-001_658ED0DC.wem</Path>
+				</File>
+				<File Id="958351346" Language="SFX">
+					<ShortName>SFX_Water_Breach_Explosion.wav</ShortName>
+					<Path>SFX\SFX_Water_Breach_Explosion_658ED0DC.wem</Path>
 				</File>
 				<File Id="1005017841" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-002.wav</ShortName>
