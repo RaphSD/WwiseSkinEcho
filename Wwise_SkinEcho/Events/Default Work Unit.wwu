@@ -232,6 +232,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Welder" ID="{AF723E9C-2F2A-4B7B-A094-A0F705B4771C}" ShortID="72806075">
+					<ChildrenList>
+						<Event Name="Play_SFX_Welding" ID="{6FC9F169-D3FE-490D-B7E9-3F9A872F0C0E}">
+							<ChildrenList>
+								<Action Name="" ID="{1C17ECBC-AAEC-4441-9D37-36A478FB81F3}" ShortID="18057508">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Welding" ID="{DDE8DE31-45A0-4462-B925-36775F81BFA0}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{26B03BB2-890F-4BEA-87AE-315775E1EFA4}" ShortID="215375647">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Welding_Random" ID="{6EF7F3C6-1DA3-4978-B509-7960D8E81D44}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_SFX_Water_Breach" ID="{1034CAED-3029-4291-B893-430D03829FA9}">
+					<ChildrenList>
+						<Action Name="" ID="{04D20A50-81A7-45BE-B750-D1CA35374B11}" ShortID="242877671">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Water_Breach" ID="{012A5247-9A30-43C7-A6D3-58A26A97A1F2}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
-		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -30,72 +30,110 @@
 				<Event Id="65657339" Name="Play_Proto_2_Voix_AI_003" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003" MaxAttenuation="2,000000"/>
 				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="2,000000"/>
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
+				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
+				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
 				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="23242388" Language="SFX">
+					<ShortName>SFX_Water_Breach-001.wav</ShortName>
+					<Path>SFX\SFX_Water_Breach-001_9D73A8A6.wem</Path>
+				</File>
 				<File Id="31516657" Language="English(US)">
 					<ShortName>Proto_2_Voix-006.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-006_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-006_658ED0DC.wem</Path>
+				</File>
+				<File Id="39105376" Language="SFX">
+					<ShortName>SFX_Welding_Random-004.wav</ShortName>
+					<Path>SFX\SFX_Welding_Random-004_658ED0DC.wem</Path>
 				</File>
 				<File Id="42634799" Language="English(US)">
 					<ShortName>Proto_2_Voix-010.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-010_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-010_658ED0DC.wem</Path>
 				</File>
 				<File Id="45987919" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-003.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix_AI-003_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix_AI-003_658ED0DC.wem</Path>
+				</File>
+				<File Id="70595769" Language="SFX">
+					<ShortName>SFX_Welding_Random-002.wav</ShortName>
+					<Path>SFX\SFX_Welding_Random-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="281104360" Language="SFX">
+					<ShortName>SFX_Water_Breach-002.wav</ShortName>
+					<Path>SFX\SFX_Water_Breach-002_9D73A8A6.wem</Path>
 				</File>
 				<File Id="376913105" Language="SFX">
 					<ShortName>SFX_Ambiance_01.wav</ShortName>
-					<Path>SFX\SFX_Ambiance_01_557711C9.wem</Path>
+					<Path>SFX\SFX_Ambiance_01_9D73A8A6.wem</Path>
 				</File>
 				<File Id="377032202" Language="English(US)">
 					<ShortName>Proto_2_Voix-003.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-003_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-003_658ED0DC.wem</Path>
+				</File>
+				<File Id="463336732" Language="SFX">
+					<ShortName>SFX_Welding_Random-003.wav</ShortName>
+					<Path>SFX\SFX_Welding_Random-003_658ED0DC.wem</Path>
 				</File>
 				<File Id="540310658" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-001.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix_AI-001_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix_AI-001_658ED0DC.wem</Path>
 				</File>
 				<File Id="604420339" Language="English(US)">
 					<ShortName>Proto_2_Voix-008.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-008_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-008_658ED0DC.wem</Path>
 				</File>
 				<File Id="626430297" Language="English(US)">
 					<ShortName>Proto_2_Voix-001.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-001_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-001_658ED0DC.wem</Path>
 				</File>
 				<File Id="676054774" Language="English(US)">
 					<ShortName>Proto_2_Voix-011.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-011_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-011_658ED0DC.wem</Path>
 				</File>
 				<File Id="680106393" Language="English(US)">
 					<ShortName>Proto_2_Voix-002.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-002_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-002_658ED0DC.wem</Path>
 				</File>
 				<File Id="683488370" Language="English(US)">
 					<ShortName>Proto_2_Voix-012.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-012_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-012_658ED0DC.wem</Path>
 				</File>
 				<File Id="697383045" Language="English(US)">
 					<ShortName>Proto_2_Voix-007.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-007_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-007_658ED0DC.wem</Path>
 				</File>
 				<File Id="734633356" Language="English(US)">
 					<ShortName>Proto_2_Voix-005.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-005_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-005_658ED0DC.wem</Path>
+				</File>
+				<File Id="788876877" Language="SFX">
+					<ShortName>SFX_Welding.wav</ShortName>
+					<Path>SFX\SFX_Welding_389122C6.wem</Path>
+				</File>
+				<File Id="835193151" Language="SFX">
+					<ShortName>SFX_Welding_Random-005.wav</ShortName>
+					<Path>SFX\SFX_Welding_Random-005_658ED0DC.wem</Path>
 				</File>
 				<File Id="911243511" Language="English(US)">
 					<ShortName>Proto_2_Voix-004.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-004_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-004_658ED0DC.wem</Path>
+				</File>
+				<File Id="939981775" Language="SFX">
+					<ShortName>SFX_Welding_Random-001.wav</ShortName>
+					<Path>SFX\SFX_Welding_Random-001_658ED0DC.wem</Path>
 				</File>
 				<File Id="1005017841" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-002.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix_AI-002_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix_AI-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="1048821415" Language="SFX">
+					<ShortName>SFX_Welding_Random-006.wav</ShortName>
+					<Path>SFX\SFX_Welding_Random-006_658ED0DC.wem</Path>
 				</File>
 				<File Id="1058316171" Language="English(US)">
 					<ShortName>Proto_2_Voix-009.wav</ShortName>
-					<Path>Voices\English(US)\Proto_2_Voix-009_B67EFC5B.wem</Path>
+					<Path>Voices\English(US)\Proto_2_Voix-009_658ED0DC.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

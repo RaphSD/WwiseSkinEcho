@@ -13,6 +13,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="RTPC_Breach_Size" ID="{36C4CCB3-DEEB-4941-AD80-BDCA793D9801}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
