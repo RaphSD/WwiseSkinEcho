@@ -189,6 +189,12 @@
       "Path": "SFX\\SFX_Welding_Random-002_658ED0DC.wem"
      },
      {
+      "Id": "136470861",
+      "Language": "SFX",
+      "ShortName": "SFX_Button_Activation.wav",
+      "Path": "SFX\\SFX_Button_Activation_658ED0DC.wem"
+     },
+     {
       "Id": "281104360",
       "Language": "SFX",
       "ShortName": "SFX_Water_Breach-002.wav",
@@ -241,6 +247,12 @@
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-008.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix-008_658ED0DC.wem"
+     },
+     {
+      "Id": "607793296",
+      "Language": "SFX",
+      "ShortName": "SFX_Button_Pressed.wav",
+      "Path": "SFX\\SFX_Button_Pressed_658ED0DC.wem"
      },
      {
       "Id": "626430297",

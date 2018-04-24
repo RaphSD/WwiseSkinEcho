@@ -61,6 +61,10 @@
 					<ShortName>SFX_Welding_Random-002.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-002_658ED0DC.wem</Path>
 				</File>
+				<File Id="136470861" Language="SFX">
+					<ShortName>SFX_Button_Activation.wav</ShortName>
+					<Path>SFX\SFX_Button_Activation_658ED0DC.wem</Path>
+				</File>
 				<File Id="281104360" Language="SFX">
 					<ShortName>SFX_Water_Breach-002.wav</ShortName>
 					<Path>SFX\SFX_Water_Breach-002_9D73A8A6.wem</Path>
@@ -96,6 +100,10 @@
 				<File Id="604420339" Language="English(US)">
 					<ShortName>Proto_2_Voix-008.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-008_658ED0DC.wem</Path>
+				</File>
+				<File Id="607793296" Language="SFX">
+					<ShortName>SFX_Button_Pressed.wav</ShortName>
+					<Path>SFX\SFX_Button_Pressed_658ED0DC.wem</Path>
 				</File>
 				<File Id="626430297" Language="English(US)">
 					<ShortName>Proto_2_Voix-001.wav</ShortName>
