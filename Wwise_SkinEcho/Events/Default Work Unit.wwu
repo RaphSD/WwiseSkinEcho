@@ -300,6 +300,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_SFX_Welding_Air" ID="{E2E2C81E-30D3-4B34-98B5-769E0EE5DDA6}">
+							<ChildrenList>
+								<Action Name="" ID="{602A5DF2-682C-44B8-A206-5A442DDAD848}" ShortID="615862060">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Welding_Air" ID="{235C2639-2107-4C99-A0CC-A5704D3E9A27}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Welding_Air" ID="{0E738E3C-157F-4BC5-A96B-C56D01B34752}">
+							<ChildrenList>
+								<Action Name="" ID="{92815C9C-2A19-4DF5-B7E5-D748E0C15F68}" ShortID="745782777">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Welding_Air" ID="{235C2639-2107-4C99-A0CC-A5704D3E9A27}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Water Breach" ID="{A17249C6-4E79-4587-98F2-209B1A2C56A8}" ShortID="262270871">

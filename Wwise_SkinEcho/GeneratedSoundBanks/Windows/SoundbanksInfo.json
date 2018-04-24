@@ -124,6 +124,12 @@
       "MaxAttenuation": "2,000000"
      },
      {
+      "Id": "3575465515",
+      "Name": "Play_SFX_Welding_Air",
+      "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welding_Air",
+      "MaxAttenuation": "2,000000"
+     },
+     {
       "Id": "1243176019",
       "Name": "Stop_Radio_Voice_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Stop_Radio_Voice_Start",
@@ -139,6 +145,12 @@
       "Id": "1302341568",
       "Name": "Stop_SFX_Welding",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Stop_SFX_Welding",
+      "MaxAttenuation": "0,000000"
+     },
+     {
+      "Id": "1297865509",
+      "Name": "Stop_SFX_Welding_Air",
+      "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Stop_SFX_Welding_Air",
       "MaxAttenuation": "0,000000"
      }
     ],
@@ -189,7 +201,7 @@
       "Id": "302728083",
       "Language": "SFX",
       "ShortName": "SFX_Welder_Take.wav",
-      "Path": "SFX\\SFX_Welder_Take_92CA462F.wem"
+      "Path": "SFX\\SFX_Welder_Take_75167FBC.wem"
      },
      {
       "Id": "376913105",
@@ -204,10 +216,22 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix-003_658ED0DC.wem"
      },
      {
+      "Id": "412365172",
+      "Language": "SFX",
+      "ShortName": "SFX_Welding_Air.wav",
+      "Path": "SFX\\SFX_Welding_Air_DFB3FB4A.wem"
+     },
+     {
       "Id": "463336732",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Random-003.wav",
       "Path": "SFX\\SFX_Welding_Random-003_658ED0DC.wem"
+     },
+     {
+      "Id": "526606882",
+      "Language": "SFX",
+      "ShortName": "SFX_Water_Breach_Waterpour.wav",
+      "Path": "SFX\\SFX_Water_Breach_Waterpour_9D73A8A6.wem"
      },
      {
       "Id": "540310658",
@@ -250,6 +274,12 @@
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-007.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix-007_658ED0DC.wem"
+     },
+     {
+      "Id": "708400535",
+      "Language": "SFX",
+      "ShortName": "SFX_Welding_Shot.wav",
+      "Path": "SFX\\SFX_Welding_Shot_91FCEE35.wem"
      },
      {
       "Id": "734633356",

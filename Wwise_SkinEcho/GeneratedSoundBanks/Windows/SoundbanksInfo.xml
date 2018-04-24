@@ -33,9 +33,11 @@
 				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
 				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
+				<Event Id="3575465515" Name="Play_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding_Air" MaxAttenuation="2,000000"/>
 				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
 				<Event Id="350557031" Name="Stop_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Stop_SFX_Water_Breach" MaxAttenuation="0,000000"/>
 				<Event Id="1302341568" Name="Stop_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding" MaxAttenuation="0,000000"/>
+				<Event Id="1297865509" Name="Stop_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding_Air" MaxAttenuation="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="23242388" Language="SFX">
@@ -68,7 +70,7 @@
 				</File>
 				<File Id="302728083" Language="SFX">
 					<ShortName>SFX_Welder_Take.wav</ShortName>
-					<Path>SFX\SFX_Welder_Take_92CA462F.wem</Path>
+					<Path>SFX\SFX_Welder_Take_75167FBC.wem</Path>
 				</File>
 				<File Id="376913105" Language="SFX">
 					<ShortName>SFX_Ambiance_01.wav</ShortName>
@@ -78,9 +80,17 @@
 					<ShortName>Proto_2_Voix-003.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-003_658ED0DC.wem</Path>
 				</File>
+				<File Id="412365172" Language="SFX">
+					<ShortName>SFX_Welding_Air.wav</ShortName>
+					<Path>SFX\SFX_Welding_Air_DFB3FB4A.wem</Path>
+				</File>
 				<File Id="463336732" Language="SFX">
 					<ShortName>SFX_Welding_Random-003.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-003_658ED0DC.wem</Path>
+				</File>
+				<File Id="526606882" Language="SFX">
+					<ShortName>SFX_Water_Breach_Waterpour.wav</ShortName>
+					<Path>SFX\SFX_Water_Breach_Waterpour_9D73A8A6.wem</Path>
 				</File>
 				<File Id="540310658" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-001.wav</ShortName>
@@ -109,6 +119,10 @@
 				<File Id="697383045" Language="English(US)">
 					<ShortName>Proto_2_Voix-007.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-007_658ED0DC.wem</Path>
+				</File>
+				<File Id="708400535" Language="SFX">
+					<ShortName>SFX_Welding_Shot.wav</ShortName>
+					<Path>SFX\SFX_Welding_Shot_91FCEE35.wem</Path>
 				</File>
 				<File Id="734633356" Language="English(US)">
 					<ShortName>Proto_2_Voix-005.wav</ShortName>
