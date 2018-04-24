@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	65657338	Play_Proto_2_Voix_AI_002			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002	
 	65657339	Play_Proto_2_Voix_AI_003			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003	
 	350557031	Stop_SFX_Water_Breach			\Default Work Unit\Water Breach\Stop_SFX_Water_Breach	
+	1223272146	Play_SFX_Button_Press			\Default Work Unit\Play_SFX_Button_Press	
 	1243176019	Stop_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start	
 	1281001716	Play_SFX_Ambiance_01			\Default Work Unit\Play_SFX_Ambiance_01	
 	1297865509	Stop_SFX_Welding_Air			\Default Work Unit\Welder\Stop_SFX_Welding_Air	
