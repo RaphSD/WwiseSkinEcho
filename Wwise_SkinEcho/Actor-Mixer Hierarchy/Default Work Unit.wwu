@@ -1085,7 +1085,13 @@
 				<Folder Name="Oxygen Level AI" ID="{D07A6596-4CB3-490C-B34F-D1901FD174FE}" ShortID="110680487">
 					<ChildrenList>
 						<ActorMixer Name="Oxygen_Level" ID="{003DC6FD-8644-47D8-8FFE-2FE0B87655D5}" ShortID="1026457176">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
 								</Reference>

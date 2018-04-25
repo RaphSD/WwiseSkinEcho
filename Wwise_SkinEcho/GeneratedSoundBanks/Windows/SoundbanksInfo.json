@@ -25,32 +25,38 @@
      {
       "Id": "189687746",
       "Name": "Play_Niveau_Ox_10",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_10"
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_10",
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "189687751",
       "Name": "Play_Niveau_Ox_15",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_15"
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_15",
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "172910186",
       "Name": "Play_Niveau_Ox_25",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_25"
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_25",
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "495794050",
       "Name": "Play_Niveau_Ox_5",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_5"
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_5",
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "122577302",
       "Name": "Play_Niveau_Ox_50",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_50"
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_50",
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "89022133",
       "Name": "Play_Niveau_Ox_75",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_75"
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_75",
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696881",

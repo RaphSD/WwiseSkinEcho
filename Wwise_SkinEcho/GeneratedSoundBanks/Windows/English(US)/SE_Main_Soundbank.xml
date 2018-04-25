@@ -13,12 +13,12 @@
 			<ShortName>SE_Main_Soundbank</ShortName>
 			<Path>English(US)\SE_Main_Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10"/>
-				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15"/>
-				<Event Id="172910186" Name="Play_Niveau_Ox_25" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_25"/>
-				<Event Id="495794050" Name="Play_Niveau_Ox_5" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_5"/>
-				<Event Id="122577302" Name="Play_Niveau_Ox_50" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_50"/>
-				<Event Id="89022133" Name="Play_Niveau_Ox_75" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_75"/>
+				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2,000000"/>
+				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15" MaxAttenuation="2,000000"/>
+				<Event Id="172910186" Name="Play_Niveau_Ox_25" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_25" MaxAttenuation="2,000000"/>
+				<Event Id="495794050" Name="Play_Niveau_Ox_5" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_5" MaxAttenuation="2,000000"/>
+				<Event Id="122577302" Name="Play_Niveau_Ox_50" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_50" MaxAttenuation="2,000000"/>
+				<Event Id="89022133" Name="Play_Niveau_Ox_75" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_75" MaxAttenuation="2,000000"/>
 				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_004" MaxAttenuation="2,000000"/>
 				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_005" MaxAttenuation="2,000000"/>
 				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_006" MaxAttenuation="2,000000"/>
