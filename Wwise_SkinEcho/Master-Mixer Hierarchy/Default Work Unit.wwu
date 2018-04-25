@@ -148,6 +148,13 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<AuxBus Name="Reverb_Monster" ID="{BAD0C4FA-1F92-4B3F-8B2B-D03F399D58AF}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Reverb_Monster" ID="{97A1ADB7-FB6D-4839-BA49-861CDFA17B20}" WorkUnitID="{98A1E530-3A72-4FF8-B886-7985271F927A}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{5BF2B398-049E-4849-B042-0CDDAE35C2A1}"/>

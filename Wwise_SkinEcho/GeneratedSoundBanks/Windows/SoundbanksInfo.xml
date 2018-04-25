@@ -31,6 +31,7 @@
 				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="2,000000"/>
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
 				<Event Id="1223272146" Name="Play_SFX_Button_Press" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Press" MaxAttenuation="2,000000"/>
+				<Event Id="3773561252" Name="Play_SFX_Monster_Calm_01" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Calm_01" MaxAttenuation="2,000000"/>
 				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
 				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
@@ -87,7 +88,7 @@
 				</File>
 				<File Id="412365172" Language="SFX">
 					<ShortName>SFX_Welding_Air.wav</ShortName>
-					<Path>SFX\SFX_Welding_Air_DFB3FB4A.wem</Path>
+					<Path>SFX\SFX_Welding_Air_1A4BA615.wem</Path>
 				</File>
 				<File Id="463336732" Language="SFX">
 					<ShortName>SFX_Welding_Random-003.wav</ShortName>
@@ -113,6 +114,10 @@
 					<ShortName>Proto_2_Voix-001.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-001_658ED0DC.wem</Path>
 				</File>
+				<File Id="648031666" Language="SFX">
+					<ShortName>SFX_Monster_Calm_01.wav</ShortName>
+					<Path>SFX\SFX_Monster_Calm_01_DA191106.wem</Path>
+				</File>
 				<File Id="676054774" Language="English(US)">
 					<ShortName>Proto_2_Voix-011.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-011_658ED0DC.wem</Path>
@@ -131,7 +136,7 @@
 				</File>
 				<File Id="708400535" Language="SFX">
 					<ShortName>SFX_Welding_Shot.wav</ShortName>
-					<Path>SFX\SFX_Welding_Shot_91FCEE35.wem</Path>
+					<Path>SFX\SFX_Welding_Shot_F6DD421A.wem</Path>
 				</File>
 				<File Id="734633356" Language="English(US)">
 					<ShortName>Proto_2_Voix-005.wav</ShortName>

@@ -109,6 +109,12 @@
       "MaxAttenuation": "2,000000"
      },
      {
+      "Id": "3773561252",
+      "Name": "Play_SFX_Monster_Calm_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Calm_01",
+      "MaxAttenuation": "2,000000"
+     },
+     {
       "Id": "2798239405",
       "Name": "Play_SFX_Water_Breach",
       "ObjectPath": "\\Events\\Default Work Unit\\Water Breach\\Play_SFX_Water_Breach",
@@ -228,7 +234,7 @@
       "Id": "412365172",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Air.wav",
-      "Path": "SFX\\SFX_Welding_Air_DFB3FB4A.wem"
+      "Path": "SFX\\SFX_Welding_Air_1A4BA615.wem"
      },
      {
       "Id": "463336732",
@@ -267,6 +273,12 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix-001_658ED0DC.wem"
      },
      {
+      "Id": "648031666",
+      "Language": "SFX",
+      "ShortName": "SFX_Monster_Calm_01.wav",
+      "Path": "SFX\\SFX_Monster_Calm_01_DA191106.wem"
+     },
+     {
       "Id": "676054774",
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-011.wav",
@@ -294,7 +306,7 @@
       "Id": "708400535",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Shot.wav",
-      "Path": "SFX\\SFX_Welding_Shot_91FCEE35.wem"
+      "Path": "SFX\\SFX_Welding_Shot_F6DD421A.wem"
      },
      {
       "Id": "734633356",

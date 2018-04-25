@@ -1005,6 +1005,83 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
+				<Folder Name="Monster" ID="{5AE95539-C43B-4363-8404-2C5498ABE764}" ShortID="782103286">
+					<ChildrenList>
+						<Sound Name="SFX_Monster_Calm_01" ID="{4E669A74-A4AE-4A8D-A787-223C54351A4B}" ShortID="344441938">
+							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Monster" ID="{BAD0C4FA-1F92-4B3F-8B2B-D03F399D58AF}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Monster_Calm_01" ID="{97AF93F4-0A5B-47A3-AF5D-713A3B128B7E}" ShortID="648031666">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="9.73014555431548E-02"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_Monster_Calm_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{47E53B71-4E05-4C85-8BCB-3E610A75A5AB}">
+									<ChildrenList>
+										<Path2D Name="SFX_Monster_Calm_01_Path" ID="{067E3DBD-2A9E-4F73-9617-009C1CCAD3F1}">
+											<PropertyList>
+												<Property Name="Duration" Type="int32" Value="7000"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-37.34178</XPos>
+													<YPos>27.07006</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>0.6329</XPos>
+													<YPos>64.96815</YPos>
+													<Flags>0</Flags>
+													<Time>3500</Time>
+												</Point>
+												<Point>
+													<XPos>37.97468</XPos>
+													<YPos>28.02548</YPos>
+													<Flags>0</Flags>
+													<Time>7000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Monster_Calm_01" ID="{97AF93F4-0A5B-47A3-AF5D-713A3B128B7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
