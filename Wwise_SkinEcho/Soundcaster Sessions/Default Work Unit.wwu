@@ -25,6 +25,14 @@
 							<ObjectRef Name="Stop_SFX_Welding" ID="{AE910D03-4CC3-4265-8AE4-72A9B7F94E44}" WorkUnitID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Welding_Air" ID="{0E738E3C-157F-4BC5-A96B-C56D01B34752}" WorkUnitID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_SFX_Welding_Air" ID="{E2E2C81E-30D3-4B34-98B5-769E0EE5DDA6}" WorkUnitID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

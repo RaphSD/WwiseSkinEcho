@@ -23,6 +23,36 @@
     "Path": "English(US)\\SE_Main_Soundbank.bnk",
     "IncludedEvents": [
      {
+      "Id": "189687746",
+      "Name": "Play_Niveau_Ox_10",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_10"
+     },
+     {
+      "Id": "189687751",
+      "Name": "Play_Niveau_Ox_15",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_15"
+     },
+     {
+      "Id": "172910186",
+      "Name": "Play_Niveau_Ox_25",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_25"
+     },
+     {
+      "Id": "495794050",
+      "Name": "Play_Niveau_Ox_5",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_5"
+     },
+     {
+      "Id": "122577302",
+      "Name": "Play_Niveau_Ox_50",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_50"
+     },
+     {
+      "Id": "89022133",
+      "Name": "Play_Niveau_Ox_75",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_75"
+     },
+     {
       "Id": "3851696881",
       "Name": "Play_Proto_2_Voix_004",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_004",
@@ -210,6 +240,12 @@
       "Path": "SFX\\SFX_Button_Activation_658ED0DC.wem"
      },
      {
+      "Id": "276671463",
+      "Language": "English(US)",
+      "ShortName": "Niveau Ox_10.wav",
+      "Path": "Voices\\English(US)\\Niveau Ox_10_658ED0DC.wem"
+     },
+     {
       "Id": "281104360",
       "Language": "SFX",
       "ShortName": "SFX_Water_Breach-002.wav",
@@ -234,10 +270,22 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix-003_658ED0DC.wem"
      },
      {
+      "Id": "401034635",
+      "Language": "English(US)",
+      "ShortName": "Niveau Ox_15.wav",
+      "Path": "Voices\\English(US)\\Niveau Ox_15_658ED0DC.wem"
+     },
+     {
       "Id": "412365172",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Air.wav",
       "Path": "SFX\\SFX_Welding_Air_1A4BA615.wem"
+     },
+     {
+      "Id": "455195276",
+      "Language": "English(US)",
+      "ShortName": "Niveau Ox_75.wav",
+      "Path": "Voices\\English(US)\\Niveau Ox_75_658ED0DC.wem"
      },
      {
       "Id": "463336732",
@@ -279,7 +327,7 @@
       "Id": "648031666",
       "Language": "SFX",
       "ShortName": "SFX_Monster_Calm_01.wav",
-      "Path": "SFX\\SFX_Monster_Calm_01_DA191106.wem"
+      "Path": "SFX\\SFX_Monster_Calm_01_B3BDCE99.wem"
      },
      {
       "Id": "676054774",
@@ -306,6 +354,12 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix-007_658ED0DC.wem"
      },
      {
+      "Id": "702606328",
+      "Language": "English(US)",
+      "ShortName": "Niveau Ox_25.wav",
+      "Path": "Voices\\English(US)\\Niveau Ox_25_658ED0DC.wem"
+     },
+     {
       "Id": "708400535",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Shot.wav",
@@ -328,6 +382,18 @@
       "Language": "SFX",
       "ShortName": "SFX_Welding_Random-005.wav",
       "Path": "SFX\\SFX_Welding_Random-005_658ED0DC.wem"
+     },
+     {
+      "Id": "908615635",
+      "Language": "English(US)",
+      "ShortName": "Niveau Ox_50.wav",
+      "Path": "Voices\\English(US)\\Niveau Ox_50_658ED0DC.wem"
+     },
+     {
+      "Id": "908905105",
+      "Language": "English(US)",
+      "ShortName": "Niveau Ox_5.wav",
+      "Path": "Voices\\English(US)\\Niveau Ox_5_658ED0DC.wem"
      },
      {
       "Id": "911243511",

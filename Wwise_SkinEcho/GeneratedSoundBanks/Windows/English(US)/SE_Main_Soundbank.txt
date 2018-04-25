@@ -2,7 +2,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	65657337	Play_Proto_2_Voix_AI_001			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_001	
 	65657338	Play_Proto_2_Voix_AI_002			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002	
 	65657339	Play_Proto_2_Voix_AI_003			\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003	
+	89022133	Play_Niveau_Ox_75			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_75	
+	122577302	Play_Niveau_Ox_50			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_50	
+	172910186	Play_Niveau_Ox_25			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_25	
+	189687746	Play_Niveau_Ox_10			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10	
+	189687751	Play_Niveau_Ox_15			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15	
 	350557031	Stop_SFX_Water_Breach			\Default Work Unit\Water Breach\Stop_SFX_Water_Breach	
+	495794050	Play_Niveau_Ox_5			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_5	
 	1223272146	Play_SFX_Button_Press			\Default Work Unit\Play_SFX_Button_Press	
 	1243176019	Stop_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start	
 	1281001716	Play_SFX_Ambiance_01			\Default Work Unit\Play_SFX_Ambiance_01	
@@ -54,26 +60,32 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	45987919	Proto_2_Voix_AI-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-002		108677
 	70595769	SFX_Welding_Random-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-002_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-002		46243
 	136470861	SFX_Button_Activation	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Activation_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Press\SFX_Button_Activation		14136
+	276671463	Niveau Ox_10	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_10_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_10		54569
 	281104360	SFX_Water_Breach-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach-002_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach-002		243230
 	302728083	SFX_Welder_Take	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welder_Take_75167FBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welder_Take		15976
 	376913105	SFX_Ambiance_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Ambiance_01_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ambiance_01		7028100
 	377032202	Proto_2_Voix-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Radio_Voice_Start\Proto_2_Voix-003		114320
+	401034635	Niveau Ox_15	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_15_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_15		64874
 	412365172	SFX_Welding_Air	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Air_1A4BA615.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Air\SFX_Welding_Air		228320
+	455195276	Niveau Ox_75	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_75_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_75		64838
 	463336732	SFX_Welding_Random-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-003		9739
 	526606882	SFX_Water_Breach_Waterpour	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Waterpour_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Waterpour		161717
 	540310658	Proto_2_Voix_AI-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-003		56746
 	604420339	Proto_2_Voix-008	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-008_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-008		205472
 	607793296	SFX_Button_Pressed	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Pressed_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Press\SFX_Button_Pressed		9255
 	626430297	Proto_2_Voix-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Radio_Voice_Start\Proto_2_Voix-001		47917
-	648031666	SFX_Monster_Calm_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Calm_01_DA191106.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Calm_01		145702
+	648031666	SFX_Monster_Calm_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Calm_01_B3BDCE99.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Calm_01		145702
 	676054774	Proto_2_Voix-011	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-011_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-011		189045
 	680106393	Proto_2_Voix-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-002_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Radio_Voice_Start\Proto_2_Voix-002		58958
 	683488370	Proto_2_Voix-012	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-012_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-012		196043
 	697383045	Proto_2_Voix-007	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-007_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-007		77682
+	702606328	Niveau Ox_25	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_25_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_25		63637
 	708400535	SFX_Welding_Shot	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Shot_F6DD421A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Air\SFX_Welding_Shot		31599
 	734633356	Proto_2_Voix-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-005		48377
 	788876877	SFX_Welding	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_389122C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding		149852
 	835193151	SFX_Welding_Random-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-005		46336
+	908615635	Niveau Ox_50	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_50_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_50		61902
+	908905105	Niveau Ox_5	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_5_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_5		58497
 	911243511	Proto_2_Voix-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-004_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice\Proto_2_Voix-004		1860428
 	939981775	SFX_Welding_Random-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-001		23163
 	958351346	SFX_Water_Breach_Explosion	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Explosion_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Explosion		128411

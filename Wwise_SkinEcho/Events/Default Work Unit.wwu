@@ -216,6 +216,94 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Oxygen Level" ID="{5FBC2757-AEE8-4BAA-910B-779B6D7EE41E}" ShortID="992967154">
+							<ChildrenList>
+								<Event Name="Play_Niveau_Ox_75" ID="{5C0B044F-978B-4798-8152-9D48BB8DF7FD}">
+									<ChildrenList>
+										<Action Name="" ID="{99A7DE6E-2779-460C-A9FC-504889855EAC}" ShortID="83206839">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Niveau Ox_75" ID="{FBE7E1E5-26E4-4ADC-BED3-6F8B7C3190FC}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Niveau_Ox_25" ID="{00639480-0329-4824-B888-49B87A7C3352}">
+									<ChildrenList>
+										<Action Name="" ID="{6AD7759D-10EA-4B44-8784-9A854D7B56FF}" ShortID="568709398">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Niveau Ox_25" ID="{981C7078-387F-4E9C-B889-CFEB12525E10}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Niveau_Ox_10" ID="{38FEE528-A28B-4673-B34C-C25B7B118DD6}">
+									<ChildrenList>
+										<Action Name="" ID="{EFBE9179-337E-469B-9C4A-4D5EB81E34F7}" ShortID="97659207">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Niveau Ox_10" ID="{3D878187-B421-425E-BBA5-A8E950607D0C}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Niveau_Ox_50" ID="{6CACC7A9-5748-40E4-BFA5-62FBF1FBEFE2}">
+									<ChildrenList>
+										<Action Name="" ID="{2A39F69D-B23E-49EF-BBA3-3CC50AC5F816}" ShortID="166497212">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Niveau Ox_50" ID="{77309204-423B-4F00-8981-D67B1F83D4B1}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Niveau_Ox_15" ID="{0C54CDE2-DDE4-4255-AEE8-96A3BAEF9290}">
+									<ChildrenList>
+										<Action Name="" ID="{C67C6059-13AE-4ADB-A3C0-D3600C53AB61}" ShortID="330434589">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Niveau Ox_15" ID="{04AE29AE-994D-4232-9CF2-BADF00E21CB5}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Niveau_Ox_5" ID="{6DBC9679-068D-424A-9FE7-34A637BC7BE4}">
+									<ChildrenList>
+										<Action Name="" ID="{E13F8655-75CA-4BC0-B64D-AA10618B092D}" ShortID="660572782">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Niveau Ox_5" ID="{64D92CE7-4EEA-4AC3-B370-24615D57D72A}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_SFX_Ambiance_01" ID="{384EBD07-C079-4445-AEAF-65CB40E2BE55}">
