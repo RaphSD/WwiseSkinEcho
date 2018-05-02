@@ -484,6 +484,20 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_SFX_Button_Touch" ID="{E6BDFCB6-FA78-403A-BC12-4A7815DE068E}">
+					<ChildrenList>
+						<Action Name="" ID="{B2EBE1DB-DC04-41AD-A288-16C81607A2A4}" ShortID="327708267">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_Touch" ID="{F82B85F3-D1F4-4A34-BA6F-67F60CA4F4A7}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

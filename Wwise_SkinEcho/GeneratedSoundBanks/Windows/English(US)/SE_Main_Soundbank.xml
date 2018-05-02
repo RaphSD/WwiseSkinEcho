@@ -34,6 +34,7 @@
 				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="2,000000"/>
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
 				<Event Id="1223272146" Name="Play_SFX_Button_Press" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Press" MaxAttenuation="2,000000"/>
+				<Event Id="2177050642" Name="Play_SFX_Button_Touch" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Touch" MaxAttenuation="2,000000"/>
 				<Event Id="3773561252" Name="Play_SFX_Monster_Calm_01" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Calm_01" MaxAttenuation="2,000000"/>
 				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
@@ -72,6 +73,14 @@
 				<File Id="136470861" Language="SFX">
 					<ShortName>SFX_Button_Activation.wav</ShortName>
 					<Path>SFX\SFX_Button_Activation_658ED0DC.wem</Path>
+				</File>
+				<File Id="155481718" Language="SFX">
+					<ShortName>SFX_Button_Touch-002.wav</ShortName>
+					<Path>SFX\SFX_Button_Touch-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="215496252" Language="SFX">
+					<ShortName>SFX_Button_Touch-003.wav</ShortName>
+					<Path>SFX\SFX_Button_Touch-003_658ED0DC.wem</Path>
 				</File>
 				<File Id="276671463" Language="English(US)">
 					<ShortName>Niveau Ox_10.wav</ShortName>
@@ -192,6 +201,10 @@
 				<File Id="1005017841" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-002.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix_AI-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="1026977004" Language="SFX">
+					<ShortName>SFX_Button_Touch-001.wav</ShortName>
+					<Path>SFX\SFX_Button_Touch-001_658ED0DC.wem</Path>
 				</File>
 				<File Id="1048821415" Language="SFX">
 					<ShortName>SFX_Welding_Random-006.wav</ShortName>

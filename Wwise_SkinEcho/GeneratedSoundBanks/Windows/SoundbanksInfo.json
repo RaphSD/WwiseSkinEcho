@@ -148,6 +148,12 @@
       "MaxAttenuation": "2,000000"
      },
      {
+      "Id": "2177050642",
+      "Name": "Play_SFX_Button_Touch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Button_Touch",
+      "MaxAttenuation": "2,000000"
+     },
+     {
       "Id": "3773561252",
       "Name": "Play_SFX_Monster_Calm_01",
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Calm_01",
@@ -244,6 +250,18 @@
       "Language": "SFX",
       "ShortName": "SFX_Button_Activation.wav",
       "Path": "SFX\\SFX_Button_Activation_658ED0DC.wem"
+     },
+     {
+      "Id": "155481718",
+      "Language": "SFX",
+      "ShortName": "SFX_Button_Touch-002.wav",
+      "Path": "SFX\\SFX_Button_Touch-002_658ED0DC.wem"
+     },
+     {
+      "Id": "215496252",
+      "Language": "SFX",
+      "ShortName": "SFX_Button_Touch-003.wav",
+      "Path": "SFX\\SFX_Button_Touch-003_658ED0DC.wem"
      },
      {
       "Id": "276671463",
@@ -424,6 +442,12 @@
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix_AI-002.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix_AI-002_658ED0DC.wem"
+     },
+     {
+      "Id": "1026977004",
+      "Language": "SFX",
+      "ShortName": "SFX_Button_Touch-001.wav",
+      "Path": "SFX\\SFX_Button_Touch-001_658ED0DC.wem"
      },
      {
       "Id": "1048821415",
