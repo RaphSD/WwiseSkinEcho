@@ -694,11 +694,6 @@
 						<Sound Name="SFX_Welder_Take" ID="{309485A2-867E-465F-AA81-4D1519B8C912}" ShortID="70393595">
 							<PropertyList>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
