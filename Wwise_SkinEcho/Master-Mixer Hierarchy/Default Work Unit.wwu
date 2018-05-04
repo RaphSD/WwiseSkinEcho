@@ -30,6 +30,7 @@
 										<Effect Name="Auro Headphone (Custom)" ID="{EF7AD302-1620-42E5-B179-66F3FC450ACC}" ShortID="378824104" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 											<PropertyList>
 												<Property Name="Reverb" Type="bool" Value="False"/>
+												<Property Name="Wall_bottom" Type="Real32" Value="4.578125"/>
 											</PropertyList>
 										</Effect>
 									</Custom>
