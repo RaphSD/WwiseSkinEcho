@@ -14,7 +14,7 @@
 							<PropertyList>
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
-										<Value>6353158</Value>
+										<Value>528</Value>
 									</ValueList>
 								</Property>
 								<Property Name="DivergenceCenter" Type="int32">
@@ -77,7 +77,7 @@
 									<PropertyList>
 										<Property Name="BusChannelConfig" Type="int32">
 											<ValueList>
-												<Value>6353158</Value>
+												<Value>528</Value>
 											</ValueList>
 										</Property>
 										<Property Name="BusVolume" Type="Real64">
@@ -123,7 +123,7 @@
 									<PropertyList>
 										<Property Name="BusChannelConfig" Type="int32">
 											<ValueList>
-												<Value>12546</Value>
+												<Value>528</Value>
 											</ValueList>
 										</Property>
 										<Property Name="DivergenceCenter" Type="int32">
@@ -138,7 +138,7 @@
 									<PropertyList>
 										<Property Name="BusChannelConfig" Type="int32">
 											<ValueList>
-												<Value>6353158</Value>
+												<Value>528</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
