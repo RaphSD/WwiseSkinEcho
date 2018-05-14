@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\",
-   "SourceFilesRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\",
+   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -26,115 +26,115 @@
       "Id": "189687746",
       "Name": "Play_Niveau_Ox_10",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_10",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "189687751",
       "Name": "Play_Niveau_Ox_15",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_15",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "172910186",
       "Name": "Play_Niveau_Ox_25",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_25",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "495794050",
       "Name": "Play_Niveau_Ox_5",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_5",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "122577302",
       "Name": "Play_Niveau_Ox_50",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_50",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "89022133",
       "Name": "Play_Niveau_Ox_75",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_75",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696881",
       "Name": "Play_Proto_2_Voix_004",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_004",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696880",
       "Name": "Play_Proto_2_Voix_005",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_005",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696883",
       "Name": "Play_Proto_2_Voix_006",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_006",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696882",
       "Name": "Play_Proto_2_Voix_007",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_007",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696893",
       "Name": "Play_Proto_2_Voix_008",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_008",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696892",
       "Name": "Play_Proto_2_Voix_009",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_009",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3834919170",
       "Name": "Play_Proto_2_Voix_010",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_010",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3834919171",
       "Name": "Play_Proto_2_Voix_011",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_011",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3834919168",
       "Name": "Play_Proto_2_Voix_012",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_012",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "65657337",
       "Name": "Play_Proto_2_Voix_AI_001",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_AI\\Play_Proto_2_Voix_AI_001",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "65657338",
       "Name": "Play_Proto_2_Voix_AI_002",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_AI\\Play_Proto_2_Voix_AI_002",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "65657339",
       "Name": "Play_Proto_2_Voix_AI_003",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_AI\\Play_Proto_2_Voix_AI_003",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "2019705941",
       "Name": "Play_Radio_Voice_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Radio_Voice_Start",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "1281001716",
@@ -145,67 +145,66 @@
       "Id": "1223272146",
       "Name": "Play_SFX_Button_Press",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Button_Press",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "2177050642",
       "Name": "Play_SFX_Button_Touch",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Button_Touch",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
-      "Id": "3773561252",
-      "Name": "Play_SFX_Monster_Calm_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Calm_01",
-      "MaxAttenuation": "2.000000"
+      "Id": "3569019990",
+      "Name": "Play_SFX_Monster_Calm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Calm"
      },
      {
       "Id": "2798239405",
       "Name": "Play_SFX_Water_Breach",
       "ObjectPath": "\\Events\\Default Work Unit\\Water Breach\\Play_SFX_Water_Breach",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "1487639259",
       "Name": "Play_SFX_Welder_Take",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welder_Take",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3723595182",
       "Name": "Play_SFX_Welding",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welding",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3575465515",
       "Name": "Play_SFX_Welding_Air",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welding_Air",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "1243176019",
       "Name": "Stop_Radio_Voice_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Stop_Radio_Voice_Start",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "350557031",
       "Name": "Stop_SFX_Water_Breach",
       "ObjectPath": "\\Events\\Default Work Unit\\Water Breach\\Stop_SFX_Water_Breach",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "1302341568",
       "Name": "Stop_SFX_Welding",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Stop_SFX_Welding",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "1297865509",
       "Name": "Stop_SFX_Welding_Air",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Stop_SFX_Welding_Air",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      }
     ],
     "IncludedMemoryFiles": [
@@ -294,6 +293,12 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix-003_658ED0DC.wem"
      },
      {
+      "Id": "383914256",
+      "Language": "SFX",
+      "ShortName": "SFX_Monster_Calm_02.wav",
+      "Path": "SFX\\SFX_Monster_Calm_02_BD0F2E3C.wem"
+     },
+     {
       "Id": "401034635",
       "Language": "English(US)",
       "ShortName": "Niveau Ox_15.wav",
@@ -330,6 +335,12 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix_AI-001_658ED0DC.wem"
      },
      {
+      "Id": "601099440",
+      "Language": "SFX",
+      "ShortName": "SFX_Monster_Calm_03.wav",
+      "Path": "SFX\\SFX_Monster_Calm_03_541030A6.wem"
+     },
+     {
       "Id": "604420339",
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-008.wav",
@@ -346,12 +357,6 @@
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-001.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix-001_658ED0DC.wem"
-     },
-     {
-      "Id": "648031666",
-      "Language": "SFX",
-      "ShortName": "SFX_Monster_Calm_01.wav",
-      "Path": "SFX\\SFX_Monster_Calm_01_B3BDCE99.wem"
      },
      {
       "Id": "676054774",

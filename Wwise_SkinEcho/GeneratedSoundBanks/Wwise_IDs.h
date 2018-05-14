@@ -35,7 +35,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_AMBIANCE_01 = 1281001716U;
         static const AkUniqueID PLAY_SFX_BUTTON_PRESS = 1223272146U;
         static const AkUniqueID PLAY_SFX_BUTTON_TOUCH = 2177050642U;
-        static const AkUniqueID PLAY_SFX_MONSTER_CALM_01 = 3773561252U;
+        static const AkUniqueID PLAY_SFX_MONSTER_CALM = 3569019990U;
         static const AkUniqueID PLAY_SFX_WATER_BREACH = 2798239405U;
         static const AkUniqueID PLAY_SFX_WELDER_TAKE = 1487639259U;
         static const AkUniqueID PLAY_SFX_WELDING = 3723595182U;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1524671860" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1526307430" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1521476460" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1521476460" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Attenuations\Default Work Unit.wwu" DateLow="1524473426" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Attenuations\Default Work Unit.wwu" DateLow="1526307430" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Audio Devices\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Control Surface Sessions\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Conversion Settings\Default Work Unit.wwu" DateLow="1524492162" DateHigh="0"/>
@@ -20,11 +20,11 @@
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1521476498" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1521476498" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Effects\Factory McDSP Effects.wwu" DateLow="1521476464" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Events\Default Work Unit.wwu" DateLow="1524671693" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Game Parameters\Default Work Unit.wwu" DateLow="1524491521" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Events\Default Work Unit.wwu" DateLow="1526307428" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Game Parameters\Default Work Unit.wwu" DateLow="1526307430" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1521476460" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1524664851" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1526307430" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Mixing Sessions\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Modulators\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Presets\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
@@ -37,6 +37,6 @@
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Triggers\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Virtual Acoustics\Default Work Unit.wwu" DateLow="1521477422" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1521476462" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.Raphael.marchetti.wsettings" DateLow="1524838945" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.Raphael.marchetti.wsettings" DateLow="1526307429" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.wproj" DateLow="1524831992" DateHigh="0"/>
 </ValidationCache>
