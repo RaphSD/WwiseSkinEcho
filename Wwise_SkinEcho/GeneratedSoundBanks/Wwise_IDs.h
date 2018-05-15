@@ -37,11 +37,15 @@ namespace AK
         static const AkUniqueID PLAY_SFX_BUTTON_TOUCH = 2177050642U;
         static const AkUniqueID PLAY_SFX_MONSTER_AGGRESSIVE = 3696203791U;
         static const AkUniqueID PLAY_SFX_MONSTER_CALM = 3569019990U;
+        static const AkUniqueID PLAY_SFX_RADAR = 3501558446U;
         static const AkUniqueID PLAY_SFX_WATER_BREACH = 2798239405U;
         static const AkUniqueID PLAY_SFX_WELDER_TAKE = 1487639259U;
         static const AkUniqueID PLAY_SFX_WELDING = 3723595182U;
         static const AkUniqueID PLAY_SFX_WELDING_AIR = 3575465515U;
         static const AkUniqueID STOP_RADIO_VOICE_START = 1243176019U;
+        static const AkUniqueID STOP_SFX_MONSTER_AGGRESSIVE = 2321851573U;
+        static const AkUniqueID STOP_SFX_MONSTER_CALM = 3966185392U;
+        static const AkUniqueID STOP_SFX_RADAR = 1615443100U;
         static const AkUniqueID STOP_SFX_WATER_BREACH = 350557031U;
         static const AkUniqueID STOP_SFX_WELDING = 1302341568U;
         static const AkUniqueID STOP_SFX_WELDING_AIR = 1297865509U;

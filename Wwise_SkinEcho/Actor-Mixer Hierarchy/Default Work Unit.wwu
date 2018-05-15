@@ -1072,7 +1072,7 @@
 				</BlendContainer>
 				<Folder Name="Monster" ID="{5AE95539-C43B-4363-8404-2C5498ABE764}" ShortID="782103286">
 					<ChildrenList>
-						<RandomSequenceContainer Name="Monster_Calm" ID="{551073A6-04BB-49B5-988F-34B5663D1976}" ShortID="309027450">
+						<RandomSequenceContainer Name="SFX_Monster_Calm" ID="{551073A6-04BB-49B5-988F-34B5663D1976}" ShortID="309027450">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -1184,7 +1184,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Monster_Aggressive" ID="{9C07C295-E8F6-421C-8468-58788D091768}" ShortID="573012203">
+						<RandomSequenceContainer Name="SFX_Monster_Aggressive" ID="{9C07C295-E8F6-421C-8468-58788D091768}" ShortID="573012203">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>

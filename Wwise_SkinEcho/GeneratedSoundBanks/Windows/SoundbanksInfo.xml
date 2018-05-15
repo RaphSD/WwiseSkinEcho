@@ -40,11 +40,15 @@
 				<Event Id="2177050642" Name="Play_SFX_Button_Touch" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Touch" MaxAttenuation="2,000000"/>
 				<Event Id="3696203791" Name="Play_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Aggressive"/>
 				<Event Id="3569019990" Name="Play_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Calm"/>
+				<Event Id="3501558446" Name="Play_SFX_Radar" ObjectPath="\Events\Default Work Unit\Play_SFX_Radar"/>
 				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
 				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
 				<Event Id="3575465515" Name="Play_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding_Air" MaxAttenuation="2,000000"/>
 				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
+				<Event Id="2321851573" Name="Stop_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive" MaxAttenuation="0,000000"/>
+				<Event Id="3966185392" Name="Stop_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Calm" MaxAttenuation="0,000000"/>
+				<Event Id="1615443100" Name="Stop_SFX_Radar" ObjectPath="\Events\Default Work Unit\Stop_SFX_Radar" MaxAttenuation="0,000000"/>
 				<Event Id="350557031" Name="Stop_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Stop_SFX_Water_Breach" MaxAttenuation="0,000000"/>
 				<Event Id="1302341568" Name="Stop_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding" MaxAttenuation="0,000000"/>
 				<Event Id="1297865509" Name="Stop_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding_Air" MaxAttenuation="0,000000"/>

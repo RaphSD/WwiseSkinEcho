@@ -476,7 +476,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Monster_Calm" ID="{551073A6-04BB-49B5-988F-34B5663D1976}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+											<ObjectRef Name="SFX_Monster_Calm" ID="{551073A6-04BB-49B5-988F-34B5663D1976}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -490,7 +490,35 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Monster_Aggressive" ID="{9C07C295-E8F6-421C-8468-58788D091768}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+											<ObjectRef Name="SFX_Monster_Aggressive" ID="{9C07C295-E8F6-421C-8468-58788D091768}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_Monster_Calm" ID="{0D160AC4-9FE6-480B-81A0-E607B393D117}">
+							<ChildrenList>
+								<Action Name="" ID="{83E50542-7DF2-4C2D-8445-81D4EFAE2734}" ShortID="707030543">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Monster_Calm" ID="{551073A6-04BB-49B5-988F-34B5663D1976}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_Monster_Aggressive" ID="{9FE20FC9-6416-4123-BADA-F782585257CE}">
+							<ChildrenList>
+								<Action Name="" ID="{B278B83A-AA45-40C1-9878-4C8A6BEDDF91}" ShortID="136502907">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Monster_Aggressive" ID="{9C07C295-E8F6-421C-8468-58788D091768}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -507,6 +535,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Button_Touch" ID="{F82B85F3-D1F4-4A34-BA6F-67F60CA4F4A7}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Radar" ID="{F5FBC926-A920-43B3-9CB7-1A806AC29B42}">
+					<ChildrenList>
+						<Action Name="" ID="{87251853-5A0E-4F90-A4A0-DE0459B0E572}" ShortID="852459">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radar" ID="{AB68215B-5F81-4245-AD4B-E835E058D754}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_Radar" ID="{DF969C4F-FE71-4684-99E0-719C0E0ECEFE}">
+					<ChildrenList>
+						<Action Name="" ID="{6AB27D76-DA15-46F6-8F4E-C29B2B898E12}" ShortID="768786239">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radar" ID="{AB68215B-5F81-4245-AD4B-E835E058D754}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

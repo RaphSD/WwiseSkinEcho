@@ -6,7 +6,7 @@
 				<File Name="Init" Hash="204869254" Timestamp="1526307556"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="SE_Main_Soundbank" Hash="829532400" Timestamp="1526394410"/>
+				<File Name="SE_Main_Soundbank" Hash="1621290584" Timestamp="1526394632"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -14,10 +14,10 @@
 				<File Name="Init" Hash="2215128196" Timestamp="1526307556"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="SE_Main_Soundbank" Hash="3759146683" Timestamp="1526394410"/>
+				<File Name="SE_Main_Soundbank" Hash="191166455" Timestamp="1526394632"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3803584151" Timestamp="1526394410"/>
+				<File Name="" Hash="1387111655" Timestamp="1526394632"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
@@ -25,10 +25,10 @@
 				<File Name="Init" Hash="2371622216" Timestamp="1526307556"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="SE_Main_Soundbank" Hash="3187882359" Timestamp="1526394410"/>
+				<File Name="SE_Main_Soundbank" Hash="2942682936" Timestamp="1526394632"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1501817438" Timestamp="1526394410"/>
+				<File Name="" Hash="2014934461" Timestamp="1526394632"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
