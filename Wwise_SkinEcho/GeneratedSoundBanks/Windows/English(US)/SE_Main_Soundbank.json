@@ -151,6 +151,11 @@
       "MaxAttenuation": "2,000000"
      },
      {
+      "Id": "3696203791",
+      "Name": "Play_SFX_Monster_Aggressive",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Aggressive"
+     },
+     {
       "Id": "3569019990",
       "Name": "Play_SFX_Monster_Calm",
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Calm"
@@ -242,6 +247,12 @@
       "Path": "SFX\\SFX_Welding_Random-002_658ED0DC.wem"
      },
      {
+      "Id": "78086720",
+      "Language": "SFX",
+      "ShortName": "SFX_Monster_Aggressive_01.wav",
+      "Path": "SFX\\SFX_Monster_Aggressive_01_658ED0DC.wem"
+     },
+     {
       "Id": "136470861",
       "Language": "SFX",
       "ShortName": "SFX_Button_Activation.wav",
@@ -252,6 +263,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Button_Touch-002.wav",
       "Path": "SFX\\SFX_Button_Touch-002_658ED0DC.wem"
+     },
+     {
+      "Id": "208463169",
+      "Language": "SFX",
+      "ShortName": "SFX_Radar.wav",
+      "Path": "SFX\\SFX_Radar_658ED0DC.wem"
      },
      {
       "Id": "215496252",
@@ -293,7 +310,7 @@
       "Id": "383914256",
       "Language": "SFX",
       "ShortName": "SFX_Monster_Calm_02.wav",
-      "Path": "SFX\\SFX_Monster_Calm_02_BD0F2E3C.wem"
+      "Path": "SFX\\SFX_Monster_Calm_02_1428C592.wem"
      },
      {
       "Id": "401034635",
@@ -335,7 +352,7 @@
       "Id": "601099440",
       "Language": "SFX",
       "ShortName": "SFX_Monster_Calm_03.wav",
-      "Path": "SFX\\SFX_Monster_Calm_03_541030A6.wem"
+      "Path": "SFX\\SFX_Monster_Calm_03_C397BEB8.wem"
      },
      {
       "Id": "604420339",
@@ -360,6 +377,12 @@
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-011.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix-011_658ED0DC.wem"
+     },
+     {
+      "Id": "679260256",
+      "Language": "SFX",
+      "ShortName": "SFX_Monster_Calm_04.wav",
+      "Path": "SFX\\SFX_Monster_Calm_04_658ED0DC.wem"
      },
      {
       "Id": "680106393",

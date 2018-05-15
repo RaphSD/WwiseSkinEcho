@@ -35,6 +35,7 @@
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
 				<Event Id="1223272146" Name="Play_SFX_Button_Press" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Press" MaxAttenuation="2,000000"/>
 				<Event Id="2177050642" Name="Play_SFX_Button_Touch" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Touch" MaxAttenuation="2,000000"/>
+				<Event Id="3696203791" Name="Play_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Aggressive"/>
 				<Event Id="3569019990" Name="Play_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Calm"/>
 				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
@@ -70,6 +71,10 @@
 					<ShortName>SFX_Welding_Random-002.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-002_658ED0DC.wem</Path>
 				</File>
+				<File Id="78086720" Language="SFX">
+					<ShortName>SFX_Monster_Aggressive_01.wav</ShortName>
+					<Path>SFX\SFX_Monster_Aggressive_01_658ED0DC.wem</Path>
+				</File>
 				<File Id="136470861" Language="SFX">
 					<ShortName>SFX_Button_Activation.wav</ShortName>
 					<Path>SFX\SFX_Button_Activation_658ED0DC.wem</Path>
@@ -77,6 +82,10 @@
 				<File Id="155481718" Language="SFX">
 					<ShortName>SFX_Button_Touch-002.wav</ShortName>
 					<Path>SFX\SFX_Button_Touch-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="208463169" Language="SFX">
+					<ShortName>SFX_Radar.wav</ShortName>
+					<Path>SFX\SFX_Radar_658ED0DC.wem</Path>
 				</File>
 				<File Id="215496252" Language="SFX">
 					<ShortName>SFX_Button_Touch-003.wav</ShortName>
@@ -104,7 +113,7 @@
 				</File>
 				<File Id="383914256" Language="SFX">
 					<ShortName>SFX_Monster_Calm_02.wav</ShortName>
-					<Path>SFX\SFX_Monster_Calm_02_BD0F2E3C.wem</Path>
+					<Path>SFX\SFX_Monster_Calm_02_1428C592.wem</Path>
 				</File>
 				<File Id="401034635" Language="English(US)">
 					<ShortName>Niveau Ox_15.wav</ShortName>
@@ -132,7 +141,7 @@
 				</File>
 				<File Id="601099440" Language="SFX">
 					<ShortName>SFX_Monster_Calm_03.wav</ShortName>
-					<Path>SFX\SFX_Monster_Calm_03_541030A6.wem</Path>
+					<Path>SFX\SFX_Monster_Calm_03_C397BEB8.wem</Path>
 				</File>
 				<File Id="604420339" Language="English(US)">
 					<ShortName>Proto_2_Voix-008.wav</ShortName>
@@ -149,6 +158,10 @@
 				<File Id="676054774" Language="English(US)">
 					<ShortName>Proto_2_Voix-011.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-011_658ED0DC.wem</Path>
+				</File>
+				<File Id="679260256" Language="SFX">
+					<ShortName>SFX_Monster_Calm_04.wav</ShortName>
+					<Path>SFX\SFX_Monster_Calm_04_658ED0DC.wem</Path>
 				</File>
 				<File Id="680106393" Language="English(US)">
 					<ShortName>Proto_2_Voix-002.wav</ShortName>

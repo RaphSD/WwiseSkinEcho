@@ -1074,11 +1074,26 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Monster_Calm" ID="{551073A6-04BB-49B5-988F-34B5663D1976}" ShortID="309027450">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DCD8EEE0-C209-4C5E-BB93-14A93ABC2B17}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -1146,6 +1161,100 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Monster_Calm_03" ID="{7F65ECB3-36CB-4516-8A25-1555B38E60C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Monster_Calm_04" ID="{AF6CFDA8-1C75-46A2-B696-CF443E8C9D99}" ShortID="1015500843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Monster_Calm_04" ID="{35D51F37-A284-4A14-B0D5-6D1D0FAB5A26}" ShortID="679260256">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Monster_Calm_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Monster_Calm_04" ID="{35D51F37-A284-4A14-B0D5-6D1D0FAB5A26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Monster_Aggressive" ID="{9C07C295-E8F6-421C-8468-58788D091768}" ShortID="573012203">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{13F8D4A0-84E4-4138-8AA4-0C96F28EE213}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Monster" ID="{BAD0C4FA-1F92-4B3F-8B2B-D03F399D58AF}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Monster_Aggressive_01" ID="{9B066D23-04DF-48D2-A59D-5DEAA6639B63}" ShortID="955559453">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Monster" ID="{BAD0C4FA-1F92-4B3F-8B2B-D03F399D58AF}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Monster_Aggressive_01" ID="{44601128-C69E-4D98-B467-A079DF0B119E}" ShortID="78086720">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Monster_Aggressive_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Monster_Aggressive_01" ID="{44601128-C69E-4D98-B467-A079DF0B119E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1397,6 +1506,45 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="SFX_Button_Touch-003" ID="{07A3BB6C-47DF-45B9-A885-D9313853B385}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SFX_Radar" ID="{AB68215B-5F81-4245-AD4B-E835E058D754}" ShortID="189779474">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Radar" ID="{5810AC82-C331-4F26-BE8F-DAFE4490ADA9}" ShortID="135413713">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Radar" ID="{FFCA40C8-FE4B-4A49-B201-7D911A09BE23}" ShortID="208463169">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Radar.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Radar" ID="{FFCA40C8-FE4B-4A49-B201-7D911A09BE23}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

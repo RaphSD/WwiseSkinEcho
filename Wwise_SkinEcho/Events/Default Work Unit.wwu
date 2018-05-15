@@ -482,6 +482,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Monster_Aggressive" ID="{B8C0F0D3-977E-41C3-B990-DAD182C2B631}">
+							<ChildrenList>
+								<Action Name="" ID="{07816E9B-83D9-4870-A19F-28CFC85996C1}" ShortID="954353643">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Monster_Aggressive" ID="{9C07C295-E8F6-421C-8468-58788D091768}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_SFX_Button_Touch" ID="{E6BDFCB6-FA78-403A-BC12-4A7815DE068E}">
