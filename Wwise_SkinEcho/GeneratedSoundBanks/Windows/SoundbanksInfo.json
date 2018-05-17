@@ -159,6 +159,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Aggressive"
      },
      {
+      "Id": "2843654259",
+      "Name": "Play_SFX_Monster_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Attack"
+     },
+     {
       "Id": "3569019990",
       "Name": "Play_SFX_Monster_Calm",
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Calm"

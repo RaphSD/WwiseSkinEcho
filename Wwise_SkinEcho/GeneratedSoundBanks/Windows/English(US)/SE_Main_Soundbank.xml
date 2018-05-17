@@ -36,6 +36,7 @@
 				<Event Id="1223272146" Name="Play_SFX_Button_Press" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Press" MaxAttenuation="2,000000"/>
 				<Event Id="2177050642" Name="Play_SFX_Button_Touch" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Touch" MaxAttenuation="2,000000"/>
 				<Event Id="3696203791" Name="Play_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Aggressive"/>
+				<Event Id="2843654259" Name="Play_SFX_Monster_Attack" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Attack"/>
 				<Event Id="3569019990" Name="Play_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Calm"/>
 				<Event Id="3501558446" Name="Play_SFX_Radar" ObjectPath="\Events\Default Work Unit\Play_SFX_Radar"/>
 				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
