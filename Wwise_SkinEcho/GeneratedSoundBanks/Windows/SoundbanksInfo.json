@@ -237,6 +237,12 @@
     ],
     "IncludedMemoryFiles": [
      {
+      "Id": "627330",
+      "Language": "SFX",
+      "ShortName": "SFX_Monster_Attack.wav",
+      "Path": "SFX\\SFX_Monster_Attack_658ED0DC.wem"
+     },
+     {
       "Id": "23242388",
       "Language": "SFX",
       "ShortName": "SFX_Water_Breach-001.wav",
@@ -319,6 +325,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Welder_Take.wav",
       "Path": "SFX\\SFX_Welder_Take_75167FBC.wem"
+     },
+     {
+      "Id": "352398743",
+      "Language": "SFX",
+      "ShortName": "SFX_Monster_Attack_Debris.wav",
+      "Path": "SFX\\SFX_Monster_Attack_Debris_658ED0DC.wem"
      },
      {
       "Id": "376913105",

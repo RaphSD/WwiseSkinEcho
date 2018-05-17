@@ -51,6 +51,10 @@
 				<Event Id="1297865509" Name="Stop_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding_Air" MaxAttenuation="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="627330" Language="SFX">
+					<ShortName>SFX_Monster_Attack.wav</ShortName>
+					<Path>SFX\SFX_Monster_Attack_658ED0DC.wem</Path>
+				</File>
 				<File Id="23242388" Language="SFX">
 					<ShortName>SFX_Water_Breach-001.wav</ShortName>
 					<Path>SFX\SFX_Water_Breach-001_9D73A8A6.wem</Path>
@@ -106,6 +110,10 @@
 				<File Id="302728083" Language="SFX">
 					<ShortName>SFX_Welder_Take.wav</ShortName>
 					<Path>SFX\SFX_Welder_Take_75167FBC.wem</Path>
+				</File>
+				<File Id="352398743" Language="SFX">
+					<ShortName>SFX_Monster_Attack_Debris.wav</ShortName>
+					<Path>SFX\SFX_Monster_Attack_Debris_658ED0DC.wem</Path>
 				</File>
 				<File Id="376913105" Language="SFX">
 					<ShortName>SFX_Ambiance_01.wav</ShortName>
