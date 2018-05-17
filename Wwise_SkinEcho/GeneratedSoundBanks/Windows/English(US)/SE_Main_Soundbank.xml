@@ -75,13 +75,13 @@
 					<ShortName>SFX_Welding_Random-002.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-002_658ED0DC.wem</Path>
 				</File>
-				<File Id="78086720" Language="SFX">
-					<ShortName>SFX_Monster_Aggressive_01.wav</ShortName>
-					<Path>SFX\SFX_Monster_Aggressive_01_658ED0DC.wem</Path>
-				</File>
 				<File Id="136470861" Language="SFX">
 					<ShortName>SFX_Button_Activation.wav</ShortName>
 					<Path>SFX\SFX_Button_Activation_658ED0DC.wem</Path>
+				</File>
+				<File Id="151843844" Language="SFX">
+					<ShortName>SFX_Monster_Aggressive_02.wav</ShortName>
+					<Path>SFX\SFX_Monster_Aggressive_02_658ED0DC.wem</Path>
 				</File>
 				<File Id="155481718" Language="SFX">
 					<ShortName>SFX_Button_Touch-002.wav</ShortName>
@@ -171,6 +171,10 @@
 					<ShortName>Proto_2_Voix-002.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-002_658ED0DC.wem</Path>
 				</File>
+				<File Id="681047745" Language="SFX">
+					<ShortName>SFX_Monster_Aggressive_03.wav</ShortName>
+					<Path>SFX\SFX_Monster_Aggressive_03_658ED0DC.wem</Path>
+				</File>
 				<File Id="683488370" Language="English(US)">
 					<ShortName>Proto_2_Voix-012.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-012_658ED0DC.wem</Path>
@@ -198,6 +202,10 @@
 				<File Id="835193151" Language="SFX">
 					<ShortName>SFX_Welding_Random-005.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-005_658ED0DC.wem</Path>
+				</File>
+				<File Id="873154146" Language="SFX">
+					<ShortName>SFX_Monster_Aggressive_04.wav</ShortName>
+					<Path>SFX\SFX_Monster_Aggressive_04_658ED0DC.wem</Path>
 				</File>
 				<File Id="908615635" Language="English(US)">
 					<ShortName>Niveau Ox_50.wav</ShortName>
