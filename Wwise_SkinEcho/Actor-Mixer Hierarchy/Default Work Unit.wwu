@@ -620,6 +620,34 @@
 										<Value>100</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{9062ED14-FC86-4AC8-8585-BA02E3A7C5F0}" ShortID="285171">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Welder_Air" ID="{BC8A1AE6-289D-4422-B76A-397689C9F67C}" WorkUnitID="{B084DF03-0EE5-43BE-94E9-019A81BD7B92}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{939CE040-C7A2-427A-9DBD-1454D42F7288}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1073</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1526574216" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1526576726" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1523456052" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1523456052" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Attenuations\Default Work Unit.wwu" DateLow="1525436780" DateHigh="0"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1523456052" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1523456052" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Effects\Factory McDSP Effects.wwu" DateLow="1523456052" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Events\Default Work Unit.wwu" DateLow="1526574216" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Events\Default Work Unit.wwu" DateLow="1526575446" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Game Parameters\Default Work Unit.wwu" DateLow="1525431617" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1523456052" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1523456052" DateHigh="0"/>
@@ -37,6 +37,6 @@
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Triggers\Default Work Unit.wwu" DateLow="1523456052" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Virtual Acoustics\Default Work Unit.wwu" DateLow="1523456052" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1523456052" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.Mathieu.bouchet.wsettings" DateLow="1526574240" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.Mathieu.bouchet.wsettings" DateLow="1526578803" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.wproj" DateLow="1525269728" DateHigh="0"/>
 </ValidationCache>

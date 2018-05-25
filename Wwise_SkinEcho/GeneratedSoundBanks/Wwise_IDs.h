@@ -57,6 +57,7 @@ namespace AK
         static const AkUniqueID RTPC_BREACH_SIZE = 1522755476U;
         static const AkUniqueID RTPC_MUSIC_VOLUME = 1596647065U;
         static const AkUniqueID RTPC_SFX_VOLUME = 932301089U;
+        static const AkUniqueID RTPC_WELDER_AIR = 3804167259U;
         static const AkUniqueID SS_AIR_FEAR = 1351367891U;
         static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
         static const AkUniqueID SS_AIR_FURY = 1029930033U;
