@@ -293,10 +293,40 @@
       "Path": "SFX\\SFX_Welding_Random-002_658ED0DC.wem"
      },
      {
+      "Id": "75532658",
+      "Language": "English(US)",
+      "ShortName": "66.wav",
+      "Path": "Voices\\English(US)\\66_658ED0DC.wem"
+     },
+     {
+      "Id": "90393343",
+      "Language": "English(US)",
+      "ShortName": "62.wav",
+      "Path": "Voices\\English(US)\\62_658ED0DC.wem"
+     },
+     {
+      "Id": "94118667",
+      "Language": "English(US)",
+      "ShortName": "68.wav",
+      "Path": "Voices\\English(US)\\68_658ED0DC.wem"
+     },
+     {
+      "Id": "106135556",
+      "Language": "English(US)",
+      "ShortName": "67.wav",
+      "Path": "Voices\\English(US)\\67_658ED0DC.wem"
+     },
+     {
       "Id": "117803725",
       "Language": "English(US)",
       "ShortName": "17.wav",
       "Path": "Voices\\English(US)\\17_658ED0DC.wem"
+     },
+     {
+      "Id": "128207847",
+      "Language": "English(US)",
+      "ShortName": "71.wav",
+      "Path": "Voices\\English(US)\\71_658ED0DC.wem"
      },
      {
       "Id": "133417399",
@@ -353,6 +383,12 @@
       "Path": "Voices\\English(US)\\34_658ED0DC.wem"
      },
      {
+      "Id": "228420366",
+      "Language": "English(US)",
+      "ShortName": "70.wav",
+      "Path": "Voices\\English(US)\\70_658ED0DC.wem"
+     },
+     {
       "Id": "264589985",
       "Language": "English(US)",
       "ShortName": "27.wav",
@@ -387,6 +423,12 @@
       "Language": "English(US)",
       "ShortName": "16.wav",
       "Path": "Voices\\English(US)\\16_658ED0DC.wem"
+     },
+     {
+      "Id": "301047655",
+      "Language": "English(US)",
+      "ShortName": "60.wav",
+      "Path": "Voices\\English(US)\\60_658ED0DC.wem"
      },
      {
       "Id": "302728083",
@@ -435,6 +477,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Monster_Calm_02.wav",
       "Path": "SFX\\SFX_Monster_Calm_02_1428C592.wem"
+     },
+     {
+      "Id": "400041589",
+      "Language": "English(US)",
+      "ShortName": "64.wav",
+      "Path": "Voices\\English(US)\\64_658ED0DC.wem"
      },
      {
       "Id": "401034635",
@@ -641,6 +689,12 @@
       "Path": "Voices\\English(US)\\13_658ED0DC.wem"
      },
      {
+      "Id": "775960347",
+      "Language": "English(US)",
+      "ShortName": "65.wav",
+      "Path": "Voices\\English(US)\\65_658ED0DC.wem"
+     },
+     {
       "Id": "787417280",
       "Language": "English(US)",
       "ShortName": "43.wav",
@@ -651,6 +705,18 @@
       "Language": "SFX",
       "ShortName": "SFX_Welding.wav",
       "Path": "SFX\\SFX_Welding_389122C6.wem"
+     },
+     {
+      "Id": "804798472",
+      "Language": "English(US)",
+      "ShortName": "63.wav",
+      "Path": "Voices\\English(US)\\63_658ED0DC.wem"
+     },
+     {
+      "Id": "828587528",
+      "Language": "English(US)",
+      "ShortName": "69.wav",
+      "Path": "Voices\\English(US)\\69_658ED0DC.wem"
      },
      {
       "Id": "833584365",
@@ -711,6 +777,12 @@
       "Language": "English(US)",
       "ShortName": "44.wav",
       "Path": "Voices\\English(US)\\44_658ED0DC.wem"
+     },
+     {
+      "Id": "917638555",
+      "Language": "English(US)",
+      "ShortName": "61.wav",
+      "Path": "Voices\\English(US)\\61_658ED0DC.wem"
      },
      {
       "Id": "935938794",
