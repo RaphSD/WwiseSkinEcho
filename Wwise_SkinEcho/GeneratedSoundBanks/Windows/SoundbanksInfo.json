@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\",
-   "SourceFilesRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\PROJETS M1\\Wwise_SkinEcho\\WwiseSkinEcho\\Wwise_SkinEcho\\",
+   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\PROJETS M1\\Wwise_SkinEcho\\WwiseSkinEcho\\Wwise_SkinEcho\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\PROJETS M1\\Wwise_SkinEcho\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\mathieu.bouchet\\Desktop\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\PROJETS M1\\Wwise_SkinEcho\\WwiseSkinEcho\\Wwise_SkinEcho\\GeneratedSoundBanks\\Windows\\"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -26,115 +26,115 @@
       "Id": "189687746",
       "Name": "Play_Niveau_Ox_10",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_10",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "189687751",
       "Name": "Play_Niveau_Ox_15",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_15",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "172910186",
       "Name": "Play_Niveau_Ox_25",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_25",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "495794050",
       "Name": "Play_Niveau_Ox_5",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_5",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "122577302",
       "Name": "Play_Niveau_Ox_50",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_50",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "89022133",
       "Name": "Play_Niveau_Ox_75",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_75",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696881",
       "Name": "Play_Proto_2_Voix_004",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_004",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696880",
       "Name": "Play_Proto_2_Voix_005",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_005",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696883",
       "Name": "Play_Proto_2_Voix_006",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_006",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696882",
       "Name": "Play_Proto_2_Voix_007",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_007",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696893",
       "Name": "Play_Proto_2_Voix_008",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_008",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3851696892",
       "Name": "Play_Proto_2_Voix_009",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_009",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3834919170",
       "Name": "Play_Proto_2_Voix_010",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_010",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3834919171",
       "Name": "Play_Proto_2_Voix_011",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_011",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3834919168",
       "Name": "Play_Proto_2_Voix_012",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Proto_2_Voix_012",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "65657337",
       "Name": "Play_Proto_2_Voix_AI_001",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_AI\\Play_Proto_2_Voix_AI_001",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "65657338",
       "Name": "Play_Proto_2_Voix_AI_002",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_AI\\Play_Proto_2_Voix_AI_002",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "65657339",
       "Name": "Play_Proto_2_Voix_AI_003",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_AI\\Play_Proto_2_Voix_AI_003",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "2019705941",
       "Name": "Play_Radio_Voice_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Play_Radio_Voice_Start",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "1281001716",
@@ -145,13 +145,13 @@
       "Id": "1223272146",
       "Name": "Play_SFX_Button_Press",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Button_Press",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "2177050642",
       "Name": "Play_SFX_Button_Touch",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Button_Touch",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3696203791",
@@ -177,67 +177,67 @@
       "Id": "2798239405",
       "Name": "Play_SFX_Water_Breach",
       "ObjectPath": "\\Events\\Default Work Unit\\Water Breach\\Play_SFX_Water_Breach",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "1487639259",
       "Name": "Play_SFX_Welder_Take",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welder_Take",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3723595182",
       "Name": "Play_SFX_Welding",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welding",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "3575465515",
       "Name": "Play_SFX_Welding_Air",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welding_Air",
-      "MaxAttenuation": "2.000000"
+      "MaxAttenuation": "2,000000"
      },
      {
       "Id": "1243176019",
       "Name": "Stop_Radio_Voice_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Stop_Radio_Voice_Start",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "2321851573",
       "Name": "Stop_SFX_Monster_Aggressive",
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Stop_SFX_Monster_Aggressive",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "3966185392",
       "Name": "Stop_SFX_Monster_Calm",
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Stop_SFX_Monster_Calm",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "1615443100",
       "Name": "Stop_SFX_Radar",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Radar",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "350557031",
       "Name": "Stop_SFX_Water_Breach",
       "ObjectPath": "\\Events\\Default Work Unit\\Water Breach\\Stop_SFX_Water_Breach",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "1302341568",
       "Name": "Stop_SFX_Welding",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Stop_SFX_Welding",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "1297865509",
       "Name": "Stop_SFX_Welding_Air",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Stop_SFX_Welding_Air",
-      "MaxAttenuation": "0.000000"
+      "MaxAttenuation": "0,000000"
      }
     ],
     "IncludedMemoryFiles": [
@@ -246,6 +246,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Monster_Attack.wav",
       "Path": "SFX\\SFX_Monster_Attack_658ED0DC.wem"
+     },
+     {
+      "Id": "17800916",
+      "Language": "English(US)",
+      "ShortName": "04.wav",
+      "Path": "Voices\\English(US)\\04_658ED0DC.wem"
      },
      {
       "Id": "23242388",
@@ -278,10 +284,28 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix_AI-003_658ED0DC.wem"
      },
      {
+      "Id": "46304760",
+      "Language": "English(US)",
+      "ShortName": "10.wav",
+      "Path": "Voices\\English(US)\\10_658ED0DC.wem"
+     },
+     {
       "Id": "70595769",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Random-002.wav",
       "Path": "SFX\\SFX_Welding_Random-002_658ED0DC.wem"
+     },
+     {
+      "Id": "117803725",
+      "Language": "English(US)",
+      "ShortName": "17.wav",
+      "Path": "Voices\\English(US)\\17_658ED0DC.wem"
+     },
+     {
+      "Id": "133417399",
+      "Language": "English(US)",
+      "ShortName": "11.wav",
+      "Path": "Voices\\English(US)\\11_658ED0DC.wem"
      },
      {
       "Id": "136470861",
@@ -302,6 +326,18 @@
       "Path": "SFX\\SFX_Button_Touch-002_658ED0DC.wem"
      },
      {
+      "Id": "176104857",
+      "Language": "English(US)",
+      "ShortName": "08.wav",
+      "Path": "Voices\\English(US)\\08_658ED0DC.wem"
+     },
+     {
+      "Id": "188194121",
+      "Language": "English(US)",
+      "ShortName": "03.wav",
+      "Path": "Voices\\English(US)\\03_658ED0DC.wem"
+     },
+     {
       "Id": "208463169",
       "Language": "SFX",
       "ShortName": "SFX_Radar.wav",
@@ -312,6 +348,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Button_Touch-003.wav",
       "Path": "SFX\\SFX_Button_Touch-003_658ED0DC.wem"
+     },
+     {
+      "Id": "266136684",
+      "Language": "English(US)",
+      "ShortName": "20.wav",
+      "Path": "Voices\\English(US)\\20_658ED0DC.wem"
      },
      {
       "Id": "276671463",
@@ -326,16 +368,34 @@
       "Path": "SFX\\SFX_Water_Breach-002_9D73A8A6.wem"
      },
      {
+      "Id": "287794528",
+      "Language": "English(US)",
+      "ShortName": "16.wav",
+      "Path": "Voices\\English(US)\\16_658ED0DC.wem"
+     },
+     {
       "Id": "302728083",
       "Language": "SFX",
       "ShortName": "SFX_Welder_Take.wav",
       "Path": "SFX\\SFX_Welder_Take_75167FBC.wem"
      },
      {
+      "Id": "351936415",
+      "Language": "English(US)",
+      "ShortName": "07.wav",
+      "Path": "Voices\\English(US)\\07_658ED0DC.wem"
+     },
+     {
       "Id": "352398743",
       "Language": "SFX",
       "ShortName": "SFX_Monster_Attack_Debris.wav",
       "Path": "SFX\\SFX_Monster_Attack_Debris_658ED0DC.wem"
+     },
+     {
+      "Id": "364433816",
+      "Language": "English(US)",
+      "ShortName": "14.wav",
+      "Path": "Voices\\English(US)\\14_658ED0DC.wem"
      },
      {
       "Id": "376913105",
@@ -368,6 +428,12 @@
       "Path": "SFX\\SFX_Welding_Air_1A4BA615.wem"
      },
      {
+      "Id": "423369517",
+      "Language": "English(US)",
+      "ShortName": "05.wav",
+      "Path": "Voices\\English(US)\\05_658ED0DC.wem"
+     },
+     {
       "Id": "455195276",
       "Language": "English(US)",
       "ShortName": "Niveau Ox_75.wav",
@@ -378,6 +444,18 @@
       "Language": "SFX",
       "ShortName": "SFX_Welding_Random-003.wav",
       "Path": "SFX\\SFX_Welding_Random-003_658ED0DC.wem"
+     },
+     {
+      "Id": "494826113",
+      "Language": "English(US)",
+      "ShortName": "18.wav",
+      "Path": "Voices\\English(US)\\18_658ED0DC.wem"
+     },
+     {
+      "Id": "522145493",
+      "Language": "English(US)",
+      "ShortName": "15.wav",
+      "Path": "Voices\\English(US)\\15_658ED0DC.wem"
      },
      {
       "Id": "526606882",
@@ -464,10 +542,28 @@
       "Path": "SFX\\SFX_Welding_Shot_F6DD421A.wem"
      },
      {
+      "Id": "711172794",
+      "Language": "English(US)",
+      "ShortName": "02.wav",
+      "Path": "Voices\\English(US)\\02_658ED0DC.wem"
+     },
+     {
+      "Id": "725094538",
+      "Language": "English(US)",
+      "ShortName": "19.wav",
+      "Path": "Voices\\English(US)\\19_658ED0DC.wem"
+     },
+     {
       "Id": "734633356",
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-005.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix-005_658ED0DC.wem"
+     },
+     {
+      "Id": "765607530",
+      "Language": "English(US)",
+      "ShortName": "13.wav",
+      "Path": "Voices\\English(US)\\13_658ED0DC.wem"
      },
      {
       "Id": "788876877",
@@ -488,6 +584,12 @@
       "Path": "SFX\\SFX_Monster_Aggressive_04_658ED0DC.wem"
      },
      {
+      "Id": "900734002",
+      "Language": "English(US)",
+      "ShortName": "06.wav",
+      "Path": "Voices\\English(US)\\06_658ED0DC.wem"
+     },
+     {
       "Id": "908615635",
       "Language": "English(US)",
       "ShortName": "Niveau Ox_50.wav",
@@ -506,6 +608,12 @@
       "Path": "Voices\\English(US)\\Proto_2_Voix-004_658ED0DC.wem"
      },
      {
+      "Id": "935938794",
+      "Language": "English(US)",
+      "ShortName": "12.wav",
+      "Path": "Voices\\English(US)\\12_658ED0DC.wem"
+     },
+     {
       "Id": "939981775",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Random-001.wav",
@@ -516,6 +624,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Water_Breach_Explosion.wav",
       "Path": "SFX\\SFX_Water_Breach_Explosion_658ED0DC.wem"
+     },
+     {
+      "Id": "983778346",
+      "Language": "English(US)",
+      "ShortName": "01.wav",
+      "Path": "Voices\\English(US)\\01_658ED0DC.wem"
      },
      {
       "Id": "1005017841",
@@ -540,6 +654,12 @@
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-009.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix-009_658ED0DC.wem"
+     },
+     {
+      "Id": "1068309798",
+      "Language": "English(US)",
+      "ShortName": "09.wav",
+      "Path": "Voices\\English(US)\\09_658ED0DC.wem"
      }
     ]
    },

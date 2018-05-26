@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
+		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mathieu.bouchet\Desktop\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="412588681" Language="English(US)">
@@ -13,48 +13,52 @@
 			<ShortName>SE_Main_Soundbank</ShortName>
 			<Path>English(US)\SE_Main_Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2.000000"/>
-				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15" MaxAttenuation="2.000000"/>
-				<Event Id="172910186" Name="Play_Niveau_Ox_25" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_25" MaxAttenuation="2.000000"/>
-				<Event Id="495794050" Name="Play_Niveau_Ox_5" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_5" MaxAttenuation="2.000000"/>
-				<Event Id="122577302" Name="Play_Niveau_Ox_50" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_50" MaxAttenuation="2.000000"/>
-				<Event Id="89022133" Name="Play_Niveau_Ox_75" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_75" MaxAttenuation="2.000000"/>
-				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_004" MaxAttenuation="2.000000"/>
-				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_005" MaxAttenuation="2.000000"/>
-				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_006" MaxAttenuation="2.000000"/>
-				<Event Id="3851696882" Name="Play_Proto_2_Voix_007" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_007" MaxAttenuation="2.000000"/>
-				<Event Id="3851696893" Name="Play_Proto_2_Voix_008" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_008" MaxAttenuation="2.000000"/>
-				<Event Id="3851696892" Name="Play_Proto_2_Voix_009" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_009" MaxAttenuation="2.000000"/>
-				<Event Id="3834919170" Name="Play_Proto_2_Voix_010" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_010" MaxAttenuation="2.000000"/>
-				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_011" MaxAttenuation="2.000000"/>
-				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_012" MaxAttenuation="2.000000"/>
-				<Event Id="65657337" Name="Play_Proto_2_Voix_AI_001" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_001" MaxAttenuation="2.000000"/>
-				<Event Id="65657338" Name="Play_Proto_2_Voix_AI_002" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002" MaxAttenuation="2.000000"/>
-				<Event Id="65657339" Name="Play_Proto_2_Voix_AI_003" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003" MaxAttenuation="2.000000"/>
-				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="2.000000"/>
+				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2,000000"/>
+				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15" MaxAttenuation="2,000000"/>
+				<Event Id="172910186" Name="Play_Niveau_Ox_25" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_25" MaxAttenuation="2,000000"/>
+				<Event Id="495794050" Name="Play_Niveau_Ox_5" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_5" MaxAttenuation="2,000000"/>
+				<Event Id="122577302" Name="Play_Niveau_Ox_50" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_50" MaxAttenuation="2,000000"/>
+				<Event Id="89022133" Name="Play_Niveau_Ox_75" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_75" MaxAttenuation="2,000000"/>
+				<Event Id="3851696881" Name="Play_Proto_2_Voix_004" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_004" MaxAttenuation="2,000000"/>
+				<Event Id="3851696880" Name="Play_Proto_2_Voix_005" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_005" MaxAttenuation="2,000000"/>
+				<Event Id="3851696883" Name="Play_Proto_2_Voix_006" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_006" MaxAttenuation="2,000000"/>
+				<Event Id="3851696882" Name="Play_Proto_2_Voix_007" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_007" MaxAttenuation="2,000000"/>
+				<Event Id="3851696893" Name="Play_Proto_2_Voix_008" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_008" MaxAttenuation="2,000000"/>
+				<Event Id="3851696892" Name="Play_Proto_2_Voix_009" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_009" MaxAttenuation="2,000000"/>
+				<Event Id="3834919170" Name="Play_Proto_2_Voix_010" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_010" MaxAttenuation="2,000000"/>
+				<Event Id="3834919171" Name="Play_Proto_2_Voix_011" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_011" MaxAttenuation="2,000000"/>
+				<Event Id="3834919168" Name="Play_Proto_2_Voix_012" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Proto_2_Voix_012" MaxAttenuation="2,000000"/>
+				<Event Id="65657337" Name="Play_Proto_2_Voix_AI_001" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_001" MaxAttenuation="2,000000"/>
+				<Event Id="65657338" Name="Play_Proto_2_Voix_AI_002" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_002" MaxAttenuation="2,000000"/>
+				<Event Id="65657339" Name="Play_Proto_2_Voix_AI_003" ObjectPath="\Events\Default Work Unit\Voices\Voix_AI\Play_Proto_2_Voix_AI_003" MaxAttenuation="2,000000"/>
+				<Event Id="2019705941" Name="Play_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start" MaxAttenuation="2,000000"/>
 				<Event Id="1281001716" Name="Play_SFX_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiance_01"/>
-				<Event Id="1223272146" Name="Play_SFX_Button_Press" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Press" MaxAttenuation="2.000000"/>
-				<Event Id="2177050642" Name="Play_SFX_Button_Touch" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Touch" MaxAttenuation="2.000000"/>
+				<Event Id="1223272146" Name="Play_SFX_Button_Press" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Press" MaxAttenuation="2,000000"/>
+				<Event Id="2177050642" Name="Play_SFX_Button_Touch" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Touch" MaxAttenuation="2,000000"/>
 				<Event Id="3696203791" Name="Play_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Aggressive"/>
 				<Event Id="2843654259" Name="Play_SFX_Monster_Attack" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Attack"/>
 				<Event Id="3569019990" Name="Play_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Calm"/>
 				<Event Id="3501558446" Name="Play_SFX_Radar" ObjectPath="\Events\Default Work Unit\Play_SFX_Radar"/>
-				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2.000000"/>
-				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2.000000"/>
-				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2.000000"/>
-				<Event Id="3575465515" Name="Play_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding_Air" MaxAttenuation="2.000000"/>
-				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0.000000"/>
-				<Event Id="2321851573" Name="Stop_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive" MaxAttenuation="0.000000"/>
-				<Event Id="3966185392" Name="Stop_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Calm" MaxAttenuation="0.000000"/>
-				<Event Id="1615443100" Name="Stop_SFX_Radar" ObjectPath="\Events\Default Work Unit\Stop_SFX_Radar" MaxAttenuation="0.000000"/>
-				<Event Id="350557031" Name="Stop_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Stop_SFX_Water_Breach" MaxAttenuation="0.000000"/>
-				<Event Id="1302341568" Name="Stop_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding" MaxAttenuation="0.000000"/>
-				<Event Id="1297865509" Name="Stop_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding_Air" MaxAttenuation="0.000000"/>
+				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
+				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
+				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
+				<Event Id="3575465515" Name="Play_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding_Air" MaxAttenuation="2,000000"/>
+				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
+				<Event Id="2321851573" Name="Stop_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive" MaxAttenuation="0,000000"/>
+				<Event Id="3966185392" Name="Stop_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Calm" MaxAttenuation="0,000000"/>
+				<Event Id="1615443100" Name="Stop_SFX_Radar" ObjectPath="\Events\Default Work Unit\Stop_SFX_Radar" MaxAttenuation="0,000000"/>
+				<Event Id="350557031" Name="Stop_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Stop_SFX_Water_Breach" MaxAttenuation="0,000000"/>
+				<Event Id="1302341568" Name="Stop_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding" MaxAttenuation="0,000000"/>
+				<Event Id="1297865509" Name="Stop_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Stop_SFX_Welding_Air" MaxAttenuation="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="627330" Language="SFX">
 					<ShortName>SFX_Monster_Attack.wav</ShortName>
 					<Path>SFX\SFX_Monster_Attack_658ED0DC.wem</Path>
+				</File>
+				<File Id="17800916" Language="English(US)">
+					<ShortName>04.wav</ShortName>
+					<Path>Voices\English(US)\04_658ED0DC.wem</Path>
 				</File>
 				<File Id="23242388" Language="SFX">
 					<ShortName>SFX_Water_Breach-001.wav</ShortName>
@@ -76,9 +80,21 @@
 					<ShortName>Proto_2_Voix_AI-003.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix_AI-003_658ED0DC.wem</Path>
 				</File>
+				<File Id="46304760" Language="English(US)">
+					<ShortName>10.wav</ShortName>
+					<Path>Voices\English(US)\10_658ED0DC.wem</Path>
+				</File>
 				<File Id="70595769" Language="SFX">
 					<ShortName>SFX_Welding_Random-002.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="117803725" Language="English(US)">
+					<ShortName>17.wav</ShortName>
+					<Path>Voices\English(US)\17_658ED0DC.wem</Path>
+				</File>
+				<File Id="133417399" Language="English(US)">
+					<ShortName>11.wav</ShortName>
+					<Path>Voices\English(US)\11_658ED0DC.wem</Path>
 				</File>
 				<File Id="136470861" Language="SFX">
 					<ShortName>SFX_Button_Activation.wav</ShortName>
@@ -92,6 +108,14 @@
 					<ShortName>SFX_Button_Touch-002.wav</ShortName>
 					<Path>SFX\SFX_Button_Touch-002_658ED0DC.wem</Path>
 				</File>
+				<File Id="176104857" Language="English(US)">
+					<ShortName>08.wav</ShortName>
+					<Path>Voices\English(US)\08_658ED0DC.wem</Path>
+				</File>
+				<File Id="188194121" Language="English(US)">
+					<ShortName>03.wav</ShortName>
+					<Path>Voices\English(US)\03_658ED0DC.wem</Path>
+				</File>
 				<File Id="208463169" Language="SFX">
 					<ShortName>SFX_Radar.wav</ShortName>
 					<Path>SFX\SFX_Radar_658ED0DC.wem</Path>
@@ -99,6 +123,10 @@
 				<File Id="215496252" Language="SFX">
 					<ShortName>SFX_Button_Touch-003.wav</ShortName>
 					<Path>SFX\SFX_Button_Touch-003_658ED0DC.wem</Path>
+				</File>
+				<File Id="266136684" Language="English(US)">
+					<ShortName>20.wav</ShortName>
+					<Path>Voices\English(US)\20_658ED0DC.wem</Path>
 				</File>
 				<File Id="276671463" Language="English(US)">
 					<ShortName>Niveau Ox_10.wav</ShortName>
@@ -108,13 +136,25 @@
 					<ShortName>SFX_Water_Breach-002.wav</ShortName>
 					<Path>SFX\SFX_Water_Breach-002_9D73A8A6.wem</Path>
 				</File>
+				<File Id="287794528" Language="English(US)">
+					<ShortName>16.wav</ShortName>
+					<Path>Voices\English(US)\16_658ED0DC.wem</Path>
+				</File>
 				<File Id="302728083" Language="SFX">
 					<ShortName>SFX_Welder_Take.wav</ShortName>
 					<Path>SFX\SFX_Welder_Take_75167FBC.wem</Path>
 				</File>
+				<File Id="351936415" Language="English(US)">
+					<ShortName>07.wav</ShortName>
+					<Path>Voices\English(US)\07_658ED0DC.wem</Path>
+				</File>
 				<File Id="352398743" Language="SFX">
 					<ShortName>SFX_Monster_Attack_Debris.wav</ShortName>
 					<Path>SFX\SFX_Monster_Attack_Debris_658ED0DC.wem</Path>
+				</File>
+				<File Id="364433816" Language="English(US)">
+					<ShortName>14.wav</ShortName>
+					<Path>Voices\English(US)\14_658ED0DC.wem</Path>
 				</File>
 				<File Id="376913105" Language="SFX">
 					<ShortName>SFX_Ambiance_01.wav</ShortName>
@@ -136,6 +176,10 @@
 					<ShortName>SFX_Welding_Air.wav</ShortName>
 					<Path>SFX\SFX_Welding_Air_1A4BA615.wem</Path>
 				</File>
+				<File Id="423369517" Language="English(US)">
+					<ShortName>05.wav</ShortName>
+					<Path>Voices\English(US)\05_658ED0DC.wem</Path>
+				</File>
 				<File Id="455195276" Language="English(US)">
 					<ShortName>Niveau Ox_75.wav</ShortName>
 					<Path>Voices\English(US)\Niveau Ox_75_658ED0DC.wem</Path>
@@ -143,6 +187,14 @@
 				<File Id="463336732" Language="SFX">
 					<ShortName>SFX_Welding_Random-003.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-003_658ED0DC.wem</Path>
+				</File>
+				<File Id="494826113" Language="English(US)">
+					<ShortName>18.wav</ShortName>
+					<Path>Voices\English(US)\18_658ED0DC.wem</Path>
+				</File>
+				<File Id="522145493" Language="English(US)">
+					<ShortName>15.wav</ShortName>
+					<Path>Voices\English(US)\15_658ED0DC.wem</Path>
 				</File>
 				<File Id="526606882" Language="SFX">
 					<ShortName>SFX_Water_Breach_Waterpour.wav</ShortName>
@@ -200,9 +252,21 @@
 					<ShortName>SFX_Welding_Shot.wav</ShortName>
 					<Path>SFX\SFX_Welding_Shot_F6DD421A.wem</Path>
 				</File>
+				<File Id="711172794" Language="English(US)">
+					<ShortName>02.wav</ShortName>
+					<Path>Voices\English(US)\02_658ED0DC.wem</Path>
+				</File>
+				<File Id="725094538" Language="English(US)">
+					<ShortName>19.wav</ShortName>
+					<Path>Voices\English(US)\19_658ED0DC.wem</Path>
+				</File>
 				<File Id="734633356" Language="English(US)">
 					<ShortName>Proto_2_Voix-005.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-005_658ED0DC.wem</Path>
+				</File>
+				<File Id="765607530" Language="English(US)">
+					<ShortName>13.wav</ShortName>
+					<Path>Voices\English(US)\13_658ED0DC.wem</Path>
 				</File>
 				<File Id="788876877" Language="SFX">
 					<ShortName>SFX_Welding.wav</ShortName>
@@ -216,6 +280,10 @@
 					<ShortName>SFX_Monster_Aggressive_04.wav</ShortName>
 					<Path>SFX\SFX_Monster_Aggressive_04_658ED0DC.wem</Path>
 				</File>
+				<File Id="900734002" Language="English(US)">
+					<ShortName>06.wav</ShortName>
+					<Path>Voices\English(US)\06_658ED0DC.wem</Path>
+				</File>
 				<File Id="908615635" Language="English(US)">
 					<ShortName>Niveau Ox_50.wav</ShortName>
 					<Path>Voices\English(US)\Niveau Ox_50_658ED0DC.wem</Path>
@@ -228,6 +296,10 @@
 					<ShortName>Proto_2_Voix-004.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-004_658ED0DC.wem</Path>
 				</File>
+				<File Id="935938794" Language="English(US)">
+					<ShortName>12.wav</ShortName>
+					<Path>Voices\English(US)\12_658ED0DC.wem</Path>
+				</File>
 				<File Id="939981775" Language="SFX">
 					<ShortName>SFX_Welding_Random-001.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-001_658ED0DC.wem</Path>
@@ -235,6 +307,10 @@
 				<File Id="958351346" Language="SFX">
 					<ShortName>SFX_Water_Breach_Explosion.wav</ShortName>
 					<Path>SFX\SFX_Water_Breach_Explosion_658ED0DC.wem</Path>
+				</File>
+				<File Id="983778346" Language="English(US)">
+					<ShortName>01.wav</ShortName>
+					<Path>Voices\English(US)\01_658ED0DC.wem</Path>
 				</File>
 				<File Id="1005017841" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-002.wav</ShortName>
@@ -251,6 +327,10 @@
 				<File Id="1058316171" Language="English(US)">
 					<ShortName>Proto_2_Voix-009.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-009_658ED0DC.wem</Path>
+				</File>
+				<File Id="1068309798" Language="English(US)">
+					<ShortName>09.wav</ShortName>
+					<Path>Voices\English(US)\09_658ED0DC.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
