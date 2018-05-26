@@ -127,9 +127,21 @@
 					<ShortName>SFX_Button_Touch-003.wav</ShortName>
 					<Path>SFX\SFX_Button_Touch-003_658ED0DC.wem</Path>
 				</File>
+				<File Id="225947480" Language="English(US)">
+					<ShortName>34.wav</ShortName>
+					<Path>Voices\English(US)\34_658ED0DC.wem</Path>
+				</File>
+				<File Id="264589985" Language="English(US)">
+					<ShortName>27.wav</ShortName>
+					<Path>Voices\English(US)\27_658ED0DC.wem</Path>
+				</File>
 				<File Id="266136684" Language="English(US)">
 					<ShortName>20.wav</ShortName>
 					<Path>Voices\English(US)\20_658ED0DC.wem</Path>
+				</File>
+				<File Id="269812339" Language="English(US)">
+					<ShortName>28.wav</ShortName>
+					<Path>Voices\English(US)\28_658ED0DC.wem</Path>
 				</File>
 				<File Id="276671463" Language="English(US)">
 					<ShortName>Niveau Ox_10.wav</ShortName>
@@ -146,6 +158,10 @@
 				<File Id="302728083" Language="SFX">
 					<ShortName>SFX_Welder_Take.wav</ShortName>
 					<Path>SFX\SFX_Welder_Take_75167FBC.wem</Path>
+				</File>
+				<File Id="335806510" Language="English(US)">
+					<ShortName>32.wav</ShortName>
+					<Path>Voices\English(US)\32_658ED0DC.wem</Path>
 				</File>
 				<File Id="351936415" Language="English(US)">
 					<ShortName>07.wav</ShortName>
@@ -183,6 +199,10 @@
 					<ShortName>05.wav</ShortName>
 					<Path>Voices\English(US)\05_658ED0DC.wem</Path>
 				</File>
+				<File Id="451488164" Language="English(US)">
+					<ShortName>22.wav</ShortName>
+					<Path>Voices\English(US)\22_658ED0DC.wem</Path>
+				</File>
 				<File Id="455195276" Language="English(US)">
 					<ShortName>Niveau Ox_75.wav</ShortName>
 					<Path>Voices\English(US)\Niveau Ox_75_658ED0DC.wem</Path>
@@ -191,13 +211,25 @@
 					<ShortName>SFX_Welding_Random-003.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-003_658ED0DC.wem</Path>
 				</File>
+				<File Id="472152908" Language="English(US)">
+					<ShortName>23.wav</ShortName>
+					<Path>Voices\English(US)\23_658ED0DC.wem</Path>
+				</File>
 				<File Id="494826113" Language="English(US)">
 					<ShortName>18.wav</ShortName>
 					<Path>Voices\English(US)\18_658ED0DC.wem</Path>
 				</File>
+				<File Id="507808166" Language="English(US)">
+					<ShortName>36.wav</ShortName>
+					<Path>Voices\English(US)\36_658ED0DC.wem</Path>
+				</File>
 				<File Id="522145493" Language="English(US)">
 					<ShortName>15.wav</ShortName>
 					<Path>Voices\English(US)\15_658ED0DC.wem</Path>
+				</File>
+				<File Id="526488328" Language="English(US)">
+					<ShortName>26.wav</ShortName>
+					<Path>Voices\English(US)\26_658ED0DC.wem</Path>
 				</File>
 				<File Id="526606882" Language="SFX">
 					<ShortName>SFX_Water_Breach_Waterpour.wav</ShortName>
@@ -207,9 +239,17 @@
 					<ShortName>Proto_2_Voix_AI-001.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix_AI-001_658ED0DC.wem</Path>
 				</File>
+				<File Id="546981933" Language="English(US)">
+					<ShortName>35.wav</ShortName>
+					<Path>Voices\English(US)\35_658ED0DC.wem</Path>
+				</File>
 				<File Id="601099440" Language="SFX">
 					<ShortName>SFX_Monster_Calm_03.wav</ShortName>
 					<Path>SFX\SFX_Monster_Calm_03_C397BEB8.wem</Path>
+				</File>
+				<File Id="601773552" Language="English(US)">
+					<ShortName>42.wav</ShortName>
+					<Path>Voices\English(US)\42_658ED0DC.wem</Path>
 				</File>
 				<File Id="604420339" Language="English(US)">
 					<ShortName>Proto_2_Voix-008.wav</ShortName>
@@ -222,6 +262,14 @@
 				<File Id="626430297" Language="English(US)">
 					<ShortName>Proto_2_Voix-001.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-001_658ED0DC.wem</Path>
+				</File>
+				<File Id="653124631" Language="English(US)">
+					<ShortName>21.wav</ShortName>
+					<Path>Voices\English(US)\21_658ED0DC.wem</Path>
+				</File>
+				<File Id="662036919" Language="English(US)">
+					<ShortName>30.wav</ShortName>
+					<Path>Voices\English(US)\30_658ED0DC.wem</Path>
 				</File>
 				<File Id="676054774" Language="English(US)">
 					<ShortName>Proto_2_Voix-011.wav</ShortName>
@@ -267,21 +315,41 @@
 					<ShortName>Proto_2_Voix-005.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-005_658ED0DC.wem</Path>
 				</File>
+				<File Id="749512947" Language="English(US)">
+					<ShortName>25.wav</ShortName>
+					<Path>Voices\English(US)\25_658ED0DC.wem</Path>
+				</File>
 				<File Id="765607530" Language="English(US)">
 					<ShortName>13.wav</ShortName>
 					<Path>Voices\English(US)\13_658ED0DC.wem</Path>
+				</File>
+				<File Id="787417280" Language="English(US)">
+					<ShortName>43.wav</ShortName>
+					<Path>Voices\English(US)\43_658ED0DC.wem</Path>
 				</File>
 				<File Id="788876877" Language="SFX">
 					<ShortName>SFX_Welding.wav</ShortName>
 					<Path>SFX\SFX_Welding_389122C6.wem</Path>
 				</File>
+				<File Id="833584365" Language="English(US)">
+					<ShortName>29.wav</ShortName>
+					<Path>Voices\English(US)\29_658ED0DC.wem</Path>
+				</File>
 				<File Id="835193151" Language="SFX">
 					<ShortName>SFX_Welding_Random-005.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-005_658ED0DC.wem</Path>
 				</File>
+				<File Id="865758399" Language="English(US)">
+					<ShortName>24.wav</ShortName>
+					<Path>Voices\English(US)\24_658ED0DC.wem</Path>
+				</File>
 				<File Id="873154146" Language="SFX">
 					<ShortName>SFX_Monster_Aggressive_04.wav</ShortName>
 					<Path>SFX\SFX_Monster_Aggressive_04_658ED0DC.wem</Path>
+				</File>
+				<File Id="874842110" Language="English(US)">
+					<ShortName>33.wav</ShortName>
+					<Path>Voices\English(US)\33_658ED0DC.wem</Path>
 				</File>
 				<File Id="900734002" Language="English(US)">
 					<ShortName>06.wav</ShortName>
@@ -299,6 +367,10 @@
 					<ShortName>Proto_2_Voix-004.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-004_658ED0DC.wem</Path>
 				</File>
+				<File Id="913850794" Language="English(US)">
+					<ShortName>44.wav</ShortName>
+					<Path>Voices\English(US)\44_658ED0DC.wem</Path>
+				</File>
 				<File Id="935938794" Language="English(US)">
 					<ShortName>12.wav</ShortName>
 					<Path>Voices\English(US)\12_658ED0DC.wem</Path>
@@ -307,9 +379,17 @@
 					<ShortName>SFX_Welding_Random-001.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-001_658ED0DC.wem</Path>
 				</File>
+				<File Id="948860102" Language="English(US)">
+					<ShortName>41.wav</ShortName>
+					<Path>Voices\English(US)\41_658ED0DC.wem</Path>
+				</File>
 				<File Id="958351346" Language="SFX">
 					<ShortName>SFX_Water_Breach_Explosion.wav</ShortName>
 					<Path>SFX\SFX_Water_Breach_Explosion_658ED0DC.wem</Path>
+				</File>
+				<File Id="969330508" Language="English(US)">
+					<ShortName>31.wav</ShortName>
+					<Path>Voices\English(US)\31_658ED0DC.wem</Path>
 				</File>
 				<File Id="983778346" Language="English(US)">
 					<ShortName>01.wav</ShortName>
