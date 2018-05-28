@@ -20,6 +20,266 @@
     "Path": "English(US)\\SE_Main_Soundbank.bnk",
     "IncludedEvents": [
      {
+      "Id": "3168847875",
+      "Name": "Play_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_01"
+     },
+     {
+      "Id": "3168847872",
+      "Name": "Play_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_02"
+     },
+     {
+      "Id": "3168847873",
+      "Name": "Play_03",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_03"
+     },
+     {
+      "Id": "3168847878",
+      "Name": "Play_04",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_04"
+     },
+     {
+      "Id": "3168847879",
+      "Name": "Play_05",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_05"
+     },
+     {
+      "Id": "3168847876",
+      "Name": "Play_06",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_06"
+     },
+     {
+      "Id": "3168847877",
+      "Name": "Play_07",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_07"
+     },
+     {
+      "Id": "3168847882",
+      "Name": "Play_08",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_08"
+     },
+     {
+      "Id": "3168847883",
+      "Name": "Play_09",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_09"
+     },
+     {
+      "Id": "3185625589",
+      "Name": "Play_10",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_10"
+     },
+     {
+      "Id": "3185625588",
+      "Name": "Play_11",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_11"
+     },
+     {
+      "Id": "3185625591",
+      "Name": "Play_12",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_12"
+     },
+     {
+      "Id": "3185625590",
+      "Name": "Play_13",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_13"
+     },
+     {
+      "Id": "3185625585",
+      "Name": "Play_14",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_14"
+     },
+     {
+      "Id": "3185625584",
+      "Name": "Play_15",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_15"
+     },
+     {
+      "Id": "3185625587",
+      "Name": "Play_16",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_16"
+     },
+     {
+      "Id": "3185625586",
+      "Name": "Play_17",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_17"
+     },
+     {
+      "Id": "3185625597",
+      "Name": "Play_18",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_18"
+     },
+     {
+      "Id": "3185625596",
+      "Name": "Play_19",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_19"
+     },
+     {
+      "Id": "3135292732",
+      "Name": "Play_20",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_20"
+     },
+     {
+      "Id": "3135292733",
+      "Name": "Play_21",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_21"
+     },
+     {
+      "Id": "3135292734",
+      "Name": "Play_22",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_22"
+     },
+     {
+      "Id": "3135292735",
+      "Name": "Play_23",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_23"
+     },
+     {
+      "Id": "3135292728",
+      "Name": "Play_24",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_24"
+     },
+     {
+      "Id": "3135292729",
+      "Name": "Play_25",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_25"
+     },
+     {
+      "Id": "3135292730",
+      "Name": "Play_26",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_26"
+     },
+     {
+      "Id": "3135292731",
+      "Name": "Play_27",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_27"
+     },
+     {
+      "Id": "3135292724",
+      "Name": "Play_28",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_28"
+     },
+     {
+      "Id": "3135292725",
+      "Name": "Play_29",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_29"
+     },
+     {
+      "Id": "3152070319",
+      "Name": "Play_30",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_30"
+     },
+     {
+      "Id": "3152070318",
+      "Name": "Play_31",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_31"
+     },
+     {
+      "Id": "3152070317",
+      "Name": "Play_32",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_32"
+     },
+     {
+      "Id": "3152070316",
+      "Name": "Play_33",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_33"
+     },
+     {
+      "Id": "3152070315",
+      "Name": "Play_34",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_34"
+     },
+     {
+      "Id": "3152070314",
+      "Name": "Play_35",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_35"
+     },
+     {
+      "Id": "3152070313",
+      "Name": "Play_36",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_36"
+     },
+     {
+      "Id": "3101737431",
+      "Name": "Play_41",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_41"
+     },
+     {
+      "Id": "3101737428",
+      "Name": "Play_42",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_42"
+     },
+     {
+      "Id": "3101737429",
+      "Name": "Play_43",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_43"
+     },
+     {
+      "Id": "3101737426",
+      "Name": "Play_44",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_44"
+     },
+     {
+      "Id": "3068182256",
+      "Name": "Play_60",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_60"
+     },
+     {
+      "Id": "3068182257",
+      "Name": "Play_61",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_61"
+     },
+     {
+      "Id": "3068182258",
+      "Name": "Play_62",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_62"
+     },
+     {
+      "Id": "3068182259",
+      "Name": "Play_63",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_63"
+     },
+     {
+      "Id": "3068182260",
+      "Name": "Play_64",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_64"
+     },
+     {
+      "Id": "3068182261",
+      "Name": "Play_65",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_65"
+     },
+     {
+      "Id": "3068182262",
+      "Name": "Play_66",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_66"
+     },
+     {
+      "Id": "3068182263",
+      "Name": "Play_67",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_67"
+     },
+     {
+      "Id": "3068182264",
+      "Name": "Play_68",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_68"
+     },
+     {
+      "Id": "3068182265",
+      "Name": "Play_69",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_69"
+     },
+     {
+      "Id": "3084959843",
+      "Name": "Play_70",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_70"
+     },
+     {
+      "Id": "3084959842",
+      "Name": "Play_71",
+      "ObjectPath": "\\Events\\Default Work Unit\\NEW-Voices-\\Play_71"
+     },
+     {
       "Id": "1172822028",
       "Name": "Play_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Death"

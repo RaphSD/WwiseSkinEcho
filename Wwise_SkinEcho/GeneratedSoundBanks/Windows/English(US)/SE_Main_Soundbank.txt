@@ -22,6 +22,58 @@ Event	ID	Name			Wwise Object Path	Notes
 	2321851573	Stop_SFX_Monster_Aggressive			\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive	
 	2798239405	Play_SFX_Water_Breach			\Default Work Unit\Water Breach\Play_SFX_Water_Breach	
 	2843654259	Play_SFX_Monster_Attack			\Default Work Unit\Monster\Play_SFX_Monster_Attack	
+	3068182256	Play_60			\Default Work Unit\NEW-Voices-\Play_60	
+	3068182257	Play_61			\Default Work Unit\NEW-Voices-\Play_61	
+	3068182258	Play_62			\Default Work Unit\NEW-Voices-\Play_62	
+	3068182259	Play_63			\Default Work Unit\NEW-Voices-\Play_63	
+	3068182260	Play_64			\Default Work Unit\NEW-Voices-\Play_64	
+	3068182261	Play_65			\Default Work Unit\NEW-Voices-\Play_65	
+	3068182262	Play_66			\Default Work Unit\NEW-Voices-\Play_66	
+	3068182263	Play_67			\Default Work Unit\NEW-Voices-\Play_67	
+	3068182264	Play_68			\Default Work Unit\NEW-Voices-\Play_68	
+	3068182265	Play_69			\Default Work Unit\NEW-Voices-\Play_69	
+	3084959842	Play_71			\Default Work Unit\NEW-Voices-\Play_71	
+	3084959843	Play_70			\Default Work Unit\NEW-Voices-\Play_70	
+	3101737426	Play_44			\Default Work Unit\NEW-Voices-\Play_44	
+	3101737428	Play_42			\Default Work Unit\NEW-Voices-\Play_42	
+	3101737429	Play_43			\Default Work Unit\NEW-Voices-\Play_43	
+	3101737431	Play_41			\Default Work Unit\NEW-Voices-\Play_41	
+	3135292724	Play_28			\Default Work Unit\NEW-Voices-\Play_28	
+	3135292725	Play_29			\Default Work Unit\NEW-Voices-\Play_29	
+	3135292728	Play_24			\Default Work Unit\NEW-Voices-\Play_24	
+	3135292729	Play_25			\Default Work Unit\NEW-Voices-\Play_25	
+	3135292730	Play_26			\Default Work Unit\NEW-Voices-\Play_26	
+	3135292731	Play_27			\Default Work Unit\NEW-Voices-\Play_27	
+	3135292732	Play_20			\Default Work Unit\NEW-Voices-\Play_20	
+	3135292733	Play_21			\Default Work Unit\NEW-Voices-\Play_21	
+	3135292734	Play_22			\Default Work Unit\NEW-Voices-\Play_22	
+	3135292735	Play_23			\Default Work Unit\NEW-Voices-\Play_23	
+	3152070313	Play_36			\Default Work Unit\NEW-Voices-\Play_36	
+	3152070314	Play_35			\Default Work Unit\NEW-Voices-\Play_35	
+	3152070315	Play_34			\Default Work Unit\NEW-Voices-\Play_34	
+	3152070316	Play_33			\Default Work Unit\NEW-Voices-\Play_33	
+	3152070317	Play_32			\Default Work Unit\NEW-Voices-\Play_32	
+	3152070318	Play_31			\Default Work Unit\NEW-Voices-\Play_31	
+	3152070319	Play_30			\Default Work Unit\NEW-Voices-\Play_30	
+	3168847872	Play_02			\Default Work Unit\NEW-Voices-\Play_02	
+	3168847873	Play_03			\Default Work Unit\NEW-Voices-\Play_03	
+	3168847875	Play_01			\Default Work Unit\NEW-Voices-\Play_01	
+	3168847876	Play_06			\Default Work Unit\NEW-Voices-\Play_06	
+	3168847877	Play_07			\Default Work Unit\NEW-Voices-\Play_07	
+	3168847878	Play_04			\Default Work Unit\NEW-Voices-\Play_04	
+	3168847879	Play_05			\Default Work Unit\NEW-Voices-\Play_05	
+	3168847882	Play_08			\Default Work Unit\NEW-Voices-\Play_08	
+	3168847883	Play_09			\Default Work Unit\NEW-Voices-\Play_09	
+	3185625584	Play_15			\Default Work Unit\NEW-Voices-\Play_15	
+	3185625585	Play_14			\Default Work Unit\NEW-Voices-\Play_14	
+	3185625586	Play_17			\Default Work Unit\NEW-Voices-\Play_17	
+	3185625587	Play_16			\Default Work Unit\NEW-Voices-\Play_16	
+	3185625588	Play_11			\Default Work Unit\NEW-Voices-\Play_11	
+	3185625589	Play_10			\Default Work Unit\NEW-Voices-\Play_10	
+	3185625590	Play_13			\Default Work Unit\NEW-Voices-\Play_13	
+	3185625591	Play_12			\Default Work Unit\NEW-Voices-\Play_12	
+	3185625596	Play_19			\Default Work Unit\NEW-Voices-\Play_19	
+	3185625597	Play_18			\Default Work Unit\NEW-Voices-\Play_18	
 	3501558446	Play_SFX_Radar			\Default Work Unit\Play_SFX_Radar	
 	3569019990	Play_SFX_Monster_Calm			\Default Work Unit\Monster\Play_SFX_Monster_Calm	
 	3575465515	Play_SFX_Welding_Air			\Default Work Unit\Welder\Play_SFX_Welding_Air	
