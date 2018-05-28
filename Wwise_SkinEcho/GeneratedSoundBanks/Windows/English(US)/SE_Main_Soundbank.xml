@@ -13,6 +13,7 @@
 			<ShortName>SE_Main_Soundbank</ShortName>
 			<Path>English(US)\SE_Main_Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
 				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2,000000"/>
 				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15" MaxAttenuation="2,000000"/>
 				<Event Id="172910186" Name="Play_Niveau_Ox_25" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_25" MaxAttenuation="2,000000"/>
@@ -271,6 +272,10 @@
 				<File Id="546981933" Language="English(US)">
 					<ShortName>35.wav</ShortName>
 					<Path>Voices\English(US)\35_658ED0DC.wem</Path>
+				</File>
+				<File Id="578472801" Language="SFX">
+					<ShortName>Death.wav</ShortName>
+					<Path>SFX\Death_658ED0DC.wem</Path>
 				</File>
 				<File Id="601099440" Language="SFX">
 					<ShortName>SFX_Monster_Calm_03.wav</ShortName>

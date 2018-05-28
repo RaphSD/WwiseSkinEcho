@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527342480" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527342779" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1523548386" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1523548386" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Attenuations\Default Work Unit.wwu" DateLow="1526913367" DateHigh="0"/>
@@ -37,6 +37,6 @@
 	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Triggers\Default Work Unit.wwu" DateLow="1523548387" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Virtual Acoustics\Default Work Unit.wwu" DateLow="1523548387" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1523548387" DateHigh="0"/>
-	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.Raphaël.wsettings" DateLow="1527342470" DateHigh="0"/>
+	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.Raphaël.wsettings" DateLow="1527513667" DateHigh="0"/>
 	<ValidationCacheItem File="D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\Wwise_SkinEcho.wproj" DateLow="1525208363" DateHigh="0"/>
 </ValidationCache>

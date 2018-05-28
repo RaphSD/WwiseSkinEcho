@@ -2882,6 +2882,40 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="Death" ID="{85D41935-31B5-4EF7-8665-55E1125F5BCC}" ShortID="754836099">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Death" ID="{EBF2333C-25D6-41B5-8604-FBDDEB27E094}" ShortID="578472801">
+							<Language>SFX</Language>
+							<AudioFile>Death.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Death" ID="{EBF2333C-25D6-41B5-8604-FBDDEB27E094}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

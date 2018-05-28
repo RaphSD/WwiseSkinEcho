@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_NIVEAU_OX_5 = 495794050U;
         static const AkUniqueID PLAY_NIVEAU_OX_10 = 189687746U;
         static const AkUniqueID PLAY_NIVEAU_OX_15 = 189687751U;

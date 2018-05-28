@@ -23,6 +23,11 @@
     "Path": "English(US)\\SE_Main_Soundbank.bnk",
     "IncludedEvents": [
      {
+      "Id": "1172822028",
+      "Name": "Play_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Death"
+     },
+     {
       "Id": "189687746",
       "Name": "Play_Niveau_Ox_10",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Oxygen Level\\Play_Niveau_Ox_10",
@@ -570,6 +575,12 @@
       "Language": "English(US)",
       "ShortName": "35.wav",
       "Path": "Voices\\English(US)\\35_658ED0DC.wem"
+     },
+     {
+      "Id": "578472801",
+      "Language": "SFX",
+      "ShortName": "Death.wav",
+      "Path": "SFX\\Death_658ED0DC.wem"
      },
      {
       "Id": "601099440",

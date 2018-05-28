@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	189687751	Play_Niveau_Ox_15			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15	
 	350557031	Stop_SFX_Water_Breach			\Default Work Unit\Water Breach\Stop_SFX_Water_Breach	
 	495794050	Play_Niveau_Ox_5			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_5	
+	1172822028	Play_Death			\Default Work Unit\Play_Death	
 	1223272146	Play_SFX_Button_Press			\Default Work Unit\Play_SFX_Button_Press	
 	1243176019	Stop_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start	
 	1281001716	Play_SFX_Ambiance_01			\Default Work Unit\Play_SFX_Ambiance_01	
@@ -116,6 +117,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	526606882	SFX_Water_Breach_Waterpour	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Waterpour_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Waterpour		161717
 	540310658	Proto_2_Voix_AI-003	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-003		56746
 	546981933	35	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\35_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\35		53296
+	578472801	Death	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Death_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death		109391
 	601099440	SFX_Monster_Calm_03	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Calm_03_C397BEB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Calm\SFX_Monster_Calm_03		204214
 	601773552	42	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\42_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\42		101980
 	604420339	Proto_2_Voix-008	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-008_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-008		205472
