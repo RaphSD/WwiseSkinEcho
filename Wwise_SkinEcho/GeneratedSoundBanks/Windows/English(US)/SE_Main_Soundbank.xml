@@ -53,6 +53,16 @@
 				<Event Id="3101737428" Name="Play_42" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_42"/>
 				<Event Id="3101737429" Name="Play_43" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_43"/>
 				<Event Id="3101737426" Name="Play_44" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_44"/>
+				<Event Id="3118515017" Name="Play_50" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_50"/>
+				<Event Id="3118515016" Name="Play_51" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_51"/>
+				<Event Id="3118515019" Name="Play_52" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_52"/>
+				<Event Id="3118515018" Name="Play_53" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_53"/>
+				<Event Id="3118515021" Name="Play_54" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_54"/>
+				<Event Id="3118515020" Name="Play_55" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_55"/>
+				<Event Id="3118515023" Name="Play_56" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_56"/>
+				<Event Id="3118515022" Name="Play_57" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_57"/>
+				<Event Id="3118515009" Name="Play_58" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_58"/>
+				<Event Id="3118515008" Name="Play_59" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_59"/>
 				<Event Id="3068182256" Name="Play_60" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_60"/>
 				<Event Id="3068182257" Name="Play_61" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_61"/>
 				<Event Id="3068182258" Name="Play_62" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_62"/>
@@ -120,6 +130,10 @@
 				<File Id="31516657" Language="English(US)">
 					<ShortName>Proto_2_Voix-006.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-006_658ED0DC.wem</Path>
+				</File>
+				<File Id="35418687" Language="English(US)">
+					<ShortName>54.wav</ShortName>
+					<Path>Voices\English(US)\54_658ED0DC.wem</Path>
 				</File>
 				<File Id="39105376" Language="SFX">
 					<ShortName>SFX_Welding_Random-004.wav</ShortName>
@@ -205,6 +219,10 @@
 					<ShortName>70.wav</ShortName>
 					<Path>Voices\English(US)\70_658ED0DC.wem</Path>
 				</File>
+				<File Id="259749817" Language="English(US)">
+					<ShortName>58.wav</ShortName>
+					<Path>Voices\English(US)\58_658ED0DC.wem</Path>
+				</File>
 				<File Id="264589985" Language="English(US)">
 					<ShortName>27.wav</ShortName>
 					<Path>Voices\English(US)\27_658ED0DC.wem</Path>
@@ -237,6 +255,10 @@
 					<ShortName>SFX_Welder_Take.wav</ShortName>
 					<Path>SFX\SFX_Welder_Take_75167FBC.wem</Path>
 				</File>
+				<File Id="335424127" Language="English(US)">
+					<ShortName>56.wav</ShortName>
+					<Path>Voices\English(US)\56_658ED0DC.wem</Path>
+				</File>
 				<File Id="335806510" Language="English(US)">
 					<ShortName>32.wav</ShortName>
 					<Path>Voices\English(US)\32_658ED0DC.wem</Path>
@@ -248,6 +270,10 @@
 				<File Id="352398743" Language="SFX">
 					<ShortName>SFX_Monster_Attack_Debris.wav</ShortName>
 					<Path>SFX\SFX_Monster_Attack_Debris_658ED0DC.wem</Path>
+				</File>
+				<File Id="358361425" Language="English(US)">
+					<ShortName>55.wav</ShortName>
+					<Path>Voices\English(US)\55_658ED0DC.wem</Path>
 				</File>
 				<File Id="364433816" Language="English(US)">
 					<ShortName>14.wav</ShortName>
@@ -325,6 +351,10 @@
 					<ShortName>35.wav</ShortName>
 					<Path>Voices\English(US)\35_658ED0DC.wem</Path>
 				</File>
+				<File Id="572803206" Language="English(US)">
+					<ShortName>57.wav</ShortName>
+					<Path>Voices\English(US)\57_658ED0DC.wem</Path>
+				</File>
 				<File Id="578472801" Language="SFX">
 					<ShortName>Death.wav</ShortName>
 					<Path>SFX\Death_658ED0DC.wem</Path>
@@ -344,6 +374,10 @@
 				<File Id="607793296" Language="SFX">
 					<ShortName>SFX_Button_Pressed.wav</ShortName>
 					<Path>SFX\SFX_Button_Pressed_658ED0DC.wem</Path>
+				</File>
+				<File Id="611750178" Language="English(US)">
+					<ShortName>53.wav</ShortName>
+					<Path>Voices\English(US)\53_658ED0DC.wem</Path>
 				</File>
 				<File Id="626430297" Language="English(US)">
 					<ShortName>Proto_2_Voix-001.wav</ShortName>
@@ -409,6 +443,10 @@
 					<ShortName>13.wav</ShortName>
 					<Path>Voices\English(US)\13_658ED0DC.wem</Path>
 				</File>
+				<File Id="767185006" Language="English(US)">
+					<ShortName>52.wav</ShortName>
+					<Path>Voices\English(US)\52_658ED0DC.wem</Path>
+				</File>
 				<File Id="775960347" Language="English(US)">
 					<ShortName>65.wav</ShortName>
 					<Path>Voices\English(US)\65_658ED0DC.wem</Path>
@@ -436,6 +474,10 @@
 				<File Id="835193151" Language="SFX">
 					<ShortName>SFX_Welding_Random-005.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-005_658ED0DC.wem</Path>
+				</File>
+				<File Id="854712496" Language="English(US)">
+					<ShortName>50.wav</ShortName>
+					<Path>Voices\English(US)\50_658ED0DC.wem</Path>
 				</File>
 				<File Id="865758399" Language="English(US)">
 					<ShortName>24.wav</ShortName>
@@ -472,6 +514,10 @@
 				<File Id="917638555" Language="English(US)">
 					<ShortName>61.wav</ShortName>
 					<Path>Voices\English(US)\61_658ED0DC.wem</Path>
+				</File>
+				<File Id="933783967" Language="English(US)">
+					<ShortName>59.wav</ShortName>
+					<Path>Voices\English(US)\59_658ED0DC.wem</Path>
 				</File>
 				<File Id="935938794" Language="English(US)">
 					<ShortName>12.wav</ShortName>
@@ -512,6 +558,10 @@
 				<File Id="1058316171" Language="English(US)">
 					<ShortName>Proto_2_Voix-009.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-009_658ED0DC.wem</Path>
+				</File>
+				<File Id="1065982166" Language="English(US)">
+					<ShortName>51.wav</ShortName>
+					<Path>Voices\English(US)\51_658ED0DC.wem</Path>
 				</File>
 				<File Id="1068309798" Language="English(US)">
 					<ShortName>09.wav</ShortName>

@@ -38,6 +38,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3101737428	Play_42			\Default Work Unit\NEW-Voices-\Play_42	
 	3101737429	Play_43			\Default Work Unit\NEW-Voices-\Play_43	
 	3101737431	Play_41			\Default Work Unit\NEW-Voices-\Play_41	
+	3118515008	Play_59			\Default Work Unit\NEW-Voices-\Play_59	
+	3118515009	Play_58			\Default Work Unit\NEW-Voices-\Play_58	
+	3118515016	Play_51			\Default Work Unit\NEW-Voices-\Play_51	
+	3118515017	Play_50			\Default Work Unit\NEW-Voices-\Play_50	
+	3118515018	Play_53			\Default Work Unit\NEW-Voices-\Play_53	
+	3118515019	Play_52			\Default Work Unit\NEW-Voices-\Play_52	
+	3118515020	Play_55			\Default Work Unit\NEW-Voices-\Play_55	
+	3118515021	Play_54			\Default Work Unit\NEW-Voices-\Play_54	
+	3118515022	Play_57			\Default Work Unit\NEW-Voices-\Play_57	
+	3118515023	Play_56			\Default Work Unit\NEW-Voices-\Play_56	
 	3135292724	Play_28			\Default Work Unit\NEW-Voices-\Play_28	
 	3135292725	Play_29			\Default Work Unit\NEW-Voices-\Play_29	
 	3135292728	Play_24			\Default Work Unit\NEW-Voices-\Play_24	
@@ -118,6 +128,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	17800916	04	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\04_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\04		113851
 	23242388	SFX_Water_Breach-001	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach-001_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach-001		235568
 	31516657	Proto_2_Voix-006	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-006_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-006		130095
+	35418687	54	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\54_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\54		115495
 	39105376	SFX_Welding_Random-004	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-004_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-004		7083
 	42634799	Proto_2_Voix-010	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-010_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-010		325595
 	45987919	Proto_2_Voix_AI-002	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-002		108677
@@ -139,6 +150,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	215496252	SFX_Button_Touch-003	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Touch-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Touch\SFX_Button_Touch-003		10940
 	225947480	34	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\34_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\34		51601
 	228420366	70	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\70_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\70		60462
+	259749817	58	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\58_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\58		59461
 	264589985	27	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\27_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\27		81484
 	266136684	20	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\20_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\20		49603
 	269812339	28	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\28_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\28		265350
@@ -147,9 +159,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	287794528	16	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\16_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\16		351448
 	301047655	60	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\60_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\60		126476
 	302728083	SFX_Welder_Take	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welder_Take_75167FBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welder_Take		15976
+	335424127	56	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\56_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\56		71786
 	335806510	32	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\32_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\32		77467
 	351936415	07	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\07_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\07		58083
 	352398743	SFX_Monster_Attack_Debris	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Attack_Debris_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Attack\Monster_Attack\SFX_Monster_Attack_Debris		127736
+	358361425	55	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\55_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\55		53396
 	364433816	14	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\14_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\14		75424
 	376913105	SFX_Ambiance_01	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Ambiance_01_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ambiance_01		7028100
 	377032202	Proto_2_Voix-003	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Radio_Voice_Start\Proto_2_Voix-003		114320
@@ -169,11 +183,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	526606882	SFX_Water_Breach_Waterpour	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Waterpour_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Waterpour		161717
 	540310658	Proto_2_Voix_AI-003	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-003		56746
 	546981933	35	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\35_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\35		53296
+	572803206	57	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\57_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\57		97280
 	578472801	Death	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Death_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death		109391
 	601099440	SFX_Monster_Calm_03	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Calm_03_C397BEB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Calm\SFX_Monster_Calm_03		204214
 	601773552	42	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\42_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\42		101980
 	604420339	Proto_2_Voix-008	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-008_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-008		205472
 	607793296	SFX_Button_Pressed	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Pressed_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Press\SFX_Button_Pressed		9255
+	611750178	53	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\53_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\53		106025
 	626430297	Proto_2_Voix-001	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Radio_Voice_Start\Proto_2_Voix-001		47917
 	653124631	21	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\21_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\21		121189
 	662036919	30	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\30_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\30		69559
@@ -190,6 +206,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	734633356	Proto_2_Voix-005	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-005		48377
 	749512947	25	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\25_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\25		62316
 	765607530	13	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\13_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\13		169725
+	767185006	52	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\52_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\52		37999
 	775960347	65	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\65_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\65		176505
 	787417280	43	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\43_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\43		68262
 	788876877	SFX_Welding	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_389122C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding		149852
@@ -197,6 +214,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	828587528	69	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\69_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\69		136856
 	833584365	29	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\29_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\29		289701
 	835193151	SFX_Welding_Random-005	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-005		46336
+	854712496	50	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\50_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\50		76556
 	865758399	24	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\24_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\24		58963
 	873154146	SFX_Monster_Aggressive_04	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Aggressive_04_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Aggressive\SFX_Monster_Aggressive_04		99244
 	874842110	33	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\33_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\33		214873
@@ -206,6 +224,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	911243511	Proto_2_Voix-004	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-004_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-004		1860428
 	913850794	44	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\44_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\44		66211
 	917638555	61	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\61_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\61		88975
+	933783967	59	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\59_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\59		64943
 	935938794	12	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\12_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\12		134953
 	939981775	SFX_Welding_Random-001	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-001		23163
 	948860102	41	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\41_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\41		37967
@@ -216,5 +235,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1026977004	SFX_Button_Touch-001	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Touch-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Touch\SFX_Button_Touch-001		9221
 	1048821415	SFX_Welding_Random-006	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-006_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-006		30111
 	1058316171	Proto_2_Voix-009	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-009_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-009		287796
+	1065982166	51	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\51_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\51		36764
 	1068309798	09	D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\09_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\09		69681
 

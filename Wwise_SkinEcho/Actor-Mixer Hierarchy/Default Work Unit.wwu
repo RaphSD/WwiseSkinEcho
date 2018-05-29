@@ -2880,6 +2880,226 @@
 								<ActiveSource Name="71" ID="{DAEEA392-CB58-4E18-BBD1-FDA2E92CF307}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="50" ID="{DCEDA777-ACDB-4037-A2EE-A355C891649C}" ShortID="866389808">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="50" ID="{3F4E2CBB-2860-4325-BA36-519B0399519A}" ShortID="854712496">
+									<Language>English(US)</Language>
+									<AudioFile>50.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="50" ID="{3F4E2CBB-2860-4325-BA36-519B0399519A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="51" ID="{E9B0F243-95EF-40FE-8FB7-C896127C5BCD}" ShortID="1034276542">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="51" ID="{1E93D283-9C4D-4110-A16C-C940AB9DB90B}" ShortID="1065982166">
+									<Language>English(US)</Language>
+									<AudioFile>51.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="51" ID="{1E93D283-9C4D-4110-A16C-C940AB9DB90B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="52" ID="{A699BD1D-2CED-4E5F-90E4-502D66E65860}" ShortID="722849522">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="52" ID="{33A4DA03-489C-4149-BAF6-6C8EEAC72448}" ShortID="767185006">
+									<Language>English(US)</Language>
+									<AudioFile>52.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="52" ID="{33A4DA03-489C-4149-BAF6-6C8EEAC72448}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="53" ID="{B2D6BDFF-2E22-430B-82C7-F02536CCD39A}" ShortID="1031588284">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="53" ID="{C40BCCAA-3695-489A-AA9E-D3B2FF64F3F2}" ShortID="611750178">
+									<Language>English(US)</Language>
+									<AudioFile>53.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="53" ID="{C40BCCAA-3695-489A-AA9E-D3B2FF64F3F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="54" ID="{F714DBE5-F5D3-4977-B645-24350C13EA2D}" ShortID="130365979">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="54" ID="{56657AF0-B1EB-4FF2-9EC3-C0C2F97D0A81}" ShortID="35418687">
+									<Language>English(US)</Language>
+									<AudioFile>54.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="54" ID="{56657AF0-B1EB-4FF2-9EC3-C0C2F97D0A81}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="55" ID="{93944265-1C1B-4E0B-8116-EF868375A918}" ShortID="471878218">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="55" ID="{1088352D-EF8E-48A7-9F90-756AD3FA91E6}" ShortID="358361425">
+									<Language>English(US)</Language>
+									<AudioFile>55.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="55" ID="{1088352D-EF8E-48A7-9F90-756AD3FA91E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="56" ID="{13BC26B9-7D5B-42DB-ACFA-8923F65F5FB8}" ShortID="66584177">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="56" ID="{4DE72AF8-3D28-4904-BEC2-BBE757B195FE}" ShortID="335424127">
+									<Language>English(US)</Language>
+									<AudioFile>56.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="56" ID="{4DE72AF8-3D28-4904-BEC2-BBE757B195FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="57" ID="{5D9CC7B9-88D6-4E56-9254-5A05A0C1AE7F}" ShortID="828735886">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="57" ID="{D78E0D3E-7546-4FA1-862A-F4BCC8EBA9E8}" ShortID="572803206">
+									<Language>English(US)</Language>
+									<AudioFile>57.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="57" ID="{D78E0D3E-7546-4FA1-862A-F4BCC8EBA9E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="58" ID="{79F4EE11-8537-423E-91FA-CACCB9EC84A6}" ShortID="524267514">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="58" ID="{424BE926-66D3-41DF-8F98-6E815B759F8F}" ShortID="259749817">
+									<Language>English(US)</Language>
+									<AudioFile>58.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="58" ID="{424BE926-66D3-41DF-8F98-6E815B759F8F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="59" ID="{DA6B1424-C51A-413D-BC06-BCB0576D4856}" ShortID="250555452">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="59" ID="{1CC43648-6AC3-42ED-BACE-89AE410AB997}" ShortID="933783967">
+									<Language>English(US)</Language>
+									<AudioFile>59.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="59" ID="{1CC43648-6AC3-42ED-BACE-89AE410AB997}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<Sound Name="Death" ID="{85D41935-31B5-4EF7-8665-55E1125F5BCC}" ShortID="754836099">
