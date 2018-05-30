@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
-		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\PROJETS M1\Wwise_SkinEcho\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,68 +16,80 @@
 			<ShortName>SE_Main_Soundbank</ShortName>
 			<Path>English(US)\SE_Main_Soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3168847875" Name="Play_01" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_01"/>
-				<Event Id="3168847872" Name="Play_02" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_02"/>
-				<Event Id="3168847873" Name="Play_03" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_03"/>
-				<Event Id="3168847878" Name="Play_04" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_04"/>
-				<Event Id="3168847879" Name="Play_05" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_05"/>
-				<Event Id="3168847876" Name="Play_06" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_06"/>
-				<Event Id="3168847877" Name="Play_07" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_07"/>
-				<Event Id="3168847882" Name="Play_08" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_08"/>
-				<Event Id="3168847883" Name="Play_09" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_09"/>
-				<Event Id="3185625589" Name="Play_10" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_10"/>
-				<Event Id="3185625588" Name="Play_11" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_11"/>
-				<Event Id="3185625591" Name="Play_12" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_12"/>
-				<Event Id="3185625590" Name="Play_13" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_13"/>
-				<Event Id="3185625585" Name="Play_14" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_14"/>
-				<Event Id="3185625584" Name="Play_15" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_15"/>
-				<Event Id="3185625587" Name="Play_16" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_16"/>
-				<Event Id="3185625586" Name="Play_17" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_17"/>
-				<Event Id="3185625597" Name="Play_18" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_18"/>
-				<Event Id="3185625596" Name="Play_19" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_19"/>
-				<Event Id="3135292732" Name="Play_20" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_20"/>
-				<Event Id="3135292733" Name="Play_21" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_21"/>
-				<Event Id="3135292734" Name="Play_22" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_22"/>
-				<Event Id="3135292735" Name="Play_23" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_23"/>
-				<Event Id="3135292728" Name="Play_24" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_24"/>
-				<Event Id="3135292729" Name="Play_25" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_25"/>
-				<Event Id="3135292730" Name="Play_26" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_26"/>
-				<Event Id="3135292731" Name="Play_27" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_27"/>
-				<Event Id="3135292724" Name="Play_28" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_28"/>
-				<Event Id="3135292725" Name="Play_29" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_29"/>
-				<Event Id="3152070319" Name="Play_30" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_30"/>
-				<Event Id="3152070318" Name="Play_31" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_31"/>
-				<Event Id="3152070317" Name="Play_32" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_32"/>
-				<Event Id="3152070316" Name="Play_33" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_33"/>
-				<Event Id="3152070315" Name="Play_34" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_34"/>
-				<Event Id="3152070314" Name="Play_35" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_35"/>
-				<Event Id="3152070313" Name="Play_36" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_36"/>
-				<Event Id="3101737431" Name="Play_41" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_41"/>
-				<Event Id="3101737428" Name="Play_42" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_42"/>
-				<Event Id="3101737429" Name="Play_43" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_43"/>
-				<Event Id="3101737426" Name="Play_44" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_44"/>
-				<Event Id="3118515017" Name="Play_50" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_50"/>
-				<Event Id="3118515016" Name="Play_51" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_51"/>
-				<Event Id="3118515019" Name="Play_52" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_52"/>
-				<Event Id="3118515018" Name="Play_53" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_53"/>
-				<Event Id="3118515021" Name="Play_54" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_54"/>
-				<Event Id="3118515020" Name="Play_55" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_55"/>
-				<Event Id="3118515023" Name="Play_56" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_56"/>
-				<Event Id="3118515022" Name="Play_57" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_57"/>
-				<Event Id="3118515009" Name="Play_58" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_58"/>
-				<Event Id="3118515008" Name="Play_59" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_59"/>
-				<Event Id="3068182256" Name="Play_60" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_60"/>
-				<Event Id="3068182257" Name="Play_61" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_61"/>
-				<Event Id="3068182258" Name="Play_62" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_62"/>
-				<Event Id="3068182259" Name="Play_63" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_63"/>
-				<Event Id="3068182260" Name="Play_64" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_64"/>
-				<Event Id="3068182261" Name="Play_65" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_65"/>
-				<Event Id="3068182262" Name="Play_66" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_66"/>
-				<Event Id="3068182263" Name="Play_67" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_67"/>
-				<Event Id="3068182264" Name="Play_68" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_68"/>
-				<Event Id="3068182265" Name="Play_69" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_69"/>
-				<Event Id="3084959843" Name="Play_70" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_70"/>
-				<Event Id="3084959842" Name="Play_71" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_71"/>
+				<Event Id="3168847875" Name="Play_01" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_01" MaxAttenuation="2,000000"/>
+				<Event Id="3168847872" Name="Play_02" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_02" MaxAttenuation="2,000000"/>
+				<Event Id="3168847873" Name="Play_03" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_03" MaxAttenuation="2,000000"/>
+				<Event Id="3168847878" Name="Play_04" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_04" MaxAttenuation="2,000000"/>
+				<Event Id="3168847879" Name="Play_05" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_05" MaxAttenuation="2,000000"/>
+				<Event Id="3168847876" Name="Play_06" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_06" MaxAttenuation="2,000000"/>
+				<Event Id="3168847877" Name="Play_07" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_07" MaxAttenuation="2,000000"/>
+				<Event Id="3168847882" Name="Play_08" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_08" MaxAttenuation="2,000000"/>
+				<Event Id="3168847883" Name="Play_09" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_09" MaxAttenuation="2,000000"/>
+				<Event Id="3185625589" Name="Play_10" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_10" MaxAttenuation="2,000000"/>
+				<Event Id="3185625588" Name="Play_11" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_11" MaxAttenuation="2,000000"/>
+				<Event Id="3185625591" Name="Play_12" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_12" MaxAttenuation="2,000000"/>
+				<Event Id="3185625590" Name="Play_13" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_13" MaxAttenuation="2,000000"/>
+				<Event Id="3185625585" Name="Play_14" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_14" MaxAttenuation="2,000000"/>
+				<Event Id="3185625584" Name="Play_15" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_15" MaxAttenuation="2,000000"/>
+				<Event Id="3185625587" Name="Play_16" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_16" MaxAttenuation="2,000000"/>
+				<Event Id="3185625586" Name="Play_17" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_17" MaxAttenuation="2,000000"/>
+				<Event Id="3185625597" Name="Play_18" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_18" MaxAttenuation="2,000000"/>
+				<Event Id="3185625596" Name="Play_19" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_19" MaxAttenuation="2,000000"/>
+				<Event Id="3135292732" Name="Play_20" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_20" MaxAttenuation="2,000000"/>
+				<Event Id="3135292733" Name="Play_21" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_21" MaxAttenuation="2,000000"/>
+				<Event Id="3135292734" Name="Play_22" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_22" MaxAttenuation="2,000000"/>
+				<Event Id="3135292735" Name="Play_23" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_23" MaxAttenuation="2,000000"/>
+				<Event Id="3135292728" Name="Play_24" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_24" MaxAttenuation="2,000000"/>
+				<Event Id="3135292729" Name="Play_25" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_25" MaxAttenuation="2,000000"/>
+				<Event Id="3135292730" Name="Play_26" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_26" MaxAttenuation="2,000000"/>
+				<Event Id="3135292731" Name="Play_27" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_27" MaxAttenuation="2,000000"/>
+				<Event Id="3135292724" Name="Play_28" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_28" MaxAttenuation="2,000000"/>
+				<Event Id="3135292725" Name="Play_29" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_29" MaxAttenuation="2,000000"/>
+				<Event Id="3152070319" Name="Play_30" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_30" MaxAttenuation="2,000000"/>
+				<Event Id="3152070318" Name="Play_31" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_31" MaxAttenuation="2,000000"/>
+				<Event Id="3152070317" Name="Play_32" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_32" MaxAttenuation="2,000000"/>
+				<Event Id="3152070316" Name="Play_33" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_33" MaxAttenuation="2,000000"/>
+				<Event Id="3152070315" Name="Play_34" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_34" MaxAttenuation="2,000000"/>
+				<Event Id="3152070314" Name="Play_35" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_35" MaxAttenuation="2,000000"/>
+				<Event Id="3152070313" Name="Play_36" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_36" MaxAttenuation="2,000000"/>
+				<Event Id="3101737431" Name="Play_41" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_41" MaxAttenuation="2,000000"/>
+				<Event Id="3101737428" Name="Play_42" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_42" MaxAttenuation="2,000000"/>
+				<Event Id="3101737429" Name="Play_43" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_43" MaxAttenuation="2,000000"/>
+				<Event Id="3101737426" Name="Play_44" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_44" MaxAttenuation="2,000000"/>
+				<Event Id="3118515017" Name="Play_50" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_50" MaxAttenuation="2,000000"/>
+				<Event Id="3118515016" Name="Play_51" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_51" MaxAttenuation="2,000000"/>
+				<Event Id="3118515019" Name="Play_52" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_52" MaxAttenuation="2,000000"/>
+				<Event Id="3118515018" Name="Play_53" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_53" MaxAttenuation="2,000000"/>
+				<Event Id="3118515021" Name="Play_54" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_54" MaxAttenuation="2,000000"/>
+				<Event Id="3118515020" Name="Play_55" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_55" MaxAttenuation="2,000000"/>
+				<Event Id="3118515023" Name="Play_56" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_56" MaxAttenuation="2,000000"/>
+				<Event Id="3118515022" Name="Play_57" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_57" MaxAttenuation="2,000000"/>
+				<Event Id="3118515009" Name="Play_58" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_58" MaxAttenuation="2,000000"/>
+				<Event Id="3118515008" Name="Play_59" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_59" MaxAttenuation="2,000000"/>
+				<Event Id="3068182256" Name="Play_60" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_60" MaxAttenuation="2,000000"/>
+				<Event Id="3068182257" Name="Play_61" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_61" MaxAttenuation="2,000000"/>
+				<Event Id="3068182258" Name="Play_62" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_62" MaxAttenuation="2,000000"/>
+				<Event Id="3068182259" Name="Play_63" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_63" MaxAttenuation="2,000000"/>
+				<Event Id="3068182260" Name="Play_64" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_64" MaxAttenuation="2,000000"/>
+				<Event Id="3068182261" Name="Play_65" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_65" MaxAttenuation="2,000000"/>
+				<Event Id="3068182262" Name="Play_66" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_66" MaxAttenuation="2,000000"/>
+				<Event Id="3068182263" Name="Play_67" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_67" MaxAttenuation="2,000000"/>
+				<Event Id="3068182264" Name="Play_68" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_68" MaxAttenuation="2,000000"/>
+				<Event Id="3068182265" Name="Play_69" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_69" MaxAttenuation="2,000000"/>
+				<Event Id="3084959843" Name="Play_70" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_70" MaxAttenuation="2,000000"/>
+				<Event Id="3084959842" Name="Play_71" ObjectPath="\Events\Default Work Unit\NEW-Voices-\Play_71" MaxAttenuation="2,000000"/>
+				<Event Id="3303068922" Name="Play_80" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_80" MaxAttenuation="2,000000"/>
+				<Event Id="3303068923" Name="Play_81" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_81" MaxAttenuation="2,000000"/>
+				<Event Id="3303068920" Name="Play_82" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_82" MaxAttenuation="2,000000"/>
+				<Event Id="3303068921" Name="Play_83" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_83" MaxAttenuation="2,000000"/>
+				<Event Id="3303068926" Name="Play_84" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_84" MaxAttenuation="2,000000"/>
+				<Event Id="3303068927" Name="Play_85" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_85" MaxAttenuation="2,000000"/>
+				<Event Id="3303068924" Name="Play_86" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_86" MaxAttenuation="2,000000"/>
+				<Event Id="3303068925" Name="Play_87" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_87" MaxAttenuation="2,000000"/>
+				<Event Id="3303068914" Name="Play_88" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_88" MaxAttenuation="2,000000"/>
+				<Event Id="3303068915" Name="Play_89" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_89" MaxAttenuation="2,000000"/>
+				<Event Id="3319846509" Name="Play_90" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_90" MaxAttenuation="2,000000"/>
+				<Event Id="3319846508" Name="Play_91" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_91" MaxAttenuation="2,000000"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
 				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2,000000"/>
 				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15" MaxAttenuation="2,000000"/>
@@ -182,6 +194,10 @@
 					<ShortName>71.wav</ShortName>
 					<Path>Voices\English(US)\71_658ED0DC.wem</Path>
 				</File>
+				<File Id="131793686" Language="English(US)">
+					<ShortName>83.wav</ShortName>
+					<Path>Voices\English(US)\83_658ED0DC.wem</Path>
+				</File>
 				<File Id="133417399" Language="English(US)">
 					<ShortName>11.wav</ShortName>
 					<Path>Voices\English(US)\11_658ED0DC.wem</Path>
@@ -189,6 +205,10 @@
 				<File Id="136470861" Language="SFX">
 					<ShortName>SFX_Button_Activation.wav</ShortName>
 					<Path>SFX\SFX_Button_Activation_658ED0DC.wem</Path>
+				</File>
+				<File Id="139654178" Language="English(US)">
+					<ShortName>80.wav</ShortName>
+					<Path>Voices\English(US)\80_658ED0DC.wem</Path>
 				</File>
 				<File Id="151843844" Language="SFX">
 					<ShortName>SFX_Monster_Aggressive_02.wav</ShortName>
@@ -205,6 +225,10 @@
 				<File Id="188194121" Language="English(US)">
 					<ShortName>03.wav</ShortName>
 					<Path>Voices\English(US)\03_658ED0DC.wem</Path>
+				</File>
+				<File Id="201662409" Language="English(US)">
+					<ShortName>81.wav</ShortName>
+					<Path>Voices\English(US)\81_658ED0DC.wem</Path>
 				</File>
 				<File Id="208463169" Language="SFX">
 					<ShortName>SFX_Radar.wav</ShortName>
@@ -265,6 +289,10 @@
 				<File Id="335806510" Language="English(US)">
 					<ShortName>32.wav</ShortName>
 					<Path>Voices\English(US)\32_658ED0DC.wem</Path>
+				</File>
+				<File Id="350918331" Language="English(US)">
+					<ShortName>82.wav</ShortName>
+					<Path>Voices\English(US)\82_658ED0DC.wem</Path>
 				</File>
 				<File Id="351936415" Language="English(US)">
 					<ShortName>07.wav</ShortName>
@@ -334,6 +362,14 @@
 					<ShortName>36.wav</ShortName>
 					<Path>Voices\English(US)\36_658ED0DC.wem</Path>
 				</File>
+				<File Id="512122054" Language="English(US)">
+					<ShortName>87.wav</ShortName>
+					<Path>Voices\English(US)\87_658ED0DC.wem</Path>
+				</File>
+				<File Id="513154736" Language="English(US)">
+					<ShortName>86.wav</ShortName>
+					<Path>Voices\English(US)\86_658ED0DC.wem</Path>
+				</File>
 				<File Id="522145493" Language="English(US)">
 					<ShortName>15.wav</ShortName>
 					<Path>Voices\English(US)\15_658ED0DC.wem</Path>
@@ -381,6 +417,10 @@
 				<File Id="611750178" Language="English(US)">
 					<ShortName>53.wav</ShortName>
 					<Path>Voices\English(US)\53_658ED0DC.wem</Path>
+				</File>
+				<File Id="623079385" Language="English(US)">
+					<ShortName>84.wav</ShortName>
+					<Path>Voices\English(US)\84_658ED0DC.wem</Path>
 				</File>
 				<File Id="626430297" Language="English(US)">
 					<ShortName>Proto_2_Voix-001.wav</ShortName>
@@ -486,6 +526,10 @@
 					<ShortName>24.wav</ShortName>
 					<Path>Voices\English(US)\24_658ED0DC.wem</Path>
 				</File>
+				<File Id="865969736" Language="English(US)">
+					<ShortName>88.wav</ShortName>
+					<Path>Voices\English(US)\88_658ED0DC.wem</Path>
+				</File>
 				<File Id="873154146" Language="SFX">
 					<ShortName>SFX_Monster_Aggressive_04.wav</ShortName>
 					<Path>SFX\SFX_Monster_Aggressive_04_658ED0DC.wem</Path>
@@ -542,6 +586,14 @@
 					<ShortName>31.wav</ShortName>
 					<Path>Voices\English(US)\31_658ED0DC.wem</Path>
 				</File>
+				<File Id="970623631" Language="English(US)">
+					<ShortName>91.wav</ShortName>
+					<Path>Voices\English(US)\91_658ED0DC.wem</Path>
+				</File>
+				<File Id="974824106" Language="English(US)">
+					<ShortName>90.wav</ShortName>
+					<Path>Voices\English(US)\90_658ED0DC.wem</Path>
+				</File>
 				<File Id="983778346" Language="English(US)">
 					<ShortName>01.wav</ShortName>
 					<Path>Voices\English(US)\01_658ED0DC.wem</Path>
@@ -553,6 +605,14 @@
 				<File Id="1026977004" Language="SFX">
 					<ShortName>SFX_Button_Touch-001.wav</ShortName>
 					<Path>SFX\SFX_Button_Touch-001_658ED0DC.wem</Path>
+				</File>
+				<File Id="1036000392" Language="English(US)">
+					<ShortName>85.wav</ShortName>
+					<Path>Voices\English(US)\85_658ED0DC.wem</Path>
+				</File>
+				<File Id="1047776683" Language="English(US)">
+					<ShortName>89.wav</ShortName>
+					<Path>Voices\English(US)\89_658ED0DC.wem</Path>
 				</File>
 				<File Id="1048821415" Language="SFX">
 					<ShortName>SFX_Welding_Random-006.wav</ShortName>
