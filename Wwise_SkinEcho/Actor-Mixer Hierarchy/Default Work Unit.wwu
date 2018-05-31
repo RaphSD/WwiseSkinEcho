@@ -2811,32 +2811,6 @@
 										<ActiveSource Name="28" ID="{EBB9362E-1167-4B73-8C1E-12F3E3DE76C7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="29" ID="{FD6632A1-62C4-4CA2-B0C4-86A99C9DC12F}" ShortID="866395341">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="29" ID="{E91D4F11-A935-4DED-9966-07A418F296D7}" ShortID="833584365">
-											<Language>English(US)</Language>
-											<AudioFile>29.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="29" ID="{E91D4F11-A935-4DED-9966-07A418F296D7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="30" ID="{7F5B3A2A-A566-4376-BBD7-1261328B7CF8}" ShortID="623978086">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
@@ -3381,6 +3355,28 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="59" ID="{1CC43648-6AC3-42ED-BACE-89AE410AB997}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="29" ID="{04DF2D8E-FF00-4144-80A7-B27BB08AF029}" ShortID="286812880">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="29-2" ID="{CFC1B1DA-E1A7-47AF-B1E8-8B0C29802CA3}" ShortID="94634258">
+											<Language>English(US)</Language>
+											<AudioFile>29-2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="29-2" ID="{CFC1B1DA-E1A7-47AF-B1E8-8B0C29802CA3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

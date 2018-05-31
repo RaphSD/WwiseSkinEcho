@@ -149,6 +149,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	75532658	66	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\66_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\66		59705
 	90393343	62	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\62_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\62		80184
 	94118667	68	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\68_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\68		54620
+	94634258	29	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\29-2_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\29		242331
 	106135556	67	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\67_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\67		80076
 	117803725	17	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\17_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\17		167231
 	128207847	71	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\71_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\71		82483
@@ -231,7 +232,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	788876877	SFX_Welding	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_389122C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding		149852
 	804798472	63	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\63_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\63		191552
 	828587528	69	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\69_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\69		136856
-	833584365	29	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\29_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\29		289701
 	835193151	SFX_Welding_Random-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-005		46336
 	854712496	50	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\50_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\50		76556
 	865758399	24	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\24_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\24		58963

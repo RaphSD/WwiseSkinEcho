@@ -182,6 +182,10 @@
 					<ShortName>68.wav</ShortName>
 					<Path>Voices\English(US)\68_658ED0DC.wem</Path>
 				</File>
+				<File Id="94634258" Language="English(US)">
+					<ShortName>29-2.wav</ShortName>
+					<Path>Voices\English(US)\29-2_658ED0DC.wem</Path>
+				</File>
 				<File Id="106135556" Language="English(US)">
 					<ShortName>67.wav</ShortName>
 					<Path>Voices\English(US)\67_658ED0DC.wem</Path>
@@ -509,10 +513,6 @@
 				<File Id="828587528" Language="English(US)">
 					<ShortName>69.wav</ShortName>
 					<Path>Voices\English(US)\69_658ED0DC.wem</Path>
-				</File>
-				<File Id="833584365" Language="English(US)">
-					<ShortName>29.wav</ShortName>
-					<Path>Voices\English(US)\29_658ED0DC.wem</Path>
 				</File>
 				<File Id="835193151" Language="SFX">
 					<ShortName>SFX_Welding_Random-005.wav</ShortName>
