@@ -469,6 +469,12 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Death"
      },
      {
+      "Id": "2270107141",
+      "Name": "Play_Electric_Glitches",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Electric_Glitches",
+      "MaxAttenuation": "2,000000"
+     },
+     {
       "Id": "2739477356",
       "Name": "Play_Music_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Death"
@@ -649,6 +655,12 @@
       "MaxAttenuation": "2,000000"
      },
      {
+      "Id": "1943961027",
+      "Name": "Stop_Electric_Glitches",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Electric_Glitches",
+      "MaxAttenuation": "0,000000"
+     },
+     {
       "Id": "1243176019",
       "Name": "Stop_Radio_Voice_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Voix_Radio\\Stop_Radio_Voice_Start",
@@ -729,6 +741,12 @@
       "Path": "SFX\\SFX_Welding_Random-004_658ED0DC.wem"
      },
      {
+      "Id": "40885637",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-024.wav",
+      "Path": "SFX\\Electric_Glitches-024_658ED0DC.wem"
+     },
+     {
       "Id": "42634799",
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-010.wav",
@@ -777,10 +795,22 @@
       "Path": "Voices\\English(US)\\29-2_658ED0DC.wem"
      },
      {
+      "Id": "98892082",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-020.wav",
+      "Path": "SFX\\Electric_Glitches-020_658ED0DC.wem"
+     },
+     {
       "Id": "106135556",
       "Language": "English(US)",
       "ShortName": "67.wav",
       "Path": "Voices\\English(US)\\67_658ED0DC.wem"
+     },
+     {
+      "Id": "116874313",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-015.wav",
+      "Path": "SFX\\Electric_Glitches-015_658ED0DC.wem"
      },
      {
       "Id": "117803725",
@@ -927,6 +957,12 @@
       "Path": "SFX\\SFX_Welder_Take_75167FBC.wem"
      },
      {
+      "Id": "321003141",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-010.wav",
+      "Path": "SFX\\Electric_Glitches-010_658ED0DC.wem"
+     },
+     {
       "Id": "335424127",
       "Language": "English(US)",
       "ShortName": "56.wav",
@@ -937,6 +973,12 @@
       "Language": "English(US)",
       "ShortName": "32.wav",
       "Path": "Voices\\English(US)\\32_658ED0DC.wem"
+     },
+     {
+      "Id": "350479314",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-008.wav",
+      "Path": "SFX\\Electric_Glitches-008_658ED0DC.wem"
      },
      {
       "Id": "350918331",
@@ -957,6 +999,12 @@
       "Path": "SFX\\SFX_Monster_Attack_Debris_658ED0DC.wem"
      },
      {
+      "Id": "354552404",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-016.wav",
+      "Path": "SFX\\Electric_Glitches-016_658ED0DC.wem"
+     },
+     {
       "Id": "358361425",
       "Language": "English(US)",
       "ShortName": "55.wav",
@@ -967,6 +1015,12 @@
       "Language": "English(US)",
       "ShortName": "14.wav",
       "Path": "Voices\\English(US)\\14_658ED0DC.wem"
+     },
+     {
+      "Id": "371335609",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-026.wav",
+      "Path": "SFX\\Electric_Glitches-026_658ED0DC.wem"
      },
      {
       "Id": "376913105",
@@ -1005,16 +1059,40 @@
       "Path": "SFX\\SFX_Welding_Air_1A4BA615.wem"
      },
      {
+      "Id": "422854637",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-017.wav",
+      "Path": "SFX\\Electric_Glitches-017_658ED0DC.wem"
+     },
+     {
       "Id": "423369517",
       "Language": "English(US)",
       "ShortName": "05.wav",
       "Path": "Voices\\English(US)\\05_658ED0DC.wem"
      },
      {
+      "Id": "428489684",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-025.wav",
+      "Path": "SFX\\Electric_Glitches-025_658ED0DC.wem"
+     },
+     {
+      "Id": "438427281",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-022.wav",
+      "Path": "SFX\\Electric_Glitches-022_658ED0DC.wem"
+     },
+     {
       "Id": "451488164",
       "Language": "English(US)",
       "ShortName": "22.wav",
       "Path": "Voices\\English(US)\\22_658ED0DC.wem"
+     },
+     {
+      "Id": "451682266",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-019.wav",
+      "Path": "SFX\\Electric_Glitches-019_658ED0DC.wem"
      },
      {
       "Id": "455195276",
@@ -1039,6 +1117,12 @@
       "Language": "English(US)",
       "ShortName": "18.wav",
       "Path": "Voices\\English(US)\\18_658ED0DC.wem"
+     },
+     {
+      "Id": "504964808",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-005.wav",
+      "Path": "SFX\\Electric_Glitches-005_658ED0DC.wem"
      },
      {
       "Id": "507808166",
@@ -1101,6 +1185,12 @@
       "Path": "SFX\\Death_658ED0DC.wem"
      },
      {
+      "Id": "597218021",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-011.wav",
+      "Path": "SFX\\Electric_Glitches-011_658ED0DC.wem"
+     },
+     {
       "Id": "601099440",
       "Language": "SFX",
       "ShortName": "SFX_Monster_Calm_03.wav",
@@ -1131,6 +1221,12 @@
       "Path": "Voices\\English(US)\\53_658ED0DC.wem"
      },
      {
+      "Id": "620228839",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-009.wav",
+      "Path": "SFX\\Electric_Glitches-009_658ED0DC.wem"
+     },
+     {
       "Id": "623079385",
       "Language": "English(US)",
       "ShortName": "84.wav",
@@ -1141,6 +1237,12 @@
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix-001.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix-001_658ED0DC.wem"
+     },
+     {
+      "Id": "649240062",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-001.wav",
+      "Path": "SFX\\Electric_Glitches-001_658ED0DC.wem"
      },
      {
       "Id": "653124631",
@@ -1239,6 +1341,12 @@
       "Path": "Voices\\English(US)\\52_658ED0DC.wem"
      },
      {
+      "Id": "772177614",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-021.wav",
+      "Path": "SFX\\Electric_Glitches-021_658ED0DC.wem"
+     },
+     {
       "Id": "775960347",
       "Language": "English(US)",
       "ShortName": "65.wav",
@@ -1269,16 +1377,40 @@
       "Path": "Voices\\English(US)\\69_658ED0DC.wem"
      },
      {
+      "Id": "833088588",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-002.wav",
+      "Path": "SFX\\Electric_Glitches-002_658ED0DC.wem"
+     },
+     {
+      "Id": "834370647",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-003.wav",
+      "Path": "SFX\\Electric_Glitches-003_658ED0DC.wem"
+     },
+     {
       "Id": "835193151",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Random-005.wav",
       "Path": "SFX\\SFX_Welding_Random-005_658ED0DC.wem"
      },
      {
+      "Id": "850619969",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-006.wav",
+      "Path": "SFX\\Electric_Glitches-006_658ED0DC.wem"
+     },
+     {
       "Id": "854712496",
       "Language": "English(US)",
       "ShortName": "50.wav",
       "Path": "Voices\\English(US)\\50_658ED0DC.wem"
+     },
+     {
+      "Id": "862818312",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-012.wav",
+      "Path": "SFX\\Electric_Glitches-012_658ED0DC.wem"
      },
      {
       "Id": "865758399",
@@ -1377,6 +1509,12 @@
       "Path": "Voices\\English(US)\\31_658ED0DC.wem"
      },
      {
+      "Id": "969542850",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-004.wav",
+      "Path": "SFX\\Electric_Glitches-004_658ED0DC.wem"
+     },
+     {
       "Id": "970623631",
       "Language": "English(US)",
       "ShortName": "91.wav",
@@ -1395,10 +1533,34 @@
       "Path": "Voices\\English(US)\\01_658ED0DC.wem"
      },
      {
+      "Id": "994439472",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-023.wav",
+      "Path": "SFX\\Electric_Glitches-023_658ED0DC.wem"
+     },
+     {
+      "Id": "1000807260",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-014.wav",
+      "Path": "SFX\\Electric_Glitches-014_658ED0DC.wem"
+     },
+     {
+      "Id": "1001214171",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-013.wav",
+      "Path": "SFX\\Electric_Glitches-013_658ED0DC.wem"
+     },
+     {
       "Id": "1005017841",
       "Language": "English(US)",
       "ShortName": "Proto_2_Voix_AI-002.wav",
       "Path": "Voices\\English(US)\\Proto_2_Voix_AI-002_658ED0DC.wem"
+     },
+     {
+      "Id": "1006933574",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-018.wav",
+      "Path": "SFX\\Electric_Glitches-018_658ED0DC.wem"
      },
      {
       "Id": "1015578128",
@@ -1441,6 +1603,12 @@
       "Language": "English(US)",
       "ShortName": "51.wav",
       "Path": "Voices\\English(US)\\51_658ED0DC.wem"
+     },
+     {
+      "Id": "1068155871",
+      "Language": "SFX",
+      "ShortName": "Electric_Glitches-007.wav",
+      "Path": "SFX\\Electric_Glitches-007_658ED0DC.wem"
      },
      {
       "Id": "1068309798",

@@ -26,11 +26,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	998994920	Reverb_Submarine			\Default Work Unit\Master Audio Bus\Main_5_1\Reverb_Submarine	
 	1049073410	Reverb_Monster			\Default Work Unit\Master Audio Bus\Main_5_1\Reverb_Monster	
+	3449031966	Reverb_Hallu			\Default Work Unit\Master Audio Bus\Main_5_1\Reverb_Hallu	
 
 Effect plug-ins	ID	Name	Type				Notes
 	378824104	Auro Headphone (Custom)	Auro Headphone			
-	998994920	Reverb_Submarine	Wwise RoomVerb			
 	1049073410	Reverb_Monster	Wwise RoomVerb			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2945072214	My_Closet	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	530303819	Communication	Communication			

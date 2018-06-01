@@ -29,6 +29,7 @@
 									<Custom>
 										<Effect Name="Auro Headphone (Custom)" ID="{EF7AD302-1620-42E5-B179-66F3FC450ACC}" ShortID="378824104" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 											<PropertyList>
+												<Property Name="ER_Level" Type="Real32" Value="5.75"/>
 												<Property Name="Reverb" Type="bool" Value="False"/>
 												<Property Name="Wall_bottom" Type="Real32" Value="4.578125"/>
 											</PropertyList>
@@ -144,8 +145,8 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-											<ObjectRef Name="Reverb_Submarine" ID="{6CEB0208-4B8C-4023-A4A3-0D932162B015}" WorkUnitID="{98A1E530-3A72-4FF8-B886-7985271F927A}"/>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
@@ -153,6 +154,13 @@
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 											<ObjectRef Name="Reverb_Monster" ID="{97A1ADB7-FB6D-4839-BA49-861CDFA17B20}" WorkUnitID="{98A1E530-3A72-4FF8-B886-7985271F927A}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Reverb_Hallu" ID="{CDE49854-1AD9-4609-983B-A31E46662ACE}">
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 									</ReferenceList>
 								</AuxBus>

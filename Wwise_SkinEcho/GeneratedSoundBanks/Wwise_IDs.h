@@ -88,6 +88,7 @@ namespace AK
         static const AkUniqueID PLAY_90 = 3319846509U;
         static const AkUniqueID PLAY_91 = 3319846508U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_ELECTRIC_GLITCHES = 2270107141U;
         static const AkUniqueID PLAY_MUSIC_DEATH = 2739477356U;
         static const AkUniqueID PLAY_NIVEAU_OX_5 = 495794050U;
         static const AkUniqueID PLAY_NIVEAU_OX_10 = 189687746U;
@@ -119,6 +120,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_WELDER_TAKE = 1487639259U;
         static const AkUniqueID PLAY_SFX_WELDING = 3723595182U;
         static const AkUniqueID PLAY_SFX_WELDING_AIR = 3575465515U;
+        static const AkUniqueID STOP_ELECTRIC_GLITCHES = 1943961027U;
         static const AkUniqueID STOP_RADIO_VOICE_START = 1243176019U;
         static const AkUniqueID STOP_SFX_MONSTER_AGGRESSIVE = 2321851573U;
         static const AkUniqueID STOP_SFX_MONSTER_CALM = 3966185392U;
@@ -163,6 +165,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID REVERB_HALLU = 3449031966U;
         static const AkUniqueID REVERB_MONSTER = 1049073410U;
         static const AkUniqueID REVERB_SUBMARINE = 998994920U;
     } // namespace AUX_BUSSES

@@ -91,6 +91,7 @@
 				<Event Id="3319846509" Name="Play_90" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_90" MaxAttenuation="2,000000"/>
 				<Event Id="3319846508" Name="Play_91" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_91" MaxAttenuation="2,000000"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
+				<Event Id="2270107141" Name="Play_Electric_Glitches" ObjectPath="\Events\Default Work Unit\Play_Electric_Glitches" MaxAttenuation="2,000000"/>
 				<Event Id="2739477356" Name="Play_Music_Death" ObjectPath="\Events\Default Work Unit\Play_Music_Death"/>
 				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2,000000"/>
 				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15" MaxAttenuation="2,000000"/>
@@ -122,6 +123,7 @@
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
 				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
 				<Event Id="3575465515" Name="Play_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding_Air" MaxAttenuation="2,000000"/>
+				<Event Id="1943961027" Name="Stop_Electric_Glitches" ObjectPath="\Events\Default Work Unit\Stop_Electric_Glitches" MaxAttenuation="0,000000"/>
 				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
 				<Event Id="2321851573" Name="Stop_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive" MaxAttenuation="0,000000"/>
 				<Event Id="3966185392" Name="Stop_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Calm" MaxAttenuation="0,000000"/>
@@ -155,6 +157,10 @@
 					<ShortName>SFX_Welding_Random-004.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-004_658ED0DC.wem</Path>
 				</File>
+				<File Id="40885637" Language="SFX">
+					<ShortName>Electric_Glitches-024.wav</ShortName>
+					<Path>SFX\Electric_Glitches-024_658ED0DC.wem</Path>
+				</File>
 				<File Id="42634799" Language="English(US)">
 					<ShortName>Proto_2_Voix-010.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-010_658ED0DC.wem</Path>
@@ -187,9 +193,17 @@
 					<ShortName>29-2.wav</ShortName>
 					<Path>Voices\English(US)\29-2_658ED0DC.wem</Path>
 				</File>
+				<File Id="98892082" Language="SFX">
+					<ShortName>Electric_Glitches-020.wav</ShortName>
+					<Path>SFX\Electric_Glitches-020_658ED0DC.wem</Path>
+				</File>
 				<File Id="106135556" Language="English(US)">
 					<ShortName>67.wav</ShortName>
 					<Path>Voices\English(US)\67_658ED0DC.wem</Path>
+				</File>
+				<File Id="116874313" Language="SFX">
+					<ShortName>Electric_Glitches-015.wav</ShortName>
+					<Path>SFX\Electric_Glitches-015_658ED0DC.wem</Path>
 				</File>
 				<File Id="117803725" Language="English(US)">
 					<ShortName>17.wav</ShortName>
@@ -287,6 +301,10 @@
 					<ShortName>SFX_Welder_Take.wav</ShortName>
 					<Path>SFX\SFX_Welder_Take_75167FBC.wem</Path>
 				</File>
+				<File Id="321003141" Language="SFX">
+					<ShortName>Electric_Glitches-010.wav</ShortName>
+					<Path>SFX\Electric_Glitches-010_658ED0DC.wem</Path>
+				</File>
 				<File Id="335424127" Language="English(US)">
 					<ShortName>56.wav</ShortName>
 					<Path>Voices\English(US)\56_658ED0DC.wem</Path>
@@ -294,6 +312,10 @@
 				<File Id="335806510" Language="English(US)">
 					<ShortName>32.wav</ShortName>
 					<Path>Voices\English(US)\32_658ED0DC.wem</Path>
+				</File>
+				<File Id="350479314" Language="SFX">
+					<ShortName>Electric_Glitches-008.wav</ShortName>
+					<Path>SFX\Electric_Glitches-008_658ED0DC.wem</Path>
 				</File>
 				<File Id="350918331" Language="English(US)">
 					<ShortName>82.wav</ShortName>
@@ -307,6 +329,10 @@
 					<ShortName>SFX_Monster_Attack_Debris.wav</ShortName>
 					<Path>SFX\SFX_Monster_Attack_Debris_658ED0DC.wem</Path>
 				</File>
+				<File Id="354552404" Language="SFX">
+					<ShortName>Electric_Glitches-016.wav</ShortName>
+					<Path>SFX\Electric_Glitches-016_658ED0DC.wem</Path>
+				</File>
 				<File Id="358361425" Language="English(US)">
 					<ShortName>55.wav</ShortName>
 					<Path>Voices\English(US)\55_658ED0DC.wem</Path>
@@ -314,6 +340,10 @@
 				<File Id="364433816" Language="English(US)">
 					<ShortName>14.wav</ShortName>
 					<Path>Voices\English(US)\14_658ED0DC.wem</Path>
+				</File>
+				<File Id="371335609" Language="SFX">
+					<ShortName>Electric_Glitches-026.wav</ShortName>
+					<Path>SFX\Electric_Glitches-026_658ED0DC.wem</Path>
 				</File>
 				<File Id="376913105" Language="SFX">
 					<ShortName>SFX_Ambiance_01.wav</ShortName>
@@ -339,13 +369,29 @@
 					<ShortName>SFX_Welding_Air.wav</ShortName>
 					<Path>SFX\SFX_Welding_Air_1A4BA615.wem</Path>
 				</File>
+				<File Id="422854637" Language="SFX">
+					<ShortName>Electric_Glitches-017.wav</ShortName>
+					<Path>SFX\Electric_Glitches-017_658ED0DC.wem</Path>
+				</File>
 				<File Id="423369517" Language="English(US)">
 					<ShortName>05.wav</ShortName>
 					<Path>Voices\English(US)\05_658ED0DC.wem</Path>
 				</File>
+				<File Id="428489684" Language="SFX">
+					<ShortName>Electric_Glitches-025.wav</ShortName>
+					<Path>SFX\Electric_Glitches-025_658ED0DC.wem</Path>
+				</File>
+				<File Id="438427281" Language="SFX">
+					<ShortName>Electric_Glitches-022.wav</ShortName>
+					<Path>SFX\Electric_Glitches-022_658ED0DC.wem</Path>
+				</File>
 				<File Id="451488164" Language="English(US)">
 					<ShortName>22.wav</ShortName>
 					<Path>Voices\English(US)\22_658ED0DC.wem</Path>
+				</File>
+				<File Id="451682266" Language="SFX">
+					<ShortName>Electric_Glitches-019.wav</ShortName>
+					<Path>SFX\Electric_Glitches-019_658ED0DC.wem</Path>
 				</File>
 				<File Id="455195276" Language="English(US)">
 					<ShortName>Niveau Ox_75.wav</ShortName>
@@ -362,6 +408,10 @@
 				<File Id="494826113" Language="English(US)">
 					<ShortName>18.wav</ShortName>
 					<Path>Voices\English(US)\18_658ED0DC.wem</Path>
+				</File>
+				<File Id="504964808" Language="SFX">
+					<ShortName>Electric_Glitches-005.wav</ShortName>
+					<Path>SFX\Electric_Glitches-005_658ED0DC.wem</Path>
 				</File>
 				<File Id="507808166" Language="English(US)">
 					<ShortName>36.wav</ShortName>
@@ -403,6 +453,10 @@
 					<ShortName>Death.wav</ShortName>
 					<Path>SFX\Death_658ED0DC.wem</Path>
 				</File>
+				<File Id="597218021" Language="SFX">
+					<ShortName>Electric_Glitches-011.wav</ShortName>
+					<Path>SFX\Electric_Glitches-011_658ED0DC.wem</Path>
+				</File>
 				<File Id="601099440" Language="SFX">
 					<ShortName>SFX_Monster_Calm_03.wav</ShortName>
 					<Path>SFX\SFX_Monster_Calm_03_C397BEB8.wem</Path>
@@ -423,6 +477,10 @@
 					<ShortName>53.wav</ShortName>
 					<Path>Voices\English(US)\53_658ED0DC.wem</Path>
 				</File>
+				<File Id="620228839" Language="SFX">
+					<ShortName>Electric_Glitches-009.wav</ShortName>
+					<Path>SFX\Electric_Glitches-009_658ED0DC.wem</Path>
+				</File>
 				<File Id="623079385" Language="English(US)">
 					<ShortName>84.wav</ShortName>
 					<Path>Voices\English(US)\84_658ED0DC.wem</Path>
@@ -430,6 +488,10 @@
 				<File Id="626430297" Language="English(US)">
 					<ShortName>Proto_2_Voix-001.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix-001_658ED0DC.wem</Path>
+				</File>
+				<File Id="649240062" Language="SFX">
+					<ShortName>Electric_Glitches-001.wav</ShortName>
+					<Path>SFX\Electric_Glitches-001_658ED0DC.wem</Path>
 				</File>
 				<File Id="653124631" Language="English(US)">
 					<ShortName>21.wav</ShortName>
@@ -495,6 +557,10 @@
 					<ShortName>52.wav</ShortName>
 					<Path>Voices\English(US)\52_658ED0DC.wem</Path>
 				</File>
+				<File Id="772177614" Language="SFX">
+					<ShortName>Electric_Glitches-021.wav</ShortName>
+					<Path>SFX\Electric_Glitches-021_658ED0DC.wem</Path>
+				</File>
 				<File Id="775960347" Language="English(US)">
 					<ShortName>65.wav</ShortName>
 					<Path>Voices\English(US)\65_658ED0DC.wem</Path>
@@ -515,13 +581,29 @@
 					<ShortName>69.wav</ShortName>
 					<Path>Voices\English(US)\69_658ED0DC.wem</Path>
 				</File>
+				<File Id="833088588" Language="SFX">
+					<ShortName>Electric_Glitches-002.wav</ShortName>
+					<Path>SFX\Electric_Glitches-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="834370647" Language="SFX">
+					<ShortName>Electric_Glitches-003.wav</ShortName>
+					<Path>SFX\Electric_Glitches-003_658ED0DC.wem</Path>
+				</File>
 				<File Id="835193151" Language="SFX">
 					<ShortName>SFX_Welding_Random-005.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-005_658ED0DC.wem</Path>
 				</File>
+				<File Id="850619969" Language="SFX">
+					<ShortName>Electric_Glitches-006.wav</ShortName>
+					<Path>SFX\Electric_Glitches-006_658ED0DC.wem</Path>
+				</File>
 				<File Id="854712496" Language="English(US)">
 					<ShortName>50.wav</ShortName>
 					<Path>Voices\English(US)\50_658ED0DC.wem</Path>
+				</File>
+				<File Id="862818312" Language="SFX">
+					<ShortName>Electric_Glitches-012.wav</ShortName>
+					<Path>SFX\Electric_Glitches-012_658ED0DC.wem</Path>
 				</File>
 				<File Id="865758399" Language="English(US)">
 					<ShortName>24.wav</ShortName>
@@ -587,6 +669,10 @@
 					<ShortName>31.wav</ShortName>
 					<Path>Voices\English(US)\31_658ED0DC.wem</Path>
 				</File>
+				<File Id="969542850" Language="SFX">
+					<ShortName>Electric_Glitches-004.wav</ShortName>
+					<Path>SFX\Electric_Glitches-004_658ED0DC.wem</Path>
+				</File>
 				<File Id="970623631" Language="English(US)">
 					<ShortName>91.wav</ShortName>
 					<Path>Voices\English(US)\91_658ED0DC.wem</Path>
@@ -599,9 +685,25 @@
 					<ShortName>01.wav</ShortName>
 					<Path>Voices\English(US)\01_658ED0DC.wem</Path>
 				</File>
+				<File Id="994439472" Language="SFX">
+					<ShortName>Electric_Glitches-023.wav</ShortName>
+					<Path>SFX\Electric_Glitches-023_658ED0DC.wem</Path>
+				</File>
+				<File Id="1000807260" Language="SFX">
+					<ShortName>Electric_Glitches-014.wav</ShortName>
+					<Path>SFX\Electric_Glitches-014_658ED0DC.wem</Path>
+				</File>
+				<File Id="1001214171" Language="SFX">
+					<ShortName>Electric_Glitches-013.wav</ShortName>
+					<Path>SFX\Electric_Glitches-013_658ED0DC.wem</Path>
+				</File>
 				<File Id="1005017841" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-002.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix_AI-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="1006933574" Language="SFX">
+					<ShortName>Electric_Glitches-018.wav</ShortName>
+					<Path>SFX\Electric_Glitches-018_658ED0DC.wem</Path>
 				</File>
 				<File Id="1015578128" Language="SFX">
 					<ShortName>Music_Death.wav</ShortName>
@@ -630,6 +732,10 @@
 				<File Id="1065982166" Language="English(US)">
 					<ShortName>51.wav</ShortName>
 					<Path>Voices\English(US)\51_658ED0DC.wem</Path>
+				</File>
+				<File Id="1068155871" Language="SFX">
+					<ShortName>Electric_Glitches-007.wav</ShortName>
+					<Path>SFX\Electric_Glitches-007_658ED0DC.wem</Path>
 				</File>
 				<File Id="1068309798" Language="English(US)">
 					<ShortName>09.wav</ShortName>

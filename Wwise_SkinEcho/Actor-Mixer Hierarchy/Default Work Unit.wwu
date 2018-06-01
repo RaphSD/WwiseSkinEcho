@@ -1744,9 +1744,16 @@
 					<ChildrenList>
 						<ActorMixer Name="Hallu" ID="{D139ED92-5BC9-4182-8FAB-FBF3346FD0DB}" ShortID="985657610">
 							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1754,8 +1761,14 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
 								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Hallu" ID="{CDE49854-1AD9-4609-983B-A31E46662ACE}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2071,15 +2084,366 @@
 										<ActiveSource Name="71" ID="{DAEEA392-CB58-4E18-BBD1-FDA2E92CF307}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="50" ID="{DCEDA777-ACDB-4037-A2EE-A355C891649C}" ShortID="866389808">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="50" ID="{3F4E2CBB-2860-4325-BA36-519B0399519A}" ShortID="854712496">
+											<Language>English(US)</Language>
+											<AudioFile>50.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="50" ID="{3F4E2CBB-2860-4325-BA36-519B0399519A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="51" ID="{E9B0F243-95EF-40FE-8FB7-C896127C5BCD}" ShortID="1034276542">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="51" ID="{1E93D283-9C4D-4110-A16C-C940AB9DB90B}" ShortID="1065982166">
+											<Language>English(US)</Language>
+											<AudioFile>51.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="51" ID="{1E93D283-9C4D-4110-A16C-C940AB9DB90B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="53" ID="{B2D6BDFF-2E22-430B-82C7-F02536CCD39A}" ShortID="1031588284">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="53" ID="{C40BCCAA-3695-489A-AA9E-D3B2FF64F3F2}" ShortID="611750178">
+											<Language>English(US)</Language>
+											<AudioFile>53.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="53" ID="{C40BCCAA-3695-489A-AA9E-D3B2FF64F3F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="55" ID="{93944265-1C1B-4E0B-8116-EF868375A918}" ShortID="471878218">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="55" ID="{1088352D-EF8E-48A7-9F90-756AD3FA91E6}" ShortID="358361425">
+											<Language>English(US)</Language>
+											<AudioFile>55.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="55" ID="{1088352D-EF8E-48A7-9F90-756AD3FA91E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="56" ID="{13BC26B9-7D5B-42DB-ACFA-8923F65F5FB8}" ShortID="66584177">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="56" ID="{4DE72AF8-3D28-4904-BEC2-BBE757B195FE}" ShortID="335424127">
+											<Language>English(US)</Language>
+											<AudioFile>56.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="56" ID="{4DE72AF8-3D28-4904-BEC2-BBE757B195FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="52" ID="{A699BD1D-2CED-4E5F-90E4-502D66E65860}" ShortID="722849522">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="52" ID="{33A4DA03-489C-4149-BAF6-6C8EEAC72448}" ShortID="767185006">
+											<Language>English(US)</Language>
+											<AudioFile>52.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="52" ID="{33A4DA03-489C-4149-BAF6-6C8EEAC72448}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="54" ID="{F714DBE5-F5D3-4977-B645-24350C13EA2D}" ShortID="130365979">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="54" ID="{56657AF0-B1EB-4FF2-9EC3-C0C2F97D0A81}" ShortID="35418687">
+											<Language>English(US)</Language>
+											<AudioFile>54.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="54" ID="{56657AF0-B1EB-4FF2-9EC3-C0C2F97D0A81}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="57" ID="{5D9CC7B9-88D6-4E56-9254-5A05A0C1AE7F}" ShortID="828735886">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="57" ID="{D78E0D3E-7546-4FA1-862A-F4BCC8EBA9E8}" ShortID="572803206">
+											<Language>English(US)</Language>
+											<AudioFile>57.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="57" ID="{D78E0D3E-7546-4FA1-862A-F4BCC8EBA9E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="58" ID="{79F4EE11-8537-423E-91FA-CACCB9EC84A6}" ShortID="524267514">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="58" ID="{424BE926-66D3-41DF-8F98-6E815B759F8F}" ShortID="259749817">
+											<Language>English(US)</Language>
+											<AudioFile>58.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="58" ID="{424BE926-66D3-41DF-8F98-6E815B759F8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="59" ID="{DA6B1424-C51A-413D-BC06-BCB0576D4856}" ShortID="250555452">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="59" ID="{1CC43648-6AC3-42ED-BACE-89AE410AB997}" ShortID="933783967">
+											<Language>English(US)</Language>
+											<AudioFile>59.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="59" ID="{1CC43648-6AC3-42ED-BACE-89AE410AB997}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Radio" ID="{9A1B14C7-F793-489D-85EE-876846B2B813}" ShortID="314432395">
+							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3097,266 +3461,6 @@
 										<ActiveSource Name="44" ID="{C17527D8-5A82-4F25-9967-EDF4381E728D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="50" ID="{DCEDA777-ACDB-4037-A2EE-A355C891649C}" ShortID="866389808">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="50" ID="{3F4E2CBB-2860-4325-BA36-519B0399519A}" ShortID="854712496">
-											<Language>English(US)</Language>
-											<AudioFile>50.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="50" ID="{3F4E2CBB-2860-4325-BA36-519B0399519A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="51" ID="{E9B0F243-95EF-40FE-8FB7-C896127C5BCD}" ShortID="1034276542">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="51" ID="{1E93D283-9C4D-4110-A16C-C940AB9DB90B}" ShortID="1065982166">
-											<Language>English(US)</Language>
-											<AudioFile>51.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="51" ID="{1E93D283-9C4D-4110-A16C-C940AB9DB90B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="52" ID="{A699BD1D-2CED-4E5F-90E4-502D66E65860}" ShortID="722849522">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="52" ID="{33A4DA03-489C-4149-BAF6-6C8EEAC72448}" ShortID="767185006">
-											<Language>English(US)</Language>
-											<AudioFile>52.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="52" ID="{33A4DA03-489C-4149-BAF6-6C8EEAC72448}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="53" ID="{B2D6BDFF-2E22-430B-82C7-F02536CCD39A}" ShortID="1031588284">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="53" ID="{C40BCCAA-3695-489A-AA9E-D3B2FF64F3F2}" ShortID="611750178">
-											<Language>English(US)</Language>
-											<AudioFile>53.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="53" ID="{C40BCCAA-3695-489A-AA9E-D3B2FF64F3F2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="54" ID="{F714DBE5-F5D3-4977-B645-24350C13EA2D}" ShortID="130365979">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="54" ID="{56657AF0-B1EB-4FF2-9EC3-C0C2F97D0A81}" ShortID="35418687">
-											<Language>English(US)</Language>
-											<AudioFile>54.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="54" ID="{56657AF0-B1EB-4FF2-9EC3-C0C2F97D0A81}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="55" ID="{93944265-1C1B-4E0B-8116-EF868375A918}" ShortID="471878218">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="55" ID="{1088352D-EF8E-48A7-9F90-756AD3FA91E6}" ShortID="358361425">
-											<Language>English(US)</Language>
-											<AudioFile>55.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="55" ID="{1088352D-EF8E-48A7-9F90-756AD3FA91E6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="56" ID="{13BC26B9-7D5B-42DB-ACFA-8923F65F5FB8}" ShortID="66584177">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="56" ID="{4DE72AF8-3D28-4904-BEC2-BBE757B195FE}" ShortID="335424127">
-											<Language>English(US)</Language>
-											<AudioFile>56.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="56" ID="{4DE72AF8-3D28-4904-BEC2-BBE757B195FE}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="57" ID="{5D9CC7B9-88D6-4E56-9254-5A05A0C1AE7F}" ShortID="828735886">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="57" ID="{D78E0D3E-7546-4FA1-862A-F4BCC8EBA9E8}" ShortID="572803206">
-											<Language>English(US)</Language>
-											<AudioFile>57.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="57" ID="{D78E0D3E-7546-4FA1-862A-F4BCC8EBA9E8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="58" ID="{79F4EE11-8537-423E-91FA-CACCB9EC84A6}" ShortID="524267514">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="58" ID="{424BE926-66D3-41DF-8F98-6E815B759F8F}" ShortID="259749817">
-											<Language>English(US)</Language>
-											<AudioFile>58.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="58" ID="{424BE926-66D3-41DF-8F98-6E815B759F8F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="59" ID="{DA6B1424-C51A-413D-BC06-BCB0576D4856}" ShortID="250555452">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="PositioningType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="59" ID="{1CC43648-6AC3-42ED-BACE-89AE410AB997}" ShortID="933783967">
-											<Language>English(US)</Language>
-											<AudioFile>59.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="59" ID="{1CC43648-6AC3-42ED-BACE-89AE410AB997}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="29" ID="{04DF2D8E-FF00-4144-80A7-B27BB08AF029}" ShortID="286812880">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
@@ -3382,12 +3486,23 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="AI" ID="{D390358E-0761-4D1D-9003-5874A39EDE0B}" ShortID="163745471">
+							<PropertyList>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3766,6 +3881,546 @@
 						<ActiveSource Name="Music_Death" ID="{BA1DD309-D5F8-4AD1-A6B7-AFDA8EF2EF82}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Electric Glitches" ID="{E4F8BA6D-7862-49D4-BCE1-B25808CCE9F1}" ShortID="756053069">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Electric Glitches" ID="{832DD17E-2322-41C3-B1AF-1F6FADCD29B1}" ShortID="715294207">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9E207840-3E3A-4822-867F-1ACE964D4D2E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Electric_Glitches-001" ID="{5786F4FB-096E-4B7B-9E0A-C5620E307693}" ShortID="1002680288">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-001" ID="{2FF27CF1-2D56-4F34-9721-9CBE284E883F}" ShortID="649240062">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-001" ID="{2FF27CF1-2D56-4F34-9721-9CBE284E883F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-002" ID="{88F3DF4D-CC16-4A70-91BD-D52200540D38}" ShortID="985342730">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-002" ID="{BE818CA0-CD25-49DA-9972-B5FE596F4AB4}" ShortID="833088588">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-002" ID="{BE818CA0-CD25-49DA-9972-B5FE596F4AB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-003" ID="{80A11BDA-6753-4E9A-8403-F6B0E53506E0}" ShortID="424975004">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-003" ID="{8A4D3A93-025D-43F8-B8A5-AD0AD2E5C7A9}" ShortID="834370647">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-003" ID="{8A4D3A93-025D-43F8-B8A5-AD0AD2E5C7A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-004" ID="{A7AE150F-02F5-4FE6-98C7-0FA45053136F}" ShortID="1059601733">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-004" ID="{5E9FBA4E-BD98-4022-AE91-2138D5F009C0}" ShortID="969542850">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-004" ID="{5E9FBA4E-BD98-4022-AE91-2138D5F009C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-005" ID="{6DA480B5-0DC0-4E30-A669-2FE457526D51}" ShortID="345820810">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-005" ID="{35565BEB-5E5C-4F7C-B998-E447E42EE702}" ShortID="504964808">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-005" ID="{35565BEB-5E5C-4F7C-B998-E447E42EE702}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-006" ID="{243A7C1C-A452-46B2-AF83-A00612546881}" ShortID="161816676">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-006" ID="{A82867AE-3757-4C77-9790-B5A20227B9B1}" ShortID="850619969">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-006" ID="{A82867AE-3757-4C77-9790-B5A20227B9B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-007" ID="{37D953B1-B0CE-49B4-AF00-A4DF1AE3D7E4}" ShortID="549318447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-007" ID="{55C3BFE3-EAD6-43B8-98F8-896D5B946D31}" ShortID="1068155871">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-007" ID="{55C3BFE3-EAD6-43B8-98F8-896D5B946D31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-008" ID="{7AF2EC4A-5352-4BC4-A943-09499F16FB0F}" ShortID="873597158">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-008" ID="{BDB8B93A-BC2A-4538-A764-B30EA5C803C4}" ShortID="350479314">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-008" ID="{BDB8B93A-BC2A-4538-A764-B30EA5C803C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-009" ID="{35A15BD3-B476-463B-BCFF-20404542D45D}" ShortID="696800181">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-009" ID="{9EC65836-0430-4B1A-8735-DFFA092E20C7}" ShortID="620228839">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-009.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-009" ID="{9EC65836-0430-4B1A-8735-DFFA092E20C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-010" ID="{67B25BD6-DA3B-491E-AA5A-EBA5AE91211E}" ShortID="59481682">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-010" ID="{1CEB193F-2560-4687-B84A-EB01A475B50F}" ShortID="321003141">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-010.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-010" ID="{1CEB193F-2560-4687-B84A-EB01A475B50F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-011" ID="{6EE30227-5C7A-40B2-8737-4700D6E8384E}" ShortID="1031725393">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-011" ID="{7CCAA9E8-F045-480B-BC34-42ECF5264D29}" ShortID="597218021">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-011.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-011" ID="{7CCAA9E8-F045-480B-BC34-42ECF5264D29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-012" ID="{F12695EA-0089-4F5E-8B6F-E35DDA4CE06D}" ShortID="649976285">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-012" ID="{911EAA7F-5192-4C05-8EC3-4A5A93DAD33A}" ShortID="862818312">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-012.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-012" ID="{911EAA7F-5192-4C05-8EC3-4A5A93DAD33A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-013" ID="{91ACC91B-91B5-40A5-A2C7-6BB66462BCFE}" ShortID="754070419">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-013" ID="{74A62C58-D2C1-4387-94EB-489864EF59FD}" ShortID="1001214171">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-013.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-013" ID="{74A62C58-D2C1-4387-94EB-489864EF59FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-014" ID="{D4F72AA0-3010-4C39-905E-27100770B464}" ShortID="619786589">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-014" ID="{D3224723-2F7E-4F72-98A1-E388AF1F43EC}" ShortID="1000807260">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-014.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-014" ID="{D3224723-2F7E-4F72-98A1-E388AF1F43EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-015" ID="{9CEA765E-9117-42D5-B634-6BE7920DA387}" ShortID="308041480">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-015" ID="{46FBDDF1-979B-4D24-9019-BF3DD548B256}" ShortID="116874313">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-015.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-015" ID="{46FBDDF1-979B-4D24-9019-BF3DD548B256}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-016" ID="{4245A2C4-E6A0-42E9-AA9F-C3D58C3B414E}" ShortID="489352762">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-016" ID="{82E86C00-BF02-434A-9888-308B1B20D7E0}" ShortID="354552404">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-016.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-016" ID="{82E86C00-BF02-434A-9888-308B1B20D7E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-017" ID="{EC975072-C95A-475E-8F5B-BE403ADDF2AF}" ShortID="65428388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-017" ID="{649E57A8-BB98-44B5-95A9-1C3581E7C4F6}" ShortID="422854637">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-017.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-017" ID="{649E57A8-BB98-44B5-95A9-1C3581E7C4F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-018" ID="{1A311951-6AF8-4B1C-B5F5-4462E3872DEF}" ShortID="989588502">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-018" ID="{4179E72F-36AB-4DD4-8D02-5405DFBEEE86}" ShortID="1006933574">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-018.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-018" ID="{4179E72F-36AB-4DD4-8D02-5405DFBEEE86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-019" ID="{260D5A45-6FF3-4465-A01E-CF783301954C}" ShortID="914489521">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-019" ID="{C29479F5-B143-4B62-96B1-A0E6E46D6FDB}" ShortID="451682266">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-019.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-019" ID="{C29479F5-B143-4B62-96B1-A0E6E46D6FDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-020" ID="{89D6FBA9-D8C6-4618-9345-1095DDD747E5}" ShortID="31161744">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-020" ID="{1F4A9BA7-9B20-479A-BA4A-722649B78032}" ShortID="98892082">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-020.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-020" ID="{1F4A9BA7-9B20-479A-BA4A-722649B78032}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-021" ID="{BB246C6B-3B1B-4FD1-B3EC-A90554565B97}" ShortID="423486143">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-021" ID="{E7636EFB-93EF-4518-B4B3-C4F366B08974}" ShortID="772177614">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-021.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-021" ID="{E7636EFB-93EF-4518-B4B3-C4F366B08974}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-022" ID="{8526308D-F463-42AB-80FB-9E049C117339}" ShortID="52055003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-022" ID="{11027F06-27EB-4397-B497-83F5BBF0C15C}" ShortID="438427281">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-022.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-022" ID="{11027F06-27EB-4397-B497-83F5BBF0C15C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-023" ID="{BFA8E01C-4F9B-47A9-B64C-A45001964EB7}" ShortID="197516995">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-023" ID="{D44FD803-C06C-4909-8110-CFB273E579B2}" ShortID="994439472">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-023.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-023" ID="{D44FD803-C06C-4909-8110-CFB273E579B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-024" ID="{D3057561-FF84-4A52-A137-EACD0E4DCE8D}" ShortID="165501894">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-024" ID="{80CD7D48-682F-40DE-B2A8-1E31038AE7FF}" ShortID="40885637">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-024.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-024" ID="{80CD7D48-682F-40DE-B2A8-1E31038AE7FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-025" ID="{25883568-0588-47EF-BE80-26C467973F03}" ShortID="600231228">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-025" ID="{F60637F2-DD84-4CB7-9A02-EE2E26C872B7}" ShortID="428489684">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-025.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-025" ID="{F60637F2-DD84-4CB7-9A02-EE2E26C872B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Electric_Glitches-026" ID="{9E584424-A3DD-4C05-BB01-9E811F642171}" ShortID="466029061">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Electric_Glitches-026" ID="{C0B38B55-5944-46C9-B4A4-4303070350D1}" ShortID="371335609">
+											<Language>SFX</Language>
+											<AudioFile>Electric_Glitches-026.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Electric_Glitches-026" ID="{C0B38B55-5944-46C9-B4A4-4303070350D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

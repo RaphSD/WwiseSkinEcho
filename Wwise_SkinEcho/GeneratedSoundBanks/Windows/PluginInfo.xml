@@ -2,6 +2,7 @@
 <PluginInfo Project="Wwise_SkinEcho" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
 		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
+		<Plugin Name="Wwise Delay" ID="6946819" DLL="AkDelay"/>
 		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
 		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
 		<Plugin Name="Communication" ID="11534343" DLL="DefaultSink"/>

@@ -1655,6 +1655,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Electric_Glitches" ID="{D9B2CE0B-D42A-4897-8057-C21C40420F47}">
+					<ChildrenList>
+						<Action Name="" ID="{1A29D0DE-D4B1-459F-A863-8CE40E4FA9D8}" ShortID="873991198">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electric Glitches" ID="{832DD17E-2322-41C3-B1AF-1F6FADCD29B1}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Electric_Glitches" ID="{42B889BA-9566-493E-AACB-02510FE4721B}">
+					<ChildrenList>
+						<Action Name="" ID="{561D287C-0DE5-4345-978D-9D14C82B7C75}" ShortID="1069340478">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electric Glitches" ID="{832DD17E-2322-41C3-B1AF-1F6FADCD29B1}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -17,8 +17,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	1302341568	Stop_SFX_Welding			\Default Work Unit\Welder\Stop_SFX_Welding	
 	1487639259	Play_SFX_Welder_Take			\Default Work Unit\Welder\Play_SFX_Welder_Take	
 	1615443100	Stop_SFX_Radar			\Default Work Unit\Stop_SFX_Radar	
+	1943961027	Stop_Electric_Glitches			\Default Work Unit\Stop_Electric_Glitches	
 	2019705941	Play_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start	
 	2177050642	Play_SFX_Button_Touch			\Default Work Unit\Play_SFX_Button_Touch	
+	2270107141	Play_Electric_Glitches			\Default Work Unit\Play_Electric_Glitches	
 	2321851573	Stop_SFX_Monster_Aggressive			\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive	
 	2739477356	Play_Music_Death			\Default Work Unit\Play_Music_Death	
 	2798239405	Play_SFX_Water_Breach			\Default Work Unit\Water Breach\Play_SFX_Water_Breach	
@@ -129,20 +131,24 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	998994920	Reverb_Submarine			\Default Work Unit\Master Audio Bus\Main_5_1\Reverb_Submarine	
 	1049073410	Reverb_Monster			\Default Work Unit\Master Audio Bus\Main_5_1\Reverb_Monster	
+	3449031966	Reverb_Hallu			\Default Work Unit\Master Audio Bus\Main_5_1\Reverb_Hallu	
 
 Effect plug-ins	ID	Name	Type				Notes
 	110358464	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	378824104	Auro Headphone (Custom)	Auro Headphone			
-	998994920	Reverb_Submarine	Wwise RoomVerb			
 	1049073410	Reverb_Monster	Wwise RoomVerb			
+	1588715066	Echoes_Linear	Wwise Delay			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2945072214	My_Closet	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	627330	SFX_Monster_Attack	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Attack_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Attack\Monster_Attack\SFX_Monster_Attack		45852
 	17800916	04	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\04_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\04		113851
 	23242388	SFX_Water_Breach-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach-001_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach-001		235568
 	31516657	Proto_2_Voix-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-006_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-006		130095
-	35418687	54	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\54_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\54		115495
+	35418687	54	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\54_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\54		115495
 	39105376	SFX_Welding_Random-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-004_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-004		7083
+	40885637	Electric_Glitches-024	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-024_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-024		22797
 	42634799	Proto_2_Voix-010	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-010_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-010		325595
 	45987919	Proto_2_Voix_AI-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-002		108677
 	46304760	10	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\10_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\10		72765
@@ -151,7 +157,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	90393343	62	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\62_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\62		80184
 	94118667	68	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\68_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\68		54620
 	94634258	29	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\29-2_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\29		242331
+	98892082	Electric_Glitches-020	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-020_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-020		11421
 	106135556	67	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\67_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\67		80076
+	116874313	Electric_Glitches-015	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-015_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-015		47112
 	117803725	17	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\17_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\17		167231
 	128207847	71	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\71_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\71		82483
 	131793686	83	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\83_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\83		109879
@@ -167,7 +175,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	215496252	SFX_Button_Touch-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Touch-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Touch\SFX_Button_Touch-003		10940
 	225947480	34	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\34_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\34		51601
 	228420366	70	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\70_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\70		60462
-	259749817	58	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\58_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\58		59461
+	259749817	58	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\58_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\58		59461
 	264589985	27	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\27_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\27		81484
 	266136684	20	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\20_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\20		49603
 	269812339	28	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\28_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\28		265350
@@ -176,25 +184,34 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	287794528	16	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\16_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\16		351448
 	301047655	60	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\60_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\60		126476
 	302728083	SFX_Welder_Take	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welder_Take_75167FBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welder_Take		15976
-	335424127	56	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\56_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\56		71786
+	321003141	Electric_Glitches-010	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-010_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-010		60439
+	335424127	56	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\56_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\56		71786
 	335806510	32	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\32_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\32		77467
+	350479314	Electric_Glitches-008	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-008_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-008		37466
 	350918331	82	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\82_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\82		58592
 	351936415	07	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\07_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\07		58083
 	352398743	SFX_Monster_Attack_Debris	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Attack_Debris_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Attack\Monster_Attack\SFX_Monster_Attack_Debris		127736
-	358361425	55	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\55_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\55		53396
+	354552404	Electric_Glitches-016	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-016_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-016		37970
+	358361425	55	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\55_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\55		53396
 	364433816	14	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\14_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\14		75424
+	371335609	Electric_Glitches-026	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-026_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-026		18362
 	376913105	SFX_Ambiance_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Ambiance_01_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ambiance_01		7028100
 	377032202	Proto_2_Voix-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Radio_Voice_Start\Proto_2_Voix-003		114320
 	383914256	SFX_Monster_Calm_02	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Calm_02_1428C592.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Calm\SFX_Monster_Calm_02		223563
 	400041589	64	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\64_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\64		107593
 	401034635	Niveau Ox_15	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_15_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_15		64874
 	412365172	SFX_Welding_Air	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Air_1A4BA615.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Air\SFX_Welding_Air		228320
+	422854637	Electric_Glitches-017	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-017_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-017		22018
 	423369517	05	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\05_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\05		169234
+	428489684	Electric_Glitches-025	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-025_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-025		24924
+	438427281	Electric_Glitches-022	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-022_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-022		52668
 	451488164	22	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\22_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\22		31364
+	451682266	Electric_Glitches-019	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-019_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-019		26345
 	455195276	Niveau Ox_75	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Niveau Ox_75_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oxygen Level AI\Oxygen_Level\Niveau Ox_75		64838
 	463336732	SFX_Welding_Random-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-003		9739
 	472152908	23	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\23_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\23		119334
 	494826113	18	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\18_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\18		94922
+	504964808	Electric_Glitches-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-005		10160
 	507808166	36	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\36_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\36		36251
 	512122054	87	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\87_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\87		64621
 	513154736	86	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\86_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\86		70405
@@ -203,15 +220,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	526606882	SFX_Water_Breach_Waterpour	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Waterpour_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Waterpour		161717
 	540310658	Proto_2_Voix_AI-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-003		56746
 	546981933	35	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\35_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\35		53296
-	572803206	57	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\57_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\57		97280
+	572803206	57	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\57_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\57		97280
 	578472801	Death	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Death_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Death		109391
+	597218021	Electric_Glitches-011	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-011_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-011		27576
 	601099440	SFX_Monster_Calm_03	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Calm_03_C397BEB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Calm\SFX_Monster_Calm_03		204214
 	601773552	42	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\42_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\42		101980
 	604420339	Proto_2_Voix-008	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-008_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-008		205472
 	607793296	SFX_Button_Pressed	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Pressed_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Press\SFX_Button_Pressed		9255
-	611750178	53	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\53_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\53		106025
+	611750178	53	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\53_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\53		106025
+	620228839	Electric_Glitches-009	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-009_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-009		8184
 	623079385	84	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\84_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\84		56839
 	626430297	Proto_2_Voix-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Radio_Voice_Start\Proto_2_Voix-001		47917
+	649240062	Electric_Glitches-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-001		9774
 	653124631	21	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\21_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\21		121189
 	662036919	30	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\30_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\30		69559
 	676054774	Proto_2_Voix-011	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-011_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-011		189045
@@ -227,14 +247,19 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	734633356	Proto_2_Voix-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-005		48377
 	749512947	25	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\25_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\25		62316
 	765607530	13	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\13_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\13		169725
-	767185006	52	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\52_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\52		37999
+	767185006	52	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\52_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\52		37999
+	772177614	Electric_Glitches-021	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-021_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-021		20442
 	775960347	65	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\65_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\65		176505
 	787417280	43	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\43_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\43		68262
 	788876877	SFX_Welding	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_389122C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding		149852
 	804798472	63	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\63_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\63		191552
 	828587528	69	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\69_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\69		136856
+	833088588	Electric_Glitches-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-002_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-002		12629
+	834370647	Electric_Glitches-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-003_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-003		23205
 	835193151	SFX_Welding_Random-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-005_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-005		46336
-	854712496	50	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\50_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\50		76556
+	850619969	Electric_Glitches-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-006_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-006		14565
+	854712496	50	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\50_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\50		76556
+	862818312	Electric_Glitches-012	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-012_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-012		7075
 	865758399	24	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\24_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\24		58963
 	865969736	88	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\88_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\88		65238
 	873154146	SFX_Monster_Aggressive_04	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Monster_Aggressive_04_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\SFX_Monster_Aggressive\SFX_Monster_Aggressive_04		99244
@@ -245,22 +270,28 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	911243511	Proto_2_Voix-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-004_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-004		1860428
 	913850794	44	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\44_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\44		66211
 	917638555	61	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\61_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\61		88975
-	933783967	59	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\59_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\59		64943
+	933783967	59	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\59_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\59		64943
 	935938794	12	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\12_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\12		134953
 	939981775	SFX_Welding_Random-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-001		23163
 	948860102	41	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\41_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\41		37967
 	958351346	SFX_Water_Breach_Explosion	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Explosion_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Explosion		128411
 	969330508	31	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\31_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\31		228986
+	969542850	Electric_Glitches-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-004_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-004		10005
 	970623631	91	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\91_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\91		61587
 	974824106	90	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\90_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\90		56519
 	983778346	01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\01_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\01		154472
+	994439472	Electric_Glitches-023	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-023_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-023		8784
+	1000807260	Electric_Glitches-014	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-014_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-014		17466
+	1001214171	Electric_Glitches-013	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-013_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-013		11711
 	1005017841	Proto_2_Voix_AI-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-002_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-001		89039
+	1006933574	Electric_Glitches-018	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-018_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-018		18048
 	1015578128	Music_Death	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Music_Death_BAFD0459.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_Death		1441800
 	1026977004	SFX_Button_Touch-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Touch-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Touch\SFX_Button_Touch-001		9221
 	1036000392	85	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\85_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\85		67670
 	1047776683	89	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\89_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\89		55870
 	1048821415	SFX_Welding_Random-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Welding_Random-006_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Welder\SFX_Welding_Random\SFX_Welding_Random-006		30111
 	1058316171	Proto_2_Voix-009	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix-009_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio_Voice_Deprecated\Proto_2_Voix-009		287796
-	1065982166	51	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\51_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\51		36764
+	1065982166	51	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\51_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\51		36764
+	1068155871	Electric_Glitches-007	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Electric_Glitches-007_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Electric Glitches\Electric Glitches\Electric_Glitches-007		9318
 	1068309798	09	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\09_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\09		69681
 
