@@ -3887,14 +3887,14 @@
 							<PropertyList>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="30">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{9E207840-3E3A-4822-867F-1ACE964D4D2E}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
