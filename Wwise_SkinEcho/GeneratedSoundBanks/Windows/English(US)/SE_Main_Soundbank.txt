@@ -20,6 +20,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2019705941	Play_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Play_Radio_Voice_Start	
 	2177050642	Play_SFX_Button_Touch			\Default Work Unit\Play_SFX_Button_Touch	
 	2321851573	Stop_SFX_Monster_Aggressive			\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive	
+	2739477356	Play_Music_Death			\Default Work Unit\Play_Music_Death	
 	2798239405	Play_SFX_Water_Breach			\Default Work Unit\Water Breach\Play_SFX_Water_Breach	
 	2843654259	Play_SFX_Monster_Attack			\Default Work Unit\Monster\Play_SFX_Monster_Attack	
 	3068182256	Play_60			\Default Work Unit\NEW-Voices-\Play_60	
@@ -254,6 +255,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	974824106	90	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\90_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\90		56519
 	983778346	01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\01_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\01		154472
 	1005017841	Proto_2_Voix_AI-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-002_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-001		89039
+	1015578128	Music_Death	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\Music_Death_BAFD0459.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_Death		1441800
 	1026977004	SFX_Button_Touch-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Button_Touch-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Button_Touch\SFX_Button_Touch-001		9221
 	1036000392	85	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\85_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\85		67670
 	1047776683	89	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\89_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\AI\89		55870

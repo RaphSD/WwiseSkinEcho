@@ -1641,6 +1641,20 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Music_Death" ID="{D4B67FEA-42E7-4509-825F-D274546E7CD3}">
+					<ChildrenList>
+						<Action Name="" ID="{9654ECAC-72CB-458C-80EA-30623F5C3058}" ShortID="558693554">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Death" ID="{9571B74F-F583-4AB7-A373-B4AB1F408E63}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

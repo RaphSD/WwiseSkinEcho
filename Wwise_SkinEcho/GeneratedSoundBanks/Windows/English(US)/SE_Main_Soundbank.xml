@@ -88,6 +88,7 @@
 				<Event Id="3319846509" Name="Play_90" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_90" MaxAttenuation="2,000000"/>
 				<Event Id="3319846508" Name="Play_91" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_91" MaxAttenuation="2,000000"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
+				<Event Id="2739477356" Name="Play_Music_Death" ObjectPath="\Events\Default Work Unit\Play_Music_Death"/>
 				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2,000000"/>
 				<Event Id="189687751" Name="Play_Niveau_Ox_15" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15" MaxAttenuation="2,000000"/>
 				<Event Id="172910186" Name="Play_Niveau_Ox_25" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_25" MaxAttenuation="2,000000"/>
@@ -598,6 +599,10 @@
 				<File Id="1005017841" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-002.wav</ShortName>
 					<Path>Voices\English(US)\Proto_2_Voix_AI-002_658ED0DC.wem</Path>
+				</File>
+				<File Id="1015578128" Language="SFX">
+					<ShortName>Music_Death.wav</ShortName>
+					<Path>SFX\Music_Death_BAFD0459.wem</Path>
 				</File>
 				<File Id="1026977004" Language="SFX">
 					<ShortName>SFX_Button_Touch-001.wav</ShortName>
