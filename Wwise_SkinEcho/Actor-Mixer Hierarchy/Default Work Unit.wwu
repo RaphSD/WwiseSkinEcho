@@ -3475,6 +3475,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="29-2" ID="{CFC1B1DA-E1A7-47AF-B1E8-8B0C29802CA3}" ShortID="94634258">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="1.50279041108631"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>29-2.wav</AudioFile>
 										</AudioFileSource>
