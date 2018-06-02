@@ -765,6 +765,12 @@
       "Path": "Voices\\English(US)\\10_658ED0DC.wem"
      },
      {
+      "Id": "60874556",
+      "Language": "SFX",
+      "ShortName": "Alarm_OX.wav",
+      "Path": "SFX\\Alarm_OX_658ED0DC.wem"
+     },
+     {
       "Id": "70595769",
       "Language": "SFX",
       "ShortName": "SFX_Welding_Random-002.wav",
@@ -792,7 +798,7 @@
       "Id": "94634258",
       "Language": "English(US)",
       "ShortName": "29-2.wav",
-      "Path": "Voices\\English(US)\\29-2_D5F5942C.wem"
+      "Path": "Voices\\English(US)\\29-2_08060030.wem"
      },
      {
       "Id": "98892082",
@@ -1566,7 +1572,7 @@
       "Id": "1015578128",
       "Language": "SFX",
       "ShortName": "Music_Death.wav",
-      "Path": "SFX\\Music_Death_BAFD0459.wem"
+      "Path": "SFX\\Music_Death_1906B1EE.wem"
      },
      {
       "Id": "1026977004",

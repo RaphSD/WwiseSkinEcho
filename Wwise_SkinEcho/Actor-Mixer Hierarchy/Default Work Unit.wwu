@@ -3,343 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Radio_Voice_Deprecated" ID="{45B9C31E-D4F3-40A7-BB25-79E34513B23E}" ShortID="427152874">
-					<PropertyList>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="UserAuxSendVolume0" Type="Real64">
-							<ValueList>
-								<Value>-14</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-1</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Proto_2_Voix-004" ID="{78CC7D04-0FB9-4711-BD03-0EA8B82DEBC8}" ShortID="160168343">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-004" ID="{F7545AD6-22FD-4207-BA1E-1C0D363A0BEA}" ShortID="911243511">
-									<Comment>MAIN MONOLOGUE "Oh Putain, dieu merci t'es vivant [...] to [...] ça a dû être un choc violent"</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-004.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-004" ID="{F7545AD6-22FD-4207-BA1E-1C0D363A0BEA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<RandomSequenceContainer Name="Radio_Voice_Start" ID="{DDF9B702-E943-4B77-8CF2-99608BD9AF8A}" ShortID="113773215">
-							<PropertyList>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Proto_2_Voix-001" ID="{AB9008DE-B9F3-4EE4-93A5-DA0A0DCAC259}" ShortID="988125830">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Proto_2_Voix-001" ID="{74589074-DC63-47D4-8935-B2E0B08EDBD0}" ShortID="626430297">
-											<Comment>“Plongeur 105, tu m’entends ?!”
-</Comment>
-											<Language>English(US)</Language>
-											<AudioFile>Proto_2_Voix-001.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Proto_2_Voix-001" ID="{74589074-DC63-47D4-8935-B2E0B08EDBD0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Proto_2_Voix-002" ID="{B2AB13F5-7A68-4507-8855-6573A72DDDE3}" ShortID="231725122">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Proto_2_Voix-002" ID="{94C3E151-DA1D-4D80-98DD-55EC147CAC8E}" ShortID="680106393">
-											<Comment>“Plongeur 105, tu m’entends ?!”</Comment>
-											<Language>English(US)</Language>
-											<AudioFile>Proto_2_Voix-002.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Proto_2_Voix-002" ID="{94C3E151-DA1D-4D80-98DD-55EC147CAC8E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Proto_2_Voix-003" ID="{B91E03B6-9378-4A88-9149-1D7B1A48EFCA}" ShortID="574553205">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Proto_2_Voix-003" ID="{34D41497-F237-4381-9BE7-BDEA1C7148D6}" ShortID="377032202">
-											<Comment>“Plongeur 105 bordel réveille toi !”
-“RÉVEILLE TOI !!”
-</Comment>
-											<Language>English(US)</Language>
-											<AudioFile>Proto_2_Voix-003.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Proto_2_Voix-003" ID="{34D41497-F237-4381-9BE7-BDEA1C7148D6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<Sound Name="Proto_2_Voix-005" ID="{C8B45889-AED0-4C6C-ACBF-03A69D220B0F}" ShortID="663374018">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-005" ID="{CD1981B9-69C2-4B82-ADF5-596DC3875472}" ShortID="734633356">
-									<Comment>“Okay tend le bras devant toi”
-</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-005.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-005" ID="{CD1981B9-69C2-4B82-ADF5-596DC3875472}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Proto_2_Voix-006" ID="{5AC3418D-E878-4B15-A4C7-F3EF6F2F3F6A}" ShortID="681326629">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-006" ID="{79BFC70C-A6BE-4CBC-BD0B-F588344992E8}" ShortID="31516657">
-									<Comment>“Bon, j’imagine que c’est fait, maintenant mets les mains à côté de ton visage”
-</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-006.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-006" ID="{79BFC70C-A6BE-4CBC-BD0B-F588344992E8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Proto_2_Voix-007" ID="{7A86E7F8-D925-4B8F-8328-D695FBCE1D17}" ShortID="904812958">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-007" ID="{F26EC278-61A2-47CE-9607-4D7FAE52CECA}" ShortID="697383045">
-									<Comment>“Enfin, pose les mains sur le sol devant toi !” </Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-007.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-007" ID="{F26EC278-61A2-47CE-9607-4D7FAE52CECA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Proto_2_Voix-008" ID="{959EBEC9-8740-4855-9AC7-D56E60DDAC4F}" ShortID="178985973">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-008" ID="{6512AABA-E980-41F0-952A-77519280AF7E}" ShortID="604420339">
-									<Comment>“Bon si tu n’as ressenti aucune douleur, c’est qu’on peut y aller, t’es en état de marche ! Secoue les bras pour déclencher le capteur de mouvement si tout va bien !”
-</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-008.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-008" ID="{6512AABA-E980-41F0-952A-77519280AF7E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Proto_2_Voix-009" ID="{D56C9B04-972D-4EA5-81A5-B9CC347C7D6D}" ShortID="380434830">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-009" ID="{55D594AB-0C88-447F-9006-BFAAD4821581}" ShortID="1058316171">
-									<Comment>“Excellent ! Bon maintenant passons aux choses sérieuses, trouve le bouton de redémarrage du système de lumières. On va essayer d’éclairer le sous marin pour que tu vois où se situe la faille dans le système d’oxygène!”
-</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-009.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-009" ID="{55D594AB-0C88-447F-9006-BFAAD4821581}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Proto_2_Voix-010" ID="{CDBEC0C1-84E1-4FA8-A89F-61BAC1C16B0A}" ShortID="291655345">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-010" ID="{FD74AC13-F6E0-40F1-9DDB-DA4D56AC8A67}" ShortID="42634799">
-									<Comment>“Ah… Le système de contrôle m’indique que les lumières sont mortes. Bon, allez, on va devoir faire ça à l’aveugle !”
-“Tout d’abord, ouvre la trappe qui renferme le fer à souder ! Il y a un bouton sur le tableau de bord pour ça !”
-</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-010.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-010" ID="{FD74AC13-F6E0-40F1-9DDB-DA4D56AC8A67}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Proto_2_Voix-011" ID="{92AFDEA0-6BC8-4434-ADDB-DCB6C9916E81}" ShortID="491411052">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-011" ID="{1D75429B-0FFE-490B-B906-5F832379F96F}" ShortID="676054774">
-									<Comment>“Maintenant trouve la faille avec ta main, puis quand tu l’as trouvée, appuie sur la gâchette du soudeur pour colmater la brèche.
-</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-011.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-011" ID="{1D75429B-0FFE-490B-B906-5F832379F96F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Proto_2_Voix-012" ID="{75650E7D-0699-47EA-9257-22FDB97FA661}" ShortID="381516948">
-							<PropertyList>
-								<Property Name="IsVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Proto_2_Voix-012" ID="{1381239B-0019-4028-A503-7A6126CA33D6}" ShortID="683488370">
-									<Comment>“Yes ! C’est bon, ton niveau d’oxygène est stable. Maintenant, tu n’as plus qu’à attendre qu’on vienne te chercher !”</Comment>
-									<Language>English(US)</Language>
-									<AudioFile>Proto_2_Voix-012.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Proto_2_Voix-012" ID="{1381239B-0019-4028-A503-7A6126CA33D6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</ActorMixer>
 				<Sound Name="SFX_Ambiance_01" ID="{3540AE33-09B4-4636-AEF9-46ABA8F71517}" ShortID="687617620">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -1436,175 +1099,6 @@
 								</BlendContainer>
 							</ChildrenList>
 						</RandomSequenceContainer>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Oxygen Level AI" ID="{D07A6596-4CB3-490C-B34F-D1901FD174FE}" ShortID="110680487">
-					<ChildrenList>
-						<ActorMixer Name="Oxygen_Level" ID="{003DC6FD-8644-47D8-8FFE-2FE0B87655D5}" ShortID="1026457176">
-							<PropertyList>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Niveau Ox_25" ID="{981C7078-387F-4E9C-B889-CFEB12525E10}" ShortID="613016417">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Niveau Ox_25" ID="{18AE6D5C-312A-4DFA-A2EB-C69DB847277D}" ShortID="702606328">
-											<Language>English(US)</Language>
-											<AudioFile>Niveau Ox_25.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Niveau Ox_25" ID="{18AE6D5C-312A-4DFA-A2EB-C69DB847277D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Niveau Ox_50" ID="{77309204-423B-4F00-8981-D67B1F83D4B1}" ShortID="476397052">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Niveau Ox_50" ID="{FFC5550F-9545-451D-9B60-32105C3CEE53}" ShortID="908615635">
-											<Language>English(US)</Language>
-											<AudioFile>Niveau Ox_50.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Niveau Ox_50" ID="{FFC5550F-9545-451D-9B60-32105C3CEE53}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Niveau Ox_75" ID="{FBE7E1E5-26E4-4ADC-BED3-6F8B7C3190FC}" ShortID="837969899">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Niveau Ox_75" ID="{AC8A816C-1F34-4618-B428-9AC3463752F8}" ShortID="455195276">
-											<Language>English(US)</Language>
-											<AudioFile>Niveau Ox_75.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Niveau Ox_75" ID="{AC8A816C-1F34-4618-B428-9AC3463752F8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Niveau Ox_5" ID="{64D92CE7-4EEA-4AC3-B370-24615D57D72A}" ShortID="1069853939">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Niveau Ox_5" ID="{DF248128-2F15-4636-A804-E447CDCBCF13}" ShortID="908905105">
-											<Language>English(US)</Language>
-											<AudioFile>Niveau Ox_5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Niveau Ox_5" ID="{DF248128-2F15-4636-A804-E447CDCBCF13}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Niveau Ox_10" ID="{3D878187-B421-425E-BBA5-A8E950607D0C}" ShortID="428217785">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Niveau Ox_10" ID="{5DCA6A53-987F-4A11-A9E2-1794A004E4DA}" ShortID="276671463">
-											<Language>English(US)</Language>
-											<AudioFile>Niveau Ox_10.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Niveau Ox_10" ID="{5DCA6A53-987F-4A11-A9E2-1794A004E4DA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Niveau Ox_15" ID="{04AE29AE-994D-4232-9CF2-BADF00E21CB5}" ShortID="107817995">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Niveau Ox_15" ID="{68C1FD46-E75D-4B93-82A6-96298AAA4747}" ShortID="401034635">
-											<Language>English(US)</Language>
-											<AudioFile>Niveau Ox_15.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Niveau Ox_15" ID="{68C1FD46-E75D-4B93-82A6-96298AAA4747}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 				<RandomSequenceContainer Name="SFX_Button_Touch" ID="{F82B85F3-D1F4-4A34-BA6F-67F60CA4F4A7}" ShortID="180732034">
@@ -4424,6 +3918,563 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="OBSOLETE" ID="{67451CC1-C94C-48F9-B87D-DD114711EC6B}" ShortID="214588655">
+					<ChildrenList>
+						<Folder Name="Oxygen Level AI" ID="{D07A6596-4CB3-490C-B34F-D1901FD174FE}" ShortID="110680487">
+							<ChildrenList>
+								<ActorMixer Name="Oxygen_Level" ID="{003DC6FD-8644-47D8-8FFE-2FE0B87655D5}" ShortID="1026457176">
+									<PropertyList>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Niveau Ox_25" ID="{981C7078-387F-4E9C-B889-CFEB12525E10}" ShortID="613016417">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Niveau Ox_25" ID="{18AE6D5C-312A-4DFA-A2EB-C69DB847277D}" ShortID="702606328">
+													<Language>English(US)</Language>
+													<AudioFile>Niveau Ox_25.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Niveau Ox_25" ID="{18AE6D5C-312A-4DFA-A2EB-C69DB847277D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Niveau Ox_50" ID="{77309204-423B-4F00-8981-D67B1F83D4B1}" ShortID="476397052">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Niveau Ox_50" ID="{FFC5550F-9545-451D-9B60-32105C3CEE53}" ShortID="908615635">
+													<Language>English(US)</Language>
+													<AudioFile>Niveau Ox_50.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Niveau Ox_50" ID="{FFC5550F-9545-451D-9B60-32105C3CEE53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Niveau Ox_75" ID="{FBE7E1E5-26E4-4ADC-BED3-6F8B7C3190FC}" ShortID="837969899">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Niveau Ox_75" ID="{AC8A816C-1F34-4618-B428-9AC3463752F8}" ShortID="455195276">
+													<Language>English(US)</Language>
+													<AudioFile>Niveau Ox_75.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Niveau Ox_75" ID="{AC8A816C-1F34-4618-B428-9AC3463752F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Niveau Ox_5" ID="{64D92CE7-4EEA-4AC3-B370-24615D57D72A}" ShortID="1069853939">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Niveau Ox_5" ID="{DF248128-2F15-4636-A804-E447CDCBCF13}" ShortID="908905105">
+													<Language>English(US)</Language>
+													<AudioFile>Niveau Ox_5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Niveau Ox_5" ID="{DF248128-2F15-4636-A804-E447CDCBCF13}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Niveau Ox_10" ID="{3D878187-B421-425E-BBA5-A8E950607D0C}" ShortID="428217785">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Niveau Ox_10" ID="{5DCA6A53-987F-4A11-A9E2-1794A004E4DA}" ShortID="276671463">
+													<Language>English(US)</Language>
+													<AudioFile>Niveau Ox_10.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Niveau Ox_10" ID="{5DCA6A53-987F-4A11-A9E2-1794A004E4DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Niveau Ox_15" ID="{04AE29AE-994D-4232-9CF2-BADF00E21CB5}" ShortID="107817995">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Niveau Ox_15" ID="{68C1FD46-E75D-4B93-82A6-96298AAA4747}" ShortID="401034635">
+													<Language>English(US)</Language>
+													<AudioFile>Niveau Ox_15.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Niveau Ox_15" ID="{68C1FD46-E75D-4B93-82A6-96298AAA4747}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</Folder>
+						<ActorMixer Name="Radio_Voice_Deprecated" ID="{45B9C31E-D4F3-40A7-BB25-79E34513B23E}" ShortID="427152874">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Proto_2_Voix-004" ID="{78CC7D04-0FB9-4711-BD03-0EA8B82DEBC8}" ShortID="160168343">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-004" ID="{F7545AD6-22FD-4207-BA1E-1C0D363A0BEA}" ShortID="911243511">
+											<Comment>MAIN MONOLOGUE "Oh Putain, dieu merci t'es vivant [...] to [...] ça a dû être un choc violent"</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-004" ID="{F7545AD6-22FD-4207-BA1E-1C0D363A0BEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Radio_Voice_Start" ID="{DDF9B702-E943-4B77-8CF2-99608BD9AF8A}" ShortID="113773215">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Proto_2_Voix-001" ID="{AB9008DE-B9F3-4EE4-93A5-DA0A0DCAC259}" ShortID="988125830">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Proto_2_Voix-001" ID="{74589074-DC63-47D4-8935-B2E0B08EDBD0}" ShortID="626430297">
+													<Comment>“Plongeur 105, tu m’entends ?!”
+</Comment>
+													<Language>English(US)</Language>
+													<AudioFile>Proto_2_Voix-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Proto_2_Voix-001" ID="{74589074-DC63-47D4-8935-B2E0B08EDBD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Proto_2_Voix-002" ID="{B2AB13F5-7A68-4507-8855-6573A72DDDE3}" ShortID="231725122">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Proto_2_Voix-002" ID="{94C3E151-DA1D-4D80-98DD-55EC147CAC8E}" ShortID="680106393">
+													<Comment>“Plongeur 105, tu m’entends ?!”</Comment>
+													<Language>English(US)</Language>
+													<AudioFile>Proto_2_Voix-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Proto_2_Voix-002" ID="{94C3E151-DA1D-4D80-98DD-55EC147CAC8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Proto_2_Voix-003" ID="{B91E03B6-9378-4A88-9149-1D7B1A48EFCA}" ShortID="574553205">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Voice" ID="{0CCC3333-6DB5-42AB-9F88-9AE453903AAC}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Proto_2_Voix-003" ID="{34D41497-F237-4381-9BE7-BDEA1C7148D6}" ShortID="377032202">
+													<Comment>“Plongeur 105 bordel réveille toi !”
+“RÉVEILLE TOI !!”
+</Comment>
+													<Language>English(US)</Language>
+													<AudioFile>Proto_2_Voix-003.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Proto_2_Voix-003" ID="{34D41497-F237-4381-9BE7-BDEA1C7148D6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Proto_2_Voix-005" ID="{C8B45889-AED0-4C6C-ACBF-03A69D220B0F}" ShortID="663374018">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-005" ID="{CD1981B9-69C2-4B82-ADF5-596DC3875472}" ShortID="734633356">
+											<Comment>“Okay tend le bras devant toi”
+</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-005" ID="{CD1981B9-69C2-4B82-ADF5-596DC3875472}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Proto_2_Voix-006" ID="{5AC3418D-E878-4B15-A4C7-F3EF6F2F3F6A}" ShortID="681326629">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-006" ID="{79BFC70C-A6BE-4CBC-BD0B-F588344992E8}" ShortID="31516657">
+											<Comment>“Bon, j’imagine que c’est fait, maintenant mets les mains à côté de ton visage”
+</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-006" ID="{79BFC70C-A6BE-4CBC-BD0B-F588344992E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Proto_2_Voix-007" ID="{7A86E7F8-D925-4B8F-8328-D695FBCE1D17}" ShortID="904812958">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-007" ID="{F26EC278-61A2-47CE-9607-4D7FAE52CECA}" ShortID="697383045">
+											<Comment>“Enfin, pose les mains sur le sol devant toi !” </Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-007" ID="{F26EC278-61A2-47CE-9607-4D7FAE52CECA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Proto_2_Voix-008" ID="{959EBEC9-8740-4855-9AC7-D56E60DDAC4F}" ShortID="178985973">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-008" ID="{6512AABA-E980-41F0-952A-77519280AF7E}" ShortID="604420339">
+											<Comment>“Bon si tu n’as ressenti aucune douleur, c’est qu’on peut y aller, t’es en état de marche ! Secoue les bras pour déclencher le capteur de mouvement si tout va bien !”
+</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-008" ID="{6512AABA-E980-41F0-952A-77519280AF7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Proto_2_Voix-009" ID="{D56C9B04-972D-4EA5-81A5-B9CC347C7D6D}" ShortID="380434830">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-009" ID="{55D594AB-0C88-447F-9006-BFAAD4821581}" ShortID="1058316171">
+											<Comment>“Excellent ! Bon maintenant passons aux choses sérieuses, trouve le bouton de redémarrage du système de lumières. On va essayer d’éclairer le sous marin pour que tu vois où se situe la faille dans le système d’oxygène!”
+</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-009.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-009" ID="{55D594AB-0C88-447F-9006-BFAAD4821581}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Proto_2_Voix-010" ID="{CDBEC0C1-84E1-4FA8-A89F-61BAC1C16B0A}" ShortID="291655345">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-010" ID="{FD74AC13-F6E0-40F1-9DDB-DA4D56AC8A67}" ShortID="42634799">
+											<Comment>“Ah… Le système de contrôle m’indique que les lumières sont mortes. Bon, allez, on va devoir faire ça à l’aveugle !”
+“Tout d’abord, ouvre la trappe qui renferme le fer à souder ! Il y a un bouton sur le tableau de bord pour ça !”
+</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-010.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-010" ID="{FD74AC13-F6E0-40F1-9DDB-DA4D56AC8A67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Proto_2_Voix-011" ID="{92AFDEA0-6BC8-4434-ADDB-DCB6C9916E81}" ShortID="491411052">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-011" ID="{1D75429B-0FFE-490B-B906-5F832379F96F}" ShortID="676054774">
+											<Comment>“Maintenant trouve la faille avec ta main, puis quand tu l’as trouvée, appuie sur la gâchette du soudeur pour colmater la brèche.
+</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-011.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-011" ID="{1D75429B-0FFE-490B-B906-5F832379F96F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Proto_2_Voix-012" ID="{75650E7D-0699-47EA-9257-22FDB97FA661}" ShortID="381516948">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Proto_2_Voix-012" ID="{1381239B-0019-4028-A503-7A6126CA33D6}" ShortID="683488370">
+											<Comment>“Yes ! C’est bon, ton niveau d’oxygène est stable. Maintenant, tu n’as plus qu’à attendre qu’on vienne te chercher !”</Comment>
+											<Language>English(US)</Language>
+											<AudioFile>Proto_2_Voix-012.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Proto_2_Voix-012" ID="{1381239B-0019-4028-A503-7A6126CA33D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="Alarm_Ox" ID="{CEC3D244-E889-4E06-BA1C-DE25EBE516FB}" ShortID="111323324">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-19</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Attenuation_SFX" ID="{9A0852CE-9F28-4C1B-8558-288B29DBEE00}" WorkUnitID="{82735247-07EB-4B6A-9F11-7DF6FFAF54E6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Alarm_OX" ID="{62D1D3D4-6294-49CE-97E9-20E65C2170FE}" ShortID="363524923">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Alarm_OX" ID="{DCE813BE-5905-4834-B682-CFEAA319D6C5}" ShortID="60874556">
+									<Language>SFX</Language>
+									<AudioFile>Alarm_OX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Alarm_OX" ID="{DCE813BE-5905-4834-B682-CFEAA319D6C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

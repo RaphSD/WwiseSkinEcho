@@ -170,6 +170,10 @@
 					<ShortName>10.wav</ShortName>
 					<Path>Voices\English(US)\10_658ED0DC.wem</Path>
 				</File>
+				<File Id="60874556" Language="SFX">
+					<ShortName>Alarm_OX.wav</ShortName>
+					<Path>SFX\Alarm_OX_658ED0DC.wem</Path>
+				</File>
 				<File Id="70595769" Language="SFX">
 					<ShortName>SFX_Welding_Random-002.wav</ShortName>
 					<Path>SFX\SFX_Welding_Random-002_658ED0DC.wem</Path>
@@ -188,7 +192,7 @@
 				</File>
 				<File Id="94634258" Language="English(US)">
 					<ShortName>29-2.wav</ShortName>
-					<Path>Voices\English(US)\29-2_D5F5942C.wem</Path>
+					<Path>Voices\English(US)\29-2_08060030.wem</Path>
 				</File>
 				<File Id="98892082" Language="SFX">
 					<ShortName>Electric_Glitches-020.wav</ShortName>
@@ -704,7 +708,7 @@
 				</File>
 				<File Id="1015578128" Language="SFX">
 					<ShortName>Music_Death.wav</ShortName>
-					<Path>SFX\Music_Death_BAFD0459.wem</Path>
+					<Path>SFX\Music_Death_1906B1EE.wem</Path>
 				</File>
 				<File Id="1026977004" Language="SFX">
 					<ShortName>SFX_Button_Touch-001.wav</ShortName>
