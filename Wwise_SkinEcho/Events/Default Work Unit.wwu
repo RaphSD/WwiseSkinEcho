@@ -1727,6 +1727,12 @@
 				</Event>
 				<Event Name="Play_DeepBreath_EndMusic" ID="{23F33EA6-C8EC-422C-8C9D-B5AB5A15B4E5}">
 					<ChildrenList>
+						<Action Name="" ID="{4CD70EFD-C4C0-4D6E-A383-F3EF6C834BA7}" ShortID="1004685269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
 						<Action Name="" ID="{BF74FB49-C6EC-4372-B48C-BD30EEA3B152}" ShortID="671494589">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
