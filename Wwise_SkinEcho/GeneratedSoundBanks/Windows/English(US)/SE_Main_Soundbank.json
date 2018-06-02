@@ -475,6 +475,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Death"
      },
      {
+      "Id": "801383969",
+      "Name": "Play_DeepBreath_EndMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_DeepBreath_EndMusic"
+     },
+     {
       "Id": "2270107141",
       "Name": "Play_Electric_Glitches",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Electric_Glitches",
@@ -1182,6 +1187,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Water_Breach_Waterpour.wav",
       "Path": "SFX\\SFX_Water_Breach_Waterpour_9D73A8A6.wem"
+     },
+     {
+      "Id": "539731441",
+      "Language": "SFX",
+      "ShortName": "DeepBreath_EndMusic.wav",
+      "Path": "SFX\\DeepBreath_EndMusic_1C9C67B2.wem"
      },
      {
       "Id": "540310658",

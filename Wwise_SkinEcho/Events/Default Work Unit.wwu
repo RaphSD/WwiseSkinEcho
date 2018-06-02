@@ -1725,6 +1725,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DeepBreath_EndMusic" ID="{23F33EA6-C8EC-422C-8C9D-B5AB5A15B4E5}">
+					<ChildrenList>
+						<Action Name="" ID="{BF74FB49-C6EC-4372-B48C-BD30EEA3B152}" ShortID="671494589">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DeepBreath_EndMusic" ID="{067ADDBA-188C-4AF6-9C99-D3C14317036C}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

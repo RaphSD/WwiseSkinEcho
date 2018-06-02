@@ -89,6 +89,7 @@
 				<Event Id="3319846508" Name="Play_91" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_91" MaxAttenuation="2,000000"/>
 				<Event Id="1487178657" Name="Play_Alarm_Ox" ObjectPath="\Events\Default Work Unit\Play_Alarm_Ox" MaxAttenuation="2,000000"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
+				<Event Id="801383969" Name="Play_DeepBreath_EndMusic" ObjectPath="\Events\Default Work Unit\Play_DeepBreath_EndMusic"/>
 				<Event Id="2270107141" Name="Play_Electric_Glitches" ObjectPath="\Events\Default Work Unit\Play_Electric_Glitches" MaxAttenuation="2,000000"/>
 				<Event Id="2739477356" Name="Play_Music_Death" ObjectPath="\Events\Default Work Unit\Play_Music_Death"/>
 				<Event Id="189687746" Name="Play_Niveau_Ox_10" ObjectPath="\Events\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_10" MaxAttenuation="2,000000"/>
@@ -440,6 +441,10 @@
 				<File Id="526606882" Language="SFX">
 					<ShortName>SFX_Water_Breach_Waterpour.wav</ShortName>
 					<Path>SFX\SFX_Water_Breach_Waterpour_9D73A8A6.wem</Path>
+				</File>
+				<File Id="539731441" Language="SFX">
+					<ShortName>DeepBreath_EndMusic.wav</ShortName>
+					<Path>SFX\DeepBreath_EndMusic_1C9C67B2.wem</Path>
 				</File>
 				<File Id="540310658" Language="English(US)">
 					<ShortName>Proto_2_Voix_AI-001.wav</ShortName>

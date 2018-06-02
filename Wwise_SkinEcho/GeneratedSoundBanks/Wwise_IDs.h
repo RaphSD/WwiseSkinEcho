@@ -89,6 +89,7 @@ namespace AK
         static const AkUniqueID PLAY_91 = 3319846508U;
         static const AkUniqueID PLAY_ALARM_OX = 1487178657U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_DEEPBREATH_ENDMUSIC = 801383969U;
         static const AkUniqueID PLAY_ELECTRIC_GLITCHES = 2270107141U;
         static const AkUniqueID PLAY_MUSIC_DEATH = 2739477356U;
         static const AkUniqueID PLAY_NIVEAU_OX_5 = 495794050U;

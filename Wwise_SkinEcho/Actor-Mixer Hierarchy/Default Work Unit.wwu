@@ -4516,6 +4516,25 @@
 						<ActiveSource Name="SFX_Monster_Calm_02" ID="{00AD279E-231C-448E-ABBB-D4A641160D14}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="DeepBreath_EndMusic" ID="{067ADDBA-188C-4AF6-9C99-D3C14317036C}" ShortID="50936544">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DeepBreath_EndMusic" ID="{99ACDFA5-0A2B-405F-9598-2FF15ACE531C}" ShortID="539731441">
+							<Language>SFX</Language>
+							<AudioFile>DeepBreath_EndMusic.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DeepBreath_EndMusic" ID="{99ACDFA5-0A2B-405F-9598-2FF15ACE531C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	189687751	Play_Niveau_Ox_15			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_15	
 	350557031	Stop_SFX_Water_Breach			\Default Work Unit\Water Breach\Stop_SFX_Water_Breach	
 	495794050	Play_Niveau_Ox_5			\Default Work Unit\Voices\Oxygen Level\Play_Niveau_Ox_5	
+	801383969	Play_DeepBreath_EndMusic			\Default Work Unit\Play_DeepBreath_EndMusic	
 	1172822028	Play_Death			\Default Work Unit\Play_Death	
 	1223272146	Play_SFX_Button_Press			\Default Work Unit\Play_SFX_Button_Press	
 	1243176019	Stop_Radio_Voice_Start			\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start	
@@ -222,6 +223,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	522145493	15	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\15_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\15		270785
 	526488328	26	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\26_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\26		50568
 	526606882	SFX_Water_Breach_Waterpour	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\SFX_Water_Breach_Waterpour_9D73A8A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breach\SFX_Water_Breach\SFX_Water_Breach_Waterpour		161717
+	539731441	DeepBreath_EndMusic	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\SFX\DeepBreath_EndMusic_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\DeepBreath_EndMusic		7720916
 	540310658	Proto_2_Voix_AI-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\Proto_2_Voix_AI-001_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\AI_Voice\Proto_2_Voix_AI-003		56746
 	546981933	35	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\35_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Radio\35		53296
 	572803206	57	C:\Users\raphael.marchetti\Documents\GitHub\WwiseSkinEcho\Wwise_SkinEcho\.cache\Windows\Voices\English(US)\57_658ED0DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Hallu\57		97280
