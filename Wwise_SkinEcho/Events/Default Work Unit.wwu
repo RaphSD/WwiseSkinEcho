@@ -1730,6 +1730,8 @@
 						<Action Name="" ID="{4CD70EFD-C4C0-4D6E-A383-F3EF6C834BA7}" ShortID="1004685269">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
 						</Action>

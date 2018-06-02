@@ -26,6 +26,10 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_DeepBreath_EndMusic" ID="{23F33EA6-C8EC-422C-8C9D-B5AB5A15B4E5}" WorkUnitID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SFX_Welding_Air" ID="{0E738E3C-157F-4BC5-A96B-C56D01B34752}" WorkUnitID="{D1B5A9E8-5947-45C1-B2F0-400D504E3082}"/>
 							<Position X="3" Y="0"/>
 						</Module>
