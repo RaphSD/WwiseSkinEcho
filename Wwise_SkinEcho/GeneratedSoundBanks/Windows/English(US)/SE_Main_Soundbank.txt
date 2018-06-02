@@ -123,6 +123,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
 	1522755476	RTPC_Breach_Size			\Default Work Unit\RTPC_Breach_Size	
 	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
+	1998977308	RTPC_Voice_Volume			\Default Work Unit\RTPC_Voice_Volume	
 	3804167259	RTPC_Welder_Air			\Default Work Unit\RTPC_Welder_Air	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

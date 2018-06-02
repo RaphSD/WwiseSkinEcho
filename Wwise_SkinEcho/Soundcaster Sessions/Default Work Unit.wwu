@@ -48,6 +48,10 @@
 							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="RTPC_Voice_Volume" ID="{11716794-614C-445B-8ACF-37D794C77949}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
 							<Value>6</Value>
 						</RTPCValue>

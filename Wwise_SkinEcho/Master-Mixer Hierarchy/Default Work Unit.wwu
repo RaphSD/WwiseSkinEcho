@@ -100,7 +100,7 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-200</YPos>
+																<YPos>-6.16741</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
@@ -134,6 +134,34 @@
 											</ValueList>
 										</Property>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B6AC5782-76BF-4520-998E-1F3BDEA99D99}" ShortID="166920795">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_Voice_Volume" ID="{11716794-614C-445B-8ACF-37D794C77949}" WorkUnitID="{B084DF03-0EE5-43BE-94E9-019A81BD7B92}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1D4584A5-16B5-4A64-A5C1-E6CC8C3232B1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-6.16741</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 								</Bus>
 								<AuxBus Name="Reverb_Submarine" ID="{F0DC19F9-A2FE-4675-B014-8AB8D4FA15F6}">

@@ -7,6 +7,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1755085759	Wood_Deep			\Factory Reflect Acoustic Textures\Textures\Wood_Deep	
 	1873957695	Anechoic			\Factory Reflect Acoustic Textures\Textures\Anechoic	
 	1970351858	Fabric			\Factory Reflect Acoustic Textures\Textures\Fabric	
+	1998977308	RTPC_Voice_Volume			\Default Work Unit\RTPC_Voice_Volume	
 	2058049674	Wood			\Factory Reflect Acoustic Textures\Textures\Wood	
 	2412606308	Carpet			\Factory Reflect Acoustic Textures\Textures\Carpet	
 	2637588553	Tile			\Factory Reflect Acoustic Textures\Textures\Tile	
