@@ -24,6 +24,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2177050642	Play_SFX_Button_Touch			\Default Work Unit\Play_SFX_Button_Touch	
 	2270107141	Play_Electric_Glitches			\Default Work Unit\Play_Electric_Glitches	
 	2321851573	Stop_SFX_Monster_Aggressive			\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive	
+	2682598130	Play_SFX_Monster_End			\Default Work Unit\Play_SFX_Monster_End	
 	2739477356	Play_Music_Death			\Default Work Unit\Play_Music_Death	
 	2798239405	Play_SFX_Water_Breach			\Default Work Unit\Water Breach\Play_SFX_Water_Breach	
 	2843654259	Play_SFX_Monster_Attack			\Default Work Unit\Monster\Play_SFX_Monster_Attack	

@@ -1711,6 +1711,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Monster_End" ID="{743956BE-AB69-43ED-9347-76AD51BFC894}">
+					<ChildrenList>
+						<Action Name="" ID="{FC249DB7-5B05-4818-9480-C543C0F1F4DD}" ShortID="932529657">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Monster_End" ID="{A6B9BCBE-4905-4AC5-A3B9-F9A1565A0469}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

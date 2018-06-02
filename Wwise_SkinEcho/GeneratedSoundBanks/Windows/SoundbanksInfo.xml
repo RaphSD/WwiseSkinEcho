@@ -119,6 +119,7 @@
 				<Event Id="3696203791" Name="Play_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Aggressive"/>
 				<Event Id="2843654259" Name="Play_SFX_Monster_Attack" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Attack"/>
 				<Event Id="3569019990" Name="Play_SFX_Monster_Calm" ObjectPath="\Events\Default Work Unit\Monster\Play_SFX_Monster_Calm"/>
+				<Event Id="2682598130" Name="Play_SFX_Monster_End" ObjectPath="\Events\Default Work Unit\Play_SFX_Monster_End"/>
 				<Event Id="3501558446" Name="Play_SFX_Radar" ObjectPath="\Events\Default Work Unit\Play_SFX_Radar"/>
 				<Event Id="2798239405" Name="Play_SFX_Water_Breach" ObjectPath="\Events\Default Work Unit\Water Breach\Play_SFX_Water_Breach" MaxAttenuation="2,000000"/>
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>

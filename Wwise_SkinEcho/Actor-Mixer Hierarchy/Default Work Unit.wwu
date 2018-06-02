@@ -4475,6 +4475,47 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="SFX_Monster_End" ID="{A6B9BCBE-4905-4AC5-A3B9-F9A1565A0469}" ShortID="433417736">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{F60A4AA4-7CFF-44C9-A3AE-2D76C1EAB45A}" WorkUnitID="{FAC0C6D0-7DF6-4727-A705-A91E28FD73DF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{03BC68DD-7B7E-4DFF-B95D-01CBB6BC3B66}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb_Monster" ID="{BAD0C4FA-1F92-4B3F-8B2B-D03F399D58AF}" WorkUnitID="{BE61F919-3006-4E78-BCC4-9AD65A681F2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Monster_Calm_02" ID="{00AD279E-231C-448E-ABBB-D4A641160D14}" ShortID="1010253759">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.235646484375"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.976249720982144"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Monster_Calm_02.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="383914256"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Monster_Calm_02" ID="{00AD279E-231C-448E-ABBB-D4A641160D14}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

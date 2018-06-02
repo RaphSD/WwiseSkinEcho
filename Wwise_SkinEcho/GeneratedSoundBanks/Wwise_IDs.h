@@ -116,6 +116,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_MONSTER_AGGRESSIVE = 3696203791U;
         static const AkUniqueID PLAY_SFX_MONSTER_ATTACK = 2843654259U;
         static const AkUniqueID PLAY_SFX_MONSTER_CALM = 3569019990U;
+        static const AkUniqueID PLAY_SFX_MONSTER_END = 2682598130U;
         static const AkUniqueID PLAY_SFX_RADAR = 3501558446U;
         static const AkUniqueID PLAY_SFX_WATER_BREACH = 2798239405U;
         static const AkUniqueID PLAY_SFX_WELDER_TAKE = 1487639259U;

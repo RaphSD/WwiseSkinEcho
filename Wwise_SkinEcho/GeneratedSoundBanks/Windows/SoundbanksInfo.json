@@ -635,6 +635,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Monster\\Play_SFX_Monster_Calm"
      },
      {
+      "Id": "2682598130",
+      "Name": "Play_SFX_Monster_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Monster_End"
+     },
+     {
       "Id": "3501558446",
       "Name": "Play_SFX_Radar",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Radar"
