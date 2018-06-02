@@ -15,6 +15,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	1281001716	Play_SFX_Ambiance_01			\Default Work Unit\Play_SFX_Ambiance_01	
 	1297865509	Stop_SFX_Welding_Air			\Default Work Unit\Welder\Stop_SFX_Welding_Air	
 	1302341568	Stop_SFX_Welding			\Default Work Unit\Welder\Stop_SFX_Welding	
+	1310761883	Stop_Alarm_Ox			\Default Work Unit\Stop_Alarm_Ox	
+	1487178657	Play_Alarm_Ox			\Default Work Unit\Play_Alarm_Ox	
 	1487639259	Play_SFX_Welder_Take			\Default Work Unit\Welder\Play_SFX_Welder_Take	
 	1615443100	Stop_SFX_Radar			\Default Work Unit\Stop_SFX_Radar	
 	1943961027	Stop_Electric_Glitches			\Default Work Unit\Stop_Electric_Glitches	

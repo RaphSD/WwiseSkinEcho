@@ -464,6 +464,12 @@
       "MaxAttenuation": "2,000000"
      },
      {
+      "Id": "1487178657",
+      "Name": "Play_Alarm_Ox",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Alarm_Ox",
+      "MaxAttenuation": "2,000000"
+     },
+     {
       "Id": "1172822028",
       "Name": "Play_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Death"
@@ -653,6 +659,12 @@
       "Name": "Play_SFX_Welding_Air",
       "ObjectPath": "\\Events\\Default Work Unit\\Welder\\Play_SFX_Welding_Air",
       "MaxAttenuation": "2,000000"
+     },
+     {
+      "Id": "1310761883",
+      "Name": "Stop_Alarm_Ox",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Alarm_Ox",
+      "MaxAttenuation": "0,000000"
      },
      {
       "Id": "1943961027",

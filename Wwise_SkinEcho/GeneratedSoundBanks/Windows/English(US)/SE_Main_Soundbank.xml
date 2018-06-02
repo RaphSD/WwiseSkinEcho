@@ -87,6 +87,7 @@
 				<Event Id="3303068915" Name="Play_89" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_89" MaxAttenuation="2,000000"/>
 				<Event Id="3319846509" Name="Play_90" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_90" MaxAttenuation="2,000000"/>
 				<Event Id="3319846508" Name="Play_91" ObjectPath="\Events\Default Work Unit\NEW-Voices-\AI\Play_91" MaxAttenuation="2,000000"/>
+				<Event Id="1487178657" Name="Play_Alarm_Ox" ObjectPath="\Events\Default Work Unit\Play_Alarm_Ox" MaxAttenuation="2,000000"/>
 				<Event Id="1172822028" Name="Play_Death" ObjectPath="\Events\Default Work Unit\Play_Death"/>
 				<Event Id="2270107141" Name="Play_Electric_Glitches" ObjectPath="\Events\Default Work Unit\Play_Electric_Glitches" MaxAttenuation="2,000000"/>
 				<Event Id="2739477356" Name="Play_Music_Death" ObjectPath="\Events\Default Work Unit\Play_Music_Death"/>
@@ -120,6 +121,7 @@
 				<Event Id="1487639259" Name="Play_SFX_Welder_Take" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welder_Take" MaxAttenuation="2,000000"/>
 				<Event Id="3723595182" Name="Play_SFX_Welding" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding" MaxAttenuation="2,000000"/>
 				<Event Id="3575465515" Name="Play_SFX_Welding_Air" ObjectPath="\Events\Default Work Unit\Welder\Play_SFX_Welding_Air" MaxAttenuation="2,000000"/>
+				<Event Id="1310761883" Name="Stop_Alarm_Ox" ObjectPath="\Events\Default Work Unit\Stop_Alarm_Ox" MaxAttenuation="0,000000"/>
 				<Event Id="1943961027" Name="Stop_Electric_Glitches" ObjectPath="\Events\Default Work Unit\Stop_Electric_Glitches" MaxAttenuation="0,000000"/>
 				<Event Id="1243176019" Name="Stop_Radio_Voice_Start" ObjectPath="\Events\Default Work Unit\Voices\Voix_Radio\Stop_Radio_Voice_Start" MaxAttenuation="0,000000"/>
 				<Event Id="2321851573" Name="Stop_SFX_Monster_Aggressive" ObjectPath="\Events\Default Work Unit\Monster\Stop_SFX_Monster_Aggressive" MaxAttenuation="0,000000"/>

@@ -1683,6 +1683,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Alarm_Ox" ID="{303098F4-B69E-4F98-9193-BBC880783390}">
+					<ChildrenList>
+						<Action Name="" ID="{FD7EB4F4-86B4-417C-BC2A-653BC300CE40}" ShortID="268960060">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alarm_Ox" ID="{CEC3D244-E889-4E06-BA1C-DE25EBE516FB}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Alarm_Ox" ID="{4F840BE0-5410-445A-9696-861FF3C0AF48}">
+					<ChildrenList>
+						<Action Name="" ID="{EBC5B633-E571-434B-990A-76A4BA7037A9}" ShortID="705602844">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alarm_Ox" ID="{CEC3D244-E889-4E06-BA1C-DE25EBE516FB}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
