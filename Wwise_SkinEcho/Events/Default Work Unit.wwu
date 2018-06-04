@@ -1643,6 +1643,23 @@
 				</Folder>
 				<Event Name="Play_Music_Death" ID="{D4B67FEA-42E7-4509-825F-D274546E7CD3}">
 					<ChildrenList>
+						<Action Name="" ID="{F969B349-0DB3-4A5C-A37B-1E5FE4FF1CA4}" ShortID="473533066">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{F4AF5077-680B-44C8-8157-CD6CE80444A7}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Ambiance_01" ID="{3540AE33-09B4-4636-AEF9-46ABA8F71517}" WorkUnitID="{D5AEEC71-D815-43A9-BC1D-0A39C24A9BC0}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
 						<Action Name="" ID="{9654ECAC-72CB-458C-80EA-30623F5C3058}" ShortID="558693554">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
