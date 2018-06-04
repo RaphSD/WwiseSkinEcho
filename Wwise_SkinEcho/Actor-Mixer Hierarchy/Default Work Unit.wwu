@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<Sound Name="SFX_Ambiance_01" ID="{3540AE33-09B4-4636-AEF9-46ABA8F71517}" ShortID="687617620">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>23</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
